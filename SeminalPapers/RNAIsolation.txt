@@ -1,0 +1,273 @@
+Guanidinium thiocyanate and chloride
+are among the most effective protein denaturants
+(1,2). As a strong inhibitor of ribonucleases,
+guanidinium chloride was first introduced
+as a deproteinization agent for isolation
+of RNA by Cox (3). Since then
+guanidinium extraction has become the
+method of choice for RNA purification, replacing
+phenol extraction. Guanidinium
+methods have been used successfully by
+Chirgwin et al. (4) to isolate undegraded
+RNA from ribonuclease-rich tissues like pancreas.
+Chirgwin’s protocol for ultracentrifugation
+of a guanidinium thiocyanate lysate
+through a CsCl cushion has become one of
+the most frequently used for isolation of undegraded
+RNA. In the present report, a new
+rapid procedure combining guanidinium
+thiocyanate and phenol-chloroform extraction
+is described. A combination of guanidinium
+and hot phenol for RNA isolation
+has been reported by Feramisco et al. (5).
+The method we describe differs in that it
+converts the guanidinium-hot phenol
+method to a single-step extraction which
+’ To whom correspondence should be addressed at
+University of Cincinnati College of Medicine, 231 Bethesda
+Ave., Rm. 5564, Cincinnati, OH 45267-0547.
+allows isolation of RNA in 4 h and provides
+both high yield and purity of undegraded
+RNA preparations. By eliminating the ultracentrifugation
+step of the guanidinium-CsCl
+method this procedure allows the simultaneous
+processing of a large number of samples.
+In addition, this new procedure permits
+recovery of total RNA from small quantities
+of tissue or cells making it suitable for gene
+expression studies for which only a limited
+quantity of biological material is available.
+MATERIALS AND METHODS
+Reagents. The denaturing solution (solution
+D) was 4 M guanidinium thiocyanate, 25
+mM sodium citrate, pH 7; 0.5% sarcosyl, 0.1
+M 2-mercaptoethanol. To minimize handling
+of guanidinium thiocyanate (hazardous)
+a stock solution was prepared as follows:
+250 g guanidinium thiocyanate (Fluka) was
+dissolved in the manufacturer’s bottle (without
+weighing) with 293 ml water, 17.6 ml
+0.75 M sodium citrate, pH 7, and 26.4 ml
+10% sarcosyl at 65°C. This stock solution
+can be stored at least 3 months at room temperature.
+Solution D was prepared by adding
+0.36 ml 2-mercaptoethanol/50 ml of stock
+0003-2697187 $3.00
+copylight 8 1987 by Academic Press, Inc.
+All rights of repmduction in any form reserved.
+156 
+SINGLE-STEP METHOD OF RNA ISOLATION 157
+solution. This solution can be stored 1
+month at room temperature.
+Phenol (nucleic acid grade, Bethesda Research
+Laboratory) saturated with water was
+kept at 4°C up to 1 month.
+Small-scale RNA preparations were carried
+out in 4- or 15-ml disposable polypropylene
+tubes (Falcon, Cat. Nos. 2063,2059).
+Experimental procedure. The acid guanidinium
+- phenol - chloroform (AGPC)’
+method was used to isolate RNA from both
+tissues and cultured cells. The following protocol
+describes isolation of RNA from 100
+mg of rat mammary tissue.
+Immediately after removal from the animal,
+the tissue was minced on ice and homogenized
+(at room temperature) with 1 ml
+of solution D in a glass-Teflon homogenizer
+and subsequently transferred to a 4-ml polypropylene
+tube. Sequentially, 0.1 ml of 2 M
+sodium acetate, pH 4, 1 ml of phenol (water
+saturated), and 0.2 ml of chloroform-isoamyl
+alcohol mixture (49:l) were added to
+the homogenate, with thorough mixing by
+inversion after the addition of each reagent.
+The final suspension was shaken vigorously
+for 10 s and cooled on ice for 15 min. Samples
+were centrifuged at 10,OOOg for 20 min
+at 4°C. After centrifugation, RNA was
+present in the aqueous phase whereas DNA
+and proteins were present in the interphase
+and phenol phase. The aqueous phase was
+transferred to a fresh tube, mixed with 1 ml
+of isopropanol, and then placed at -20°C for
+at least 1 h to precipitate RNA. Sedimentation
+at 10,OOOg for 20 min was again performed
+and the resulting RNA pellet was
+dissolved in 0.3 ml of solution D, transferred
+into a 1.5-ml Eppendorf tube, and precipitated
+with 1 vol of isopropanol at -20°C for
+1 h. After centrifugation in an Eppendorf
+centrifuge for 10 min at 4°C the RNA pellet
+was resuspended in 75% ethanol, sedimented,
+vacuum dried (15 min), and dis-
+2 Abbreviations used AGPC, acid guanidinium thiocyanate-phenol-chloroform;
+SDS, sodium dodecyl sulfate;
+DEP, diethyl pyrocarbonate.
+solved in 50 ~10.5% SDS at 65°C for 10 min.
+At this point the RNA preparation could be
+used for poly(A)+ selection by oligo(dT)
+chromatography, Northern blot analysis,
+and dot blot hybridization. Isopropanol precipitation
+can be replaced by precipitation
+with a double volume of ethanol.
+The protocol for RNA isolation by the
+AGPC method is outlined in Table 1. Until
+the last step, ribonuclease is inhibited by the
+presence of 4 M guanidinium. Therefore no
+additional precaution is required to protect
+RNA from degradation. The final RNA
+preparation can be dissolved in water or in
+1 IIIM EDTA, pH 8, solution, treated with
+diethyl pyrocarbonate (DEP) (6). We recommend,
+however, to use 0.5% SDS (DEP
+treated) which is a weak inhibitor of ribonuclease
+and may diminish the effect of accidental
+contaminations during the further use
+and storage of RNA samples.
+The AGPC method was used for both
+small scale (3 mg tissue or lo6 cells) and large
+scale (30 g tissue) RNA preparations. The
+method was also used to isolate RNA from
+cultured cell lines: human and mouse hematopoietic
+cell lines, breast MCF-7 cells,
+human normal lymphocytes, and bone marrow
+blasts, and rat thyroid FRTL-5 cells.
+RNA could be isolated from cells grown in
+suspension (100 ~1 of solution D per lo6
+cells) or in monolayer. Cells grown in monolayer
+were lysed directly in the tissue culture
+dish by the addition of denaturing solution
+(1.8 ml of solution D for lo-cm-diameter tissue
+culture dish).
+TABLE 1
+AGPC PROKCOLFOR RNA ISOLATION
+1. Extraction
+2. Precipitation
+3. Reprecipitation
+4. Wash
+5. Solubilization
+Solution D, 0.2 M sodium
+acetate, pH 4, phenol,
+chloroform (1:0.1:1:0.2)
+1 vol isopropanol
+Solution D, 1 vol isopropanol
+75% ethanol
+0.5% SDS 
+158 CHOMCZYNSKL AND SACCHI
+TABLE 2
+COMPARISON OF PARAMETERS OF RNA PREPARATIONS OBTAINED BY THE AGPC METHOD
+AND BY THE GUANIDINIUM-CSCI METHODS
+Ratiob Yieldd 25K casein mRNA’
+Method (2601280) DNA’ (fig RNA/mg tissue) h-m%~ RNA)
+AGPC 1.85 If: 0.04 ND 1.76 + 0.03 2632k 143
+Guanidinium-CsC1 1.75 * 0.05 ND 1.52 f 0.03 2597iz 127
+’ Results represent averages of duplicate analyses of three RNA preparations. ND = not detectable.
+b Absorption of RNA preparations was determined at 260 and 280 nm.
+‘DNA was quantitated by Burton’s reaction (7).
+d Yield was calculated assuming AI c,,,/O. 1% at 260 = 25.
+’ 25K casein mRNA was quantitated by hybridization with a ‘*P-labeled 25K casein cDNA probe (10).
+RESULTS AND DISCUSSION
+RNA was prepared from rat mammary
+tissue by the AGPC extraction and compared
+with RNA isolated in parallel by ultracentrifugation
+of guanidinium lysate through
+a CsCl cushion (4). Data in Table 2 show that
+RNA isolated by the AGPC method contained
+less contaminating proteins, as judged
+by the 260/280 ratio, than RNA isolated by
+the guanidinium-CsCl method. An additional
+wash with 75% ethanol of the RNA
+pellet during the AGPC extraction increased
+to about 2 the 260/280 ratio of the isolated
+RNA preparation. DNA was undetectable in
+both preparations using Burton’s method
+and both had a similar content of 25K casein
+mRNA. The AGPC extraction, however, resulted
+in a slightly higher yield of RNA.
+Agarose-gel resolution patterns of total
+RNA isolated from rat mammary gland and
+rat liver by both the AGPC and the guanidinium-CsCl
+methods are shown in Fig. 1.
+Both preparations reveal similar patterns,
+but liver RNA isolated by the AGPC method
+contained a greater amount of low-molecular-weight
+RNA (4-5 S).
+The AGPC procedure was used for expression
+studies of the ets-2 gene (9) in human
+bone marrow myeloblasts (low-abundancy
+mRNA), the 25K casein gene (10) in rat
+mammary gland, and the thyroglobulin gene
+(11) in FRTL-5 cells (high-abundancy
+mRNAs). AGPC extracted RNA from
+human myeloblasts was subjected to
+oligo(dT) chromatography, and the poly(A)+
+fraction was analyzed for ets-2 mRNA content
+by Northern blot analysis (Fig. 2A).
+Three transcripts of 4.7, 3.4, and 2.8 kb were
+detected by an ets-2 human genomic probe
+(9) as previously observed using the guanidinium-CsCl
+method. Total RNA isolated
+from mammary explants cultured with a lactogenic
+hormone combination (insulin, prolactin,
+and hydrocortisone) were probed with
+25K casein cDNA and B-actin cDNA (12)
+1234
+18SFIG.
+I. Electrophoresis of RNA isolated by the AGPC
+method (lanes 1, 3) and by the guanidinium-CsC1
+method (lanes 2,4) from rat mammary gland (lanes 1,2)
+and rat liver (lanes 3, 4). RNA preparations (3 pg) were
+electrophoresed in formaldehyde-agarose ( 1%) minigel
+(8). The gel was washed in water two times for 30 min
+and stained with ethidium bromide. 
+SINGLE-STEP METHOD OF RNA ISOLATION 159
+A B C
+,” :~
+4.79 ,,* :, ,:‘ 8.9-
+3.49
+2.8.
+1.9- 1.9- *a
+1.3-
+FIG. 2. Northern blot analysis of RNA isolated by the
+AGPC method. (A) Total RNA from human myeloblasts
+was chromatographed on oligo(dT) column (15)
+and 2 pg of the poly(A)+ fraction was analyzed for ets-2
+mRNAs (4.7, 3.4, and 2.8 kb); (B) 1.5 r*g of total RNA
+from rat mammary explants was analyzed for 2SK casein
+mRNA (1.3 kb) and @actin mRNA (1.9 kb); (C) 1.6
+r.rg of total RNA from rat thyroid FRTL-5 cells was analyzed
+for thyroglobulin mRNA (8.9 kb) and fi-actin
+mRNA. RNA preparations were electrophoresed, transferred
+to Gene Screen Plus membrane, and autoradiographed
+as described (9,12).
+(Fig. 2B). A 1.3-kb casein mRNA and 1.9-kb
+/3-actin mRNA were detected. Both messengers
+migrated as distinct bands with no signs
+of degradation. Thus, despite a high level of
+ribonuclease activities in rat mammary tissue
+( 13,14), the AGPC method assured high
+quality of isolated mammary RNA. Finally,
+undegraded high-molecular-weight thyroglobulin
+mRNA (8.9 kb) could be visualized
+in total RNA from rat FRTL-5 cells using a
+rat thyroglobulin cDNA probe (11) (Fig. 2C).
+Presented results show that the AGPC
+method is a useful alternative to the previously
+described methods of RNA isolation.
+The AGPC extraction provides high yield
+and the extracted RNA is both pure and undegraded.
+Due to its simplicity and the elimination
+of ultracentrifugation, the AGPC
+method allows simultaneous processing of a
+large number of samples. The method
+proved to be particularly useful for RNA
+isolation from as few as lo6 cells or 3 mg of
+tissue (human pituitary tumor). The degradation
+and loss of RNA is minimized by the
+limited handling involved in this technique.
+The AGPC method may therefore be useful
+for clinical investigations that employ gene
+expression such as protooncogene expression
+as a molecular marker of malignancy and
+tumor progression. 

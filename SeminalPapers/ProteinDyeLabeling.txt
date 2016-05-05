@@ -1,0 +1,202 @@
+A protein determination method which involves the binding of Coomassie
+Brilliant Blue G-250 to protein is described. The binding of the dye to protein
+causes a shift in the absorption maximum of the dye from 465 to 595 nm, and
+it is the increase in absorption at 595 nm which is monitored. This assay is
+very reproducible and rapid with the dye binding process virtually complete in
+approximately 2 min with good color stability for 1 hr. There is little or no
+interference from cations such as sodium or potassium nor from carbohydrates
+such as sucrose. A small amount of color is developed in the presence of
+strongly alkaline buffering agents, but the assay may be run accurately by the
+use of proper buffer controls. The only components found to give excessive
+interfering color in the assay are relatively large amounts of detergents such as
+sodium dodecyl sulfate, Triton X-100, and commercial glassware detergents.
+Interference by small amounts of detergent may be eliminated by the use of
+proper controls.
+Laboratory practice in protein purification often requires a rapid and
+sensitive method for the quantitation of protein. Methods presently
+available partially fulfill the requirement for this type of quantitation.
+The standard Lowry procedure (1) is subject to interference by compounds
+such as potassium ion (2), magnesium ion (3), EDTA (4), Tris
+(3), thiol reagents (2), and carbohydrates (5). The relatively insensitive
+biuret reaction (6) is subject to interference by Tris (7), ammonia (8),
+and glycerol (9). Even the modified procedure for eliminating problems
+with the Lowry and biuret assays (IO, 11) present problems since more
+complications and time are involved in the modified procedures. The
+dye binding techniques in the literature are for the most part insensitive
+assays involving the binding of Orange G to protein (12- 16). The exception
+to this rule is the Amidoschwarz 10-B binding assay (17). This
+procedure, too, has its drawbacks since the precipitation of the protein
+by trichloroacetic acid followed by filtration on Millipore membranes
+is required.
+The protein assay herein described eliminates most of the problems
+involved in the procedures described above, and is easily utilized for
+248
+Copyright 0 1976 by Academic Press. Inc.
+All rights of reproduction in any form reserved. 
+PROTEIN ASSAY BY DYE BINDING 249
+processing large numbers of samples, as well as adaptable to automation. It
+is based on the observation that Coomassie Brilliant Blue G-250 exists
+in two different color forms, red and blue (18). The red form is converted
+to the blue form upon binding of the dye to protein (IS). The
+protein-dye complex has a high extinction coefficient thus leading to great
+sensitivity in measurement of the protein. The binding of the dye to protein
+is a very rapid process (approximately 2 min), and the protein-dye
+complex remains dispersed in solution for a relatively long time (approximately
+1 hr), thus making the procedure very rapid and yet not requiring
+critical timing for the assay.
+MATERIALS AND METHODS
+Reagents. Coomassie Brilliant Blue G-250 was obtained from Sigma,
+and used as supplied. 2-Mercaptoethanol was obtained from Sigma.
+Triton X- 100 was obtained from Schwartz/Mann. Sodium dodecyl sulfate
+was obtained from BDH Chemicals Ltd., Poole, England. Hemosol was
+obtained from Scientific Products. All other reagents were of analytical
+grade or the best grade available.
+Protein preparation. Bovine serum albumin (2x crystallized), chymotrypsinogen
+A, and cytochrome c (horse heart) were obtained from
+Schwartz/Mann. Hemoglobin and human serum albumin were obtained
+from Nutritional Biochemicals Corporation. Protein solutions were prepared
+in 0.15 M NaCl. Concentrations were determined for bovine serum
+albumin, human serum albumin, chymotrypsinogen A, and cytochrome c
+spectrophotometrically in a Bausch and Lomb Spectronic 200 uv
+spectrophotometer based on E~~,,+z = 6.6 (19,20), 5.3 (19,21), 20 (19,22)
+and 17.1 (23,24) respectively. Hemoglobin solutions were prepared
+gravimetrically.
+Preparation ofprotein reagent. Coomassie Brilliant Blue G-250 (100 mg)
+was dissolved in 50 ml 95% ethanol. To this solution 100 ml 85% (w/v)
+phosphoric acid was added. The resulting solution was diluted to a final
+volume of 1 liter. Final concentrations in the reagent were 0.01% (w/v)
+Coomassie Brilliant Blue G-250, 4.7% (w/v) ethanol, and 8.5% (w/v)
+phosphoric acid.
+Protein assay (standard method). Protein solution containing 10 to
+100 ,ug protein in a volume up to 0.1 ml was pipetted into 12 x 100 mm
+test tubes. The volume in the test tube was adjusted to 0.1 ml with
+appropriate buffer. Five milliliters of protein reagent was added to the
+test tube and the contents mixed either by inversion or vortexing. The
+absorbance at 595 nm was measured after 2 min and before 1 hr in 3 ml
+cuvettes against a reagent blank prepared from 0.1 ml of the appropriate
+buffer and 5 ml of protein reagent. The weight of protein was plotted
+against the corresponding absorbance resulting in a standard curve used
+to determine the protein in unknown samples. 
+250 MARION M. BRADFORD
+Microprotein assay. Protein solution containing 1 to 10 pg protein in a
+volume up to 0.1 ml was pipetted into 12 x 100 mm test tubes. The
+volume of the test tubes was adjusted to 0.1 ml with the appropriate buffer.
+One milliliter of protein reagent was added to the test tube and the contents
+mixed as in the standard method. Absorbance at 595 nm was measured
+as in the standard method except in 1 ml cuvettes against a reagent
+blank prepared from 0.1 ml of the appropriate buffer and 1 ml of protein
+reagent. Standard curves were prepared and used as in the standard
+method.
+RESULTS
+Reproducibility, sensitivity, and linearity of the assay. Triplicate
+standard assays of bovine serum albumin as a standard result in a highly
+reproducible response pattern. Statistical analysis gives a standard deviation
+of 1.2% of mean value for the assay. There is extreme sensitivity in
+the assay with 25 ,ug sample giving an absorbance change of 0.275 OD
+units. This corresponds to 5 pg protein/ml in the final assay volume.
+There is a slight nonlinearity in the response pattern. The source of the
+nonlinearity is in the reagent itself since there is an overlap in the spectrum
+of the two different color forms of the dye. The background value for the
+reagent is continually decreasing as more dye is bound to protein. This
+presents no real problem since the degree of curvature is only slight. If
+the assay is run with a set of standards and unknowns measured against
+the response curve of the standards instead of calculated by Beer’s Law,
+there is no difficulty in obtaining satisfactory results.
+Accuracy of the assay. Figure 1 shows the results of various proteins
+assayed in the system as to individual responses. There is a scattering of
+points around the line drawn in the graph. The scattering is believed to be
+a multifaceted function composed of difficulties in determining the exact
+amount of protein present in a given sample due to variation of extinction
+coefficients in the literature, the methods used to determine the exact
+amount of protein used in measuring extinction coefficients, and some
+degree of variation in the efficiency of dye binding to various proteins.
+Figure 2 shows the response pattern obtained from Lowry (1) assays of the
+same proteins. The degree of scatter in protein response to Lowry (1) assay
+is similar to that shown for the dye-binding assay presented here. The
+sensitivity of the Lowry (1) method is an absorbance of 0.110 OD units
+for the 25 pg standard correspondi~ to 8 pg protei~ml of final assay
+volume. By calculation, then, the dye binding assay is approximately
+four times more sensitive than the Lowry (1) assay. The degree of scatter
+around the Lowry (1) assay plot also points to the difficulty in establishing
+a quantitative value for a protein in standard solutions.
+Stability of the protein-dye complex color. Figure 3 shows the rate of 
+PROTEIN ASSAY BY DYE BINDING 251
+ug Protein
+FIG. 1. Protein dye binding response pattern for various proteins.
+formation of protein-dye complex in the assay system and the stability
+of the color complex. The absorbance was monitored at 7.5 set intervals
+for 2 min and then at 1 min intervals for a period of 1 hr. As seen from
+the graph, the color development is essentially complete at 2 min, and remains
+stable plus or minus 4% for a period of 1 hr. Since the protein-dye
+complex has a tendency to aggregate with time, there is a decrease in
+color after this period of time simply by the physical removal of the
+protein-dye complex from solution. If very precise determinations are
+required, investigators should take precaution to read the absorbance of
+0 25 50 75 100 125
+ug Protein
+FIG. 2. Lowry (1) response pattern for various proteins. 
+252 MARION M. BRADFORD
+Time in Minutes
+FIG. 3. Protein-dye complex formation rate and color stability.
+samples during one of the flatter portions of the color stability curve between
+5 and 20 min after reagent addition. This still gives ample time to
+read a relatively large number of samples.
+Microassay system sensitivity. When bovine serum albumin is used as
+the standard in the micro assay system the degree of nonlinearity is
+similar to that found in the standard assay. There is a loss in protein-dye
+complex response as compared with the standard assay, i.e., 5 pg
+protein/ml gives an absorbance change of 0.1 vs 0.27 in the standard assay.
+Perhaps this results from increased dilution of the protein reagent.
+Interference by nonprotein components. As indicated earlier, there is
+some interference in the assay system by strongly alkaline buffering
+agents. This may be overcome by running the appropriate buffer controls
+and subtracting the value for the control either mathematically of
+spectrophotometrically. A wide spectrum of components was tested for
+effects on the protein dye binding assay (Table 1). A lack of effect on the
+assay by magnesium chloride, potassium chloride, sodium chloride,
+ethanol, and ammonium sulfate was observed. The small effects due to
+Tris, acetic acid, 2-mercaptoethanol, sucrose, glycerol, EDTA, and trace
+quantities of the detergents, Triton X-100, sodium dodecyl sulfate, and
+Hemosol, can be easily eliminated by running the proper buffer control
+with the assay. However, the presence of large quantities of the detergents
+present abnormalities too great to overcome. 
+PROTEIN ASSAY BY DYE BINDING 253
+TABLE 1
+EFFECT OF VARIOUS LABORATORY REAGENTS ON COOMASSIE BRILLIANT
+BLUE-G-250-PROTEIN COMPLEX ASSAY”
+Substance Change in OD 595 (pg) Equivalent BSA
+IMKCI 0.000 0.00
+5 M NaCI 0.000 0.00
+1 MM&I, 0.000 0.00
+2 M Tris 0.026 2.34
+0.1 M EDTA 0.004 0.36
+1 M (NH&SO, 0.000 0.00
+9% Glycerol 0.012 1.08
+1 M 2-Mercaptoethanol 0.004 0.36
+1 M Sucrose 0.013 1.17
+95% Ethanol 0.000 0.00
+Acetone 0.069 6.21
+5% Phenol 0.046 4.14
+0.1% Triton X-100 0.013 1.17
+1% Triton X-100 0.590 53.10
+0.1% Sodium dodecyl sulfate 0.011 0.99
+1% Sodium dodecyl sulfate 0.495 44.55
+0.1% Hemosol 0.004 0.36
+1% Hemosol 0.108 9.72
+a The above values were obtained when 0.1 ml of each substance was assayed in the
+standard assay.
+A difficulty observed in performing the assay is the tendency of the
+protein-dye complex in solution to bind to cuvettes. This results in a blue
+colored cuvette. The amount of binding is negligible as far as assay readings
+are concerned, i.e., less than 1% error, as indicated by the standard
+deviation of triplicate assays in the reproducibility section. The
+blueness of the cuvettes after assay does present problems in other uses
+of the cuvettes so the following directions for cleaning the blue complex
+from cuvettes is included:
+Method 1: Rinse cuvettes with concentrated glassware detergent,
+followed by water and acetone. (Gives immediate removal.)
+Method 2: Soak cuvettes in 0.1 M HCL. (Removes complex in a
+few hours.)
+The binding of the protein-dye complex has been observed only with
+quartz cuvettes and may be eliminated by using either glass or plastic
+cuvettes. 

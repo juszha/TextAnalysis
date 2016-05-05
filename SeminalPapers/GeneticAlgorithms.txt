@@ -1,0 +1,423 @@
+Abstract
+The scheduling and mapping of the precedence-constrained task graph to processors is considered to be the most crucial NP-complete problem in parallel and distributed computing systems. Several genetic algorithms have been developed to solve this problem. A common feature in most of them has been the use of chromosomal representation for a schedule. However, these algorithms are monolithic, as they attempt to scan the entire solution space without considering how to reduce the complexity of the optimization process. In this paper, two genetic algorithms have been developed and implemented. Our developed algorithms are genetic algorithms with some heuristic principles that have been added to improve the performance. According to the first developed genetic algorithm, two fitness functions have been applied one after the other. The first fitness function is concerned with minimizing the total execution time (schedule length), and the second one is concerned with the load balance satisfaction. The second developed genetic algorithm is based on a task duplication technique to overcome the communication overhead. Our proposed algorithms have been implemented and evaluated using benchmarks. According to the evolved results, it has been found that our algorithms always outperform the traditional algorithms.
+
+Keywords
+Evolutionary computing; Genetic algorithms; Scheduling; Task partitioning; Graph algorithms; Parallel processing
+1. Introduction
+The problem of scheduling a task graph of a parallel program onto a parallel and distributed computing system is a well-defined NP-complete problem that has received a large amount of attention, and it is considered one of the most challenging problems in parallel computing [11]. This problem involves mapping a Directed Acyclic Graph (DAG) for a collection of computational tasks and their data precedence onto a parallel processing system. The goal of a task scheduler is to assign tasks to available processors such that precedence requirements for these tasks are satisfied and, at the same time, the overall execution length (i.e., make span) is minimized [29]. Generally, the scheduling problem could be of the following two types: static and dynamic.
+
+In the case static scheduling, the characteristics of a parallel program such as task processing periods, communication, data dependencies, and synchronization requirement are known before execution [18]. According to the dynamic scheduling, a few assumptions about the parallel program should be made before execution, then scheduling decisions have to be taken on-the-fly [21]. The work in this paper is solely concerned with the static scheduling problem. A general taxonomy for static scheduling algorithms has been reviewed and discussed by Kwok and Ahmad [18]. Many task scheduling algorithms have been developed with moderate complexity as a constraint, which is a reasonable assumption for general purpose development platforms [23], [17], [20] and [22]. Generally, the task scheduling algorithms may be divided in two main classes; greedy and non-greedy (iterative) algorithms [9]. The greedy algorithms only attempt to minimize the start time of the tasks of a parallel program. This is done by allocating the tasks into the available processors without back tracking. On the other hand, the main principle of the iterative algorithms is that they start from an initial solution and try to improve it. The greedy task scheduling algorithms may be classified into two categories; algorithms with duplication, and algorithms without duplication. One of the common algorithms in the first category is the Duplication Scheduling Heuristic (DSH) algorithm [11]. The DSH algorithm works by first arranging nodes in a descending order according to their static b-level, then determining the start-time of the node on the processor without duplication of any ancestor. After that, DSH attempts to duplicate ancestors of the node during the duplication time slot until the slot is used up or the start-time of the node does not improve. However, one of the best algorithms in the second category is the Modified Critical Path (MCP) algorithm [28]. The MCP algorithm computes at first the ALAPs of all the nodes, then creates a ready list containing ALAP times of the nodes in an ascending order. The ALAP of a node is computed by computing the length of the Critical Path (CP) and then subtracting the b-level of a node from it. Ties are broken by considering the minimum ALAP time of the children of a node. If the minimum ALAP time of the children is equal, ties are broken randomly. According to the MCP algorithm, the highest priority node in the list is picked up and assigned to a processor that allows the earliest start time using an insertion approach. Recently, Genetic Algorithms (GAs) have been widely reckoned as useful meta-heuristics for obtaining high quality solutions for a broad range of combinatorial optimization problems including the task scheduling problem [29] and [18]. Another merit of genetic search is that its inherent parallelism can be exploited to further reduce its running time [5]. The basic principles of GAs were first laid down by Holland [10], and after that they have been well described in many texts. The GA operates on a population of solutions rather than a single solution. The genetic search begins by initializing a population of individuals. Individual solutions are selected from the population, then are mated to form new solutions. The mating process is implemented by combining or crossing over genetic material from two parents to form the genetic material for one or two new solutions; this transfers the data from one generation of solutions to the next. Random mutation is applied periodically to promote diversity. The individuals in the population are replaced by the new generation. A fitness function, which measures the quality of each candidate solution according to the given optimization objective, is used to help determining which individuals are retained in the population as successive generations evolve [13]. There are two important but competing themes that exist in a GA search; the need for selective pressure so that the GA is able to focus the search on promising areas of the search space, and the need for population diversity so that important information (particular bit values) is not lost [19] and [7].
+
+Recently, several GAs have been developed for solving the task scheduling problem, the main distinction between them has been the chromosomal representation of a schedule [25], [6], [14], [3], [16], [26] and [29]. In this paper, we propose two hybrid genetic algorithms which we designate as the Critical Path Genetic Algorithm (CPGA) and the Task Duplication Genetic Algorithm (TDGA). Our developed algorithms show the effect of the amalgamation of greedy algorithms with the genetic algorithm meta-heuristic. The first algorithm, CPGA, is based on how to use the idle time of the processors efficiently, and reschedule the critical path nodes to reduce their start time. Then, two fitness functions have been applied, one after the other. The first fitness function is concerned with minimizing the total execution time (schedule length), and the second one is concerned with satisfying the load balance. The second algorithm, TDGA, is based on task duplication principle to minimize the communication overheads.
+
+The remainder of this paper is organized as follows: Section 2 gives a description for the model of task scheduling problem. An implementation of the standard GA is presented in Section 3. Our developed CPGA is introduced in Section 4. Section 5 presents the details of our TDGA algorithm. Performance Evaluation of our developed algorithms with respect to MCP algorithm, and DSH algorithm is presented in Section 6. Conclusions are given in Section 7.
+
+2. The model for task scheduling problem
+The model of the parallel system to be considered in this work can be described as follows [18]: The system consists of a limited number of fully connected homogeneous processors. Let a task graph G be a Directed Acyclic Graph (DAG) composed of N nodes n1,n2,n3,…,nN. Each node is termed a task of the graph which in turn is a set of instructions that must be executed sequentially without preemption in the same processor. A node has one or more inputs. When all inputs are available, the node is triggered to execute. A node with no parent is called an entry node and a node with no child is called an exit node. The computation cost of a node ni is denoted by (ni) weight. The graph also has E directed edges representing a partial order among the tasks. The partial order introduces a precedence-constrained DAG and implies that if ni?nj, then nj is a child, which cannot start until its parent ni finishes. The weight on an edge is called the communication cost of the edge and is denoted by c(ni,nj). This cost is incurred if ni and nj are scheduled on different processors and is considered to be zero if ni and nj are scheduled on the same processor. If a node ni is scheduled to processor P, the start time and finish time of the node are denoted by View the MathML source and View the MathML source respectively. After all nodes have been scheduled, the schedule length is defined as View the MathML source across all processors. The objective of the task scheduling problem is to find an assignment and the start times of the tasks to processors such that the schedule length is minimized and, in the same time, the precedence constrains are preserved. A Critical Path (CP) of a task graph is defined as the path with the maximum sum of node and edge weights from an entry node to an exit node. A node in CP is denoted by CP Nodes (CPNs). An example of a DAG is represented in Fig. 1, where CP is drawn in bold.
+
+Example of DAG.
+Fig. 1. 
+Example of DAG.
+Figure options
+3. The Standard Genetic Algorithm (SGA)
+Before presenting the details of our developed algorithms, some principles which are used in the design are discussed.
+
+Definition.
+
+Any task cannot start until all parents have finished. Let Pj be the processor on which the kth parent task tk of task ti is scheduled. The Data Arrival Time (View the MathML source) of ti at processor Pi is defined as:
+
+equation(1)
+View the MathML source
+Turn MathJax on
+
+where, View the MathML source is the number of ti’s parents.
+equation(2)
+If i=j then c(ti,tk) equals zero .
+Turn MathJax on
+
+The parent task that maximizes the above expression is called the favorite predecessors   of ti and it is denoted by View the MathML source.
+
+The benchmark programs which have been used to evaluate our algorithms are listed in Table 1.
+
+Table 1.
+Selected benchmark programs.
+Benchmarks programs	No_tasks	Source	Note
+Pg1	100	[30]	Random graphs
+Pg2	90	[30]	Robot control program
+Pg3	98	[30]	Sparse matrix solver
+Table options
+3.1. The SGA implementation
+
+The SGA has been implemented first. This algorithm is started with an initial population of feasible solutions. Then, by applying some operators, the best solution can be found after some generations. The selection of the best solution is determined according to the value of the fitness function. According to this SGA, the chromosome is divided into two sections; mapping and scheduling sections. The mapping section contains the processors indices where tasks are to be run on it. The schedule section determines the sequence for the processing of the tasks. Fig. 2 shows an example of such a representation of the chromosome. Where, tasks t4, t7, t8 will be scheduled on processor P1, tasks t3, t5 will be scheduled on processor P2, and tasks t1, t2, t6 and t9 will be scheduled on processor P3. The length of the chromosome is linearly proportional to the number of tasks.
+
+Representation of a chromosome.
+Fig. 2. 
+Representation of a chromosome.
+Figure options
+3.1.1. Genetic formulation of SGA
+
+Initial population
+
+The initial population is constructed randomly. The first part of the chromosome (i.e. mapping) is chosen randomly from 1 to View the MathML source where the View the MathML source is the number of the processors in the system. The second part (i.e. the schedule) is generated randomly such that the topological order of the graph is preserved.
+
+Fitness function
+
+The main objective of the scheduling problem is to minimize the schedule length of a schedule.
+
+equation(3)
+View the MathML source
+Turn MathJax on
+
+where a is a constant and View the MathML source is the schedule length which is determined by the following equation:
+equation(4)
+View the MathML source
+Turn MathJax on
+
+The pseudo code of The Task Schedule using SGA is as follows:
+
+Image for unlabelled figure
+Figure options
+Example.
+
+By considering the chromosome represented in Fig. 2 as a solution of a DAG that is represented in Fig. 1, the Fitness function that is defined by Eq. (3) has been used to calculate the schedule length (see Fig. 3).
+
+The schedule length.
+Fig. 3. 
+The schedule length.
+Figure options
+3.1.2. Genetic operators
+
+In order to apply crossover and mutation operators, the selection phase should be applied first. This selection phase is used to allocate reproductive trials to chromosomes according to their fitness. There are different approaches that can be applied in the selection phase. According to the work in this paper, fitness-proportional roulette wheel selection [12] and tournament selection [8] are compared such that the better method is used (i.e., produces the shortest schedule length). In the roulette wheel selection, the probability of selection is proportional to the chromosome’s fitness. The analogy with a roulette wheel arises because one can imagine the whole population forming a roulette wheel with the size of any chromosome’s slot is proportional to its fitness. The wheel is then spun and the figurative “ball” thrown in. The probability of the ball coming to rest in any particular slot is proportional to the arc of the slot and thus to the fitness of the corresponding chromosome. In binary tournament selection, two chromosomes are picked at random from the population. Whichever has the higher fitness is chosen. This process is repeated for all the chromosomes in the population.
+
+Table 2 contains the results for a comparison between these two selection methods using 4 processors for each benchmark program listed in Table 1. According to the results listed in Table 2, the tournament selection method produces schedule length smaller than that produced by the roulette wheel selection. Therefore, the tournament selection method is used in the work of this paper.
+
+Table 2.
+A comparison between roulette wheel and tournament selection.
+Benchmark programs	Roulette wheel selection	Tournament selection
+Pg1	301.6	283.7
+Pg2	1331.6	969
+Pg3	585.8	521.8
+Table options
+Crossover operator
+
+Each chromosome in the population is subjected to crossover with probability µc. Two chromosomes are selected from the population, and a random number View the MathML source is generated for each chromosome. If View the MathML source, these chromosomes are subjected to the crossover operation using one of two kinds of the crossover operators; that is single point crossover and order crossover operators. Otherwise, these chromosomes are not changed. The pseudo code of the crossover function is as follows.
+
+Image for unlabelled figure
+Figure options
+According to the crossover function, one of the crossover operators is used.
+
+Crossover map
+
+When the single crossover is selected, it is applied to the first part of the chromosome. By having two chromosomes, a random integer number called the crossover point is generated from 1 to No_Tasks. The portions of the chromosomes lying to the right of the crossover point are exchanged to produce two offspring (see Fig. 4).
+
+One point crossover operator.
+Fig. 4. 
+One point crossover operator.
+Figure options
+Order crossover
+
+When the order crossover operator is applied to the second part of the chromosome, a random point is chosen. First, pass the left segment from the chrom1 to the offspring, then construct the right fragment of the offspring according to the order of the right segment of chrom2 (see Fig. 5 as an example).
+
+Order crossover operator.
+Fig. 5. 
+Order crossover operator.
+Figure options
+Mutation operator
+
+Each position in the first part of the chromosome is subjected to mutation with a probability µm. Mutation involves changing the assignment of a task from one processor to another. Fig. 6 illustrates the mutation operation on chrom1. After the mutation operator is applied, the assignment of task t4 is changed from processor P3 to processor P1.
+
+Mutation operator.
+Fig. 6. 
+Mutation operator.
+Figure options
+4. The Critical Path Genetic Algorithm (CPGA)
+Our developed CPGA algorithm is considered a hybrid of GA principles and heuristic principles (e.g., given priority of the nodes according to ALAP level). On the other hand, the same principles and operators which are used in the SGA algorithm have been used in the CPGA algorithm. The encoding of the chromosome is the same as in SGA, but in the initial population the second part (schedule) of the chromosome can be constructed using one of the following ways:
+
+1.
+The schedule part is constructed randomly as in SGA.
+2.
+The schedule part is constructed using ALAP.
+These two ways have been applied using benchmark programs listed in Table 1 with four processors. According to the comparative results listed in Table 3, it is seen that the priority of the nodes by ALAP method outperforms the random one in the most cases.
+
+Table 3.
+A comparison between random and order ALAP order methods.
+Benchmark programs	Random order	ALAP order
+Pg1	183.4	152.3
+Pg2	848.5	826.4
+Pg3	301.8	293.8
+Table options
+By using ALAP, the second parts of the chromosomes become static along the population. So, the crossover operator is restricted to the one point crossover operator.
+
+Three modifications have been applied in the SGA to improve the scheduling performance. These modifications are:
+
+1.
+Reuse idle time,
+2.
+Priority of the CPNs, and
+3.
+Load balance.
+Reuse idle time modification:
+
+This modification is based on the insertion approach [11] where the idle time of the processors is used by assigning some tasks to idle time slots. This modification is implemented in our algorithm using Test_Slots function. The pseudo code of this function is as follows:
+
+Image for unlabelled figure
+Figure options
+Example.
+
+Consider the schedule represented in Fig. 3. The processor P1 has an idle time slot; the start of this idle time (S_idle_time) is equal to 7 while its end time (E_idle_slot) is equal to 12. On the other hand, the weight (t8)=4 and DAT (t8,P1) = S_idle_slot = 7. By applying the modification, t8 can be rescheduled to start at time 7. The final schedule length according to this modification becomes 23 instead of 26 (see Fig. 7).
+
+The schedule length after applying the test_slots function is reduced from 26 to ...
+Fig. 7. 
+The schedule length after applying the test_slots function is reduced from 26 to 23.
+Figure options
+Priority of CPNs modification:
+
+According to the second modification, another optimization factor is applied to recalculate the schedule length after giving high priorities for the (CPNs) such that they can start as early as possible. This modification is implemented using a function called Reschedule_CPNs function. The pseudo code of this function is as follows:
+
+Image for unlabelled figure
+Figure options
+Example.
+
+We apply the Reschedule_CPNs function on the scheduling presented in Fig. 7. According to the DAG presented in Fig. 1, it is found that the CPNs are t1, t7, and t9. Task t1 is the entry node and it has no predecessor and the View the MathML source of t7 is task t1. Task t7 is scheduled to processor P1. Also the View the MathML source of t9 is t8, but at the same time it starts early on the processor P3, so t9 has not moved. The final schedule length is reduced to 17 instead of 23 (see Fig. 8).
+
+The schedule length after applying the reschedule of the CPNs function is ...
+Fig. 8. 
+The schedule length after applying the reschedule of the CPNs function is reduced from 23 to 17.
+Figure options
+Load balance modification:
+
+Because the main objective of the task scheduling is to minimize the schedule length, it is found that several solutions can produce the same schedule length, but the load balance between processors might not be satisfied in some of them. The aim of load balance modification is that to obtain the minimum schedule length and, in the same time, the load balance is satisfied. This has been satisfied by using two fitness functions one after the other instead of one fitness function. The first fitness function deals with minimizing the total execution time, and the second fitness function is used to satisfy load balance between processors. This function is proposed in [15] and it is calculated by the ratio of the maximum execution time (i.e. schedule length) to the average execution time over all processors.
+
+If the execution time of processor Pj is denoted by View the MathML source, then the average execution time over all processors is:
+
+equation(5)
+View the MathML source
+Turn MathJax on
+
+So the load balance is calculated as
+
+equation(6)
+View the MathML source
+Turn MathJax on
+
+Suppose that two task scheduling solutions are given in Fig. 9. The schedule length of both solutions is equal to 23.
+
+View the MathML source
+Turn MathJax on
+
+According to balance fitness function solution (a) is better than solution (b).
+Fig. 9. 
+According to balance fitness function solution (a) is better than solution (b).
+Figure options
+According to the balance fitness function, solution (a) is better than solution (b).
+
+Adaptive  µcand  µmparameters
+
+Srinivas and Patnaik [24] have proposed an adaptive method to tune crossover rate µc and mutation rate µm, on the fly, based on the idea of sustaining in diversity in a population without affecting its convergence properties. Therefore; the rate µc is defined as:
+
+equation(7)
+View the MathML source
+Turn MathJax on
+
+and the rate µm is defined as:
+equation(8)
+View the MathML source
+Turn MathJax on
+
+where,
+View the MathML source
+is the maximum fitness value, View the MathML source is the average fitness value
+fc
+is the fitness value of the best chromosome for the crossover
+fm
+is the fitness value of the chromosome to be mutated and, kc and km are positive real constants less than 1.
+The CPGA algorithm has been implemented into two versions: the first version has been done using static parameters (µc=0.8 and µm=0.02), and the second version has been done using adaptive parameters. Table 4 represents the comparison results between these two versions. According to the results, it is seen that by using adaptive parameters (µc and µm), one can help preventing a GA from getting stuck at local minima. So, using the adaptive method is batter than using static values of µc and µm.
+
+Table 4.
+A comparison between static and dynamic µc, µm parameters.
+Benchmark programs	Dynamic parameters	Static parameters
+Pg1	148	152.3
+Pg2	785.6	826.4
+Pg3	288.2	293.8
+Table options
+5. The Task Duplication Genetic Algorithm (TDGA)
+Even with an efficient scheduling algorithm, some processors might be idle during the execution of the program because the tasks assigned to them might be waiting to receive some data from the tasks assigned to other processors. If the idle time slots of a waiting processor could be effectively used by identifying some critical tasks and redundantly allocating them in these slots, the execution time of the parallel program could be further reduced [1].
+
+According to our proposed algorithm, a good schedule based on task duplication has been proposed. This proposed algorithm called the Task Duplication Genetic Algorithm (TDGA) employs a genetic algorithm for solving the scheduling problem.
+
+Definition.
+
+At a particular scheduling step; for any task ti on a processor Pj
+
+If View the MathML source
+
+Then View the MathML source can be reduced by scheduling View the MathML source to Pj.
+
+This definition could be applied recursively upward the DAG to reduce the schedule length.
+
+Example.
+
+To clarify the effect of the task duplication technique, consider the schedule presented in Fig. 10(a) for the DAG in Fig. 1, the schedule length is equal to 21. If t1 is duplicated to processor P1 and P2 the schedule length is reduced to 18 (see Fig. 10(b)).
+
+(a) Before duplication (schedule length = 21) (b) After duplication (schedule ...
+Fig. 10. 
+(a) Before duplication (schedule length = 21) (b) After duplication (schedule length = 18).
+Figure options
+5.1. Genetic formulation of the TDGA
+
+According to our TDGA algorithm, each chromosome in the population consists of a vector of order pairs (t,p) which indicates that task t is assigned to processor p. The number of order pairs in a chromosome may vary in length. An example of a chromosome is shown in Fig. 11. The first order pair shows that task t2 is assigned to processor P1, and the second one indicates that task t3 is assigned to processor P2, etc ….
+
+An example of the chromosome.
+Fig. 11. 
+An example of the chromosome.
+Figure options
+According to the duplication principles, the same task may be assigned more than once to different processors without duplicating it in the same processor. If a task processor pair appears more than once on the chromosome, only one of the pairs is considered. According to Fig. 11, the task t2 is assigned to processor P1 and P2.
+
+Definition.
+
+Invalid chromosomes are the chromosomes that do not contain all the DAG tasks. These invalid chromosomes might be generated.
+
+Initial population
+
+According to our TDGA algorithm, two methods to generate the initial population are applied. The first one is called Random Duplication (RD) and the second one is called Heuristic Duplication (HD). According to RD, the initial population is generated randomly such that each task can be assigned to more than one processor.
+
+In the HD, the initial population is initialized with randomly generated chromosomes, while each chromosome consists of exactly one copy of each task (i.e. no task duplication). Then, each task is randomly assigned to a processor. After that, a duplication technique is applied by a function called the Duplication_Process. The pseudo code of the Duplication_Process function is as follows:
+
+Image for unlabelled figure
+Figure options
+According to the implementation results using RD and HD methods, it is found that two methods produce nearly the same results. Therefore, the HD method has been considered in our TDGA algorithm (see Table 5).
+
+Table 5.
+A comparison between the methods (HD and RD).
+Benchmark programs	HD	RD
+Pg1	493.9	494.1
+Pg2	1221	1269.5
+Pg3	641.2	616.2
+Table options
+Fitness function
+
+Our fitness function is defined as 1/S-length, where S-length is defined as the maximum finishing time of all tasks of the DAG. The proposed GA assigns zero to an invalid chromosome as its fitness value.
+
+Genetic operators
+
+Crossover operator
+
+Two point crossover operator is used. According to the two point crossover, two points are assigned to bind the crossover region. Since each chromosome consists of a vector of task processor pair, the crossover exchanges substrings of pairs between two chromosomes. Two points are randomly chosen and the partitions between the points are exchanged between two chromosomes to form two offspring. The crossover probability µc gives the probability that a pair of chromosome will undergo a crossover. An example of a two point crossover is shown in Fig. 12.
+
+Example of two point crossover operator.
+Fig. 12. 
+Example of two point crossover operator.
+Figure options
+Mutation operator
+
+The mutation probability µm indicates the probability that an order pair will be changed. If a pair is selected to be mutated, the processor number of that pair will be randomly changed. An example of mutation operator is shown in Fig. 13.
+
+Example of mutation operator.
+Fig. 13. 
+Example of mutation operator.
+Figure options
+6. Performance evaluation
+6.1. The problem environment
+
+To evaluate our proposed algorithms, we have implemented them using an Intel processor (2.6 GH) using C ++ language. The algorithms are applied using task graphs of specific benchmark application programs which are taken from a Standard Task Graph (STG) archive [30] (see Table 1). The first two programs of this STG set consists of task graphs generated randomly Pg1, the second program is the robot control (Pg2) as an actual application program and the last program is the sparse matrix solver (Pg3). Also, we considered the task graphs with random communication costs. These communication costs are distributed uniformly between 1 and a specified maximum communication delay (MCD). The population size is considered to be 200, and the number of generations is considered to be 500 generations.
+
+6.2. The developed CPGA evaluation
+
+Our algorithm CPGA, and one of the best greedy algorithms, called the MCP algorithm have been implemented and compared. Firstly, a comparison between the CPGA and MCP algorithms with respect to the Normalized Schedule Length (NSL) with different number of processors has been carried out. The NSL is defined as [2]:
+
+equation(9)
+View the MathML source
+Turn MathJax on
+
+where View the MathML source is the schedule length and weight (ni) is the weight of the node ni. The sum of computation costs on the CP represents a lower bound on the schedule length. Such a lower bound may not always be possible to achieve, and the optimal schedule length may be larger than this bound.
+Secondly, the performance of the CPGA and MCP are measured with respect to speedup [4]. The speedup can be estimated as:
+
+equation(10)
+View the MathML source
+Turn MathJax on
+
+where, T(1) is the time required for executing a program on a uniprocessor computer and T(P) is the time required for executing the same program on a parallel computer with P processors.
+The NSL for CPGA and MCP algorithms using 2, 4, 8, and 16 processors for Pg1 and different MCD (25, 50, 75, and 100) are given in Fig. 14 and Fig. 15. Also the NSL for Pg2 and Pg3 graphs with two different numbers of ? are given in Fig. 16 and Fig. 17 respectively.
+
+NSL for Pg1 and MCD 25 and 50.
+Fig. 14. 
+NSL for Pg1 and MCD 25 and 50.
+Figure options
+NSL for Pg1 and MCD 75 and 100.
+Fig. 15. 
+NSL for Pg1 and MCD 75 and 100.
+Figure options
+NSL for Pg2 and two values of ?.
+Fig. 16. 
+NSL for Pg2 and two values of ?.
+Figure options
+NSL for Pg3 and two values of ?.
+Fig. 17. 
+NSL for Pg3 and two values of ?.
+Figure options
+Fig. 14, Fig. 15, Fig. 16 and Fig. 17 show that the performance of our proposed CPGA algorithm is always outperformed MCP algorithm. According to the obtained results, it is found that the NSL of all algorithms is increased when the number of processors is increased. Although, our CPGA is always the best, and it achieves a lower bound when the communication delay is small.
+
+Fig. 18, Fig. 19, Fig. 20 and Fig. 21 present the speedup of CPGA, and MCP algorithms using Pg1, Pg2 and Pg3 respectively.
+
+Speedup for Pg1 and MCD 25 and 50.
+Fig. 18. 
+Speedup for Pg1 and MCD 25 and 50.
+Figure options
+Speedup for Pg1 and MCD 75 and 100.
+Fig. 19. 
+Speedup for Pg1 and MCD 75 and 100.
+Figure options
+Speedup for Pg2 and two values of ?.
+Fig. 20. 
+Speedup for Pg2 and two values of ?.
+Figure options
+Speedup for Pg3 and two values of ?.
+Fig. 21. 
+Speedup for Pg3 and two values of ?.
+Figure options
+According to Fig. 18, Fig. 19, Fig. 20 and Fig. 21, our proposed CPGA algorithm provides better speedup than that for the MCP algorithm in most cases. Generally, the speedup increases when the number of processors increases. In some cases the speedup is greater than the number of processors (i.e. super speedup) [27]. Finally, because of the communication overhead, the increasing speedup is not generally linear.
+
+6.3. The developed TDGA evaluation
+
+To measure the performance of the TDGA, a comparison between our TDGA algorithm, and one of the well known heuristic algorithms based on task duplication called DSH algorithm has been done with respect to NSL and speedup.
+
+To clarify the effect of task duplication in our TDGA algorithm, the same benchmark application programs Pg1, Pg2, and Pg3 listed in Table 1 have been used with high communication delay.
+
+The NSL for TDGA, and DSH algorithms using 2, 4, 8, and 16 processors for Pg1 with two values of Communication Delay (CD) (CD = 100 and 200) is given in Fig. 22. Also the NSL for Pg2 and Pg3 are given in Fig. 23 and Fig. 24.
+
+NSL for Pg1 and CD = 100 and 200.
+Fig. 22. 
+NSL for Pg1 and CD = 100 and 200.
+Figure options
+NSL for Pg2 and ?=1 and 2.
+Fig. 23. 
+NSL for Pg2 and ?=1 and 2.
+Figure options
+NSL for Pg3 and ?=1 and 2.
+Fig. 24. 
+NSL for Pg3 and ?=1 and 2.
+Figure options
+According to the results in Fig. 22, Fig. 23 and Fig. 24, it is found that our TDGA algorithm outperforms the DSH algorithm, especially when the number of communications as well as the number of processors increases.
+
+The speedup of our TDGA algorithm and DSH algorithm is given in Fig. 25, Fig. 26 and Fig. 27 for Pg1, Pg2, and Pg3 respectively.
+
+Speedup for Pg1 and ?=1 and 2.
+Fig. 25. 
+Speedup for Pg1 and ?=1 and 2.
+Figure options
+Speedup for Pg2 and ?=1 and 2.
+Fig. 26. 
+Speedup for Pg2 and ?=1 and 2.
+Figure options
+Speedup for Pg3 and ?=1 and 2.
+Fig. 27. 
+Speedup for Pg3 and ?=1 and 2.
+Figure options
+The results reveal that the performance of our TDGA algorithm has always outperformed the DSH algorithm. Also, the TDGA speedup is nearly linear, especially for random graphs.
+
+7. Conclusions
+In this paper, an implementation of a standard GA (SGA) to solve the task scheduling problem has been presented. Some modifications have been added to this SGA to improve the scheduling performance. These modifications are based on amalgamating heuristic principles with the GA principles. The first developed algorithm which has been called the Critical Path Genetic Algorithm (CPGA) is based on rescheduling the critical path nodes (CPNs) in the chromosome through different generations. Also, two modifications have been added. The first one is concerned with how to use the idle time of the processors efficiently, and the second one is concerned with satisfying the load balance among processors. The last modification is applied only when there are two or more scheduling solutions with the same schedule length are produced.
+
+A comparative study between our CPGA, and one of the standard heuristic algorithms called the MCP algorithm has been presented using standard task graphs and considering random communication costs. The experimental studies show that the CPGA always outperforms the MCP algorithm in most cases. Generally, the performance of our CPGA algorithm is better than the MCP algorithm.
+
+The second developed algorithm which is called the Task Duplication Genetic Algorithm (TDGA), is based on task duplication techniques to overcome the communication overhead. According to task duplication techniques, the communication delays are reduced and then the overall execution time is minimized, in the same time, the performance of the genetic algorithm is improved. The performance of the TDGA is compared with a traditional heuristic scheduling technique, DSH. The experimental studies show that the TDGA algorithm outperforms the DSH algorithm in most cases.

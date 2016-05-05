@@ -1,0 +1,1844 @@
+THIS paper is concerned with those actions of business firms which have
+harmful effects on others. The standard example is that of a factory the smoke
+from which has harmful effects on those occupying neighbouring properties.
+The economic analysis of such a situation has usually proceeded in terms of a
+divergence between the private and social product of the fartory, in which
+economists have largely followed the treatment of Pigou in The Economics of
+Welfare. The conclusions to which this kind of analy?is seems to have led
+most economists is that it would be desirable to make the owner of the factory
+liable for the damage caused to those injured by the smoke, or alternatively,
+to place a tax on the factory owner varying with the amount of smoke produced
+and equivalent in money terms to the damage it would cause, or finally,
+to exclude the factory from residential districts (and presumably from other
+1 This article, although concerned with a technical problem of economic analysis, arose
+out of the study of the Political Economy of Broadcasting which I am now conducting.
+The argument of the present article was implicit in a previous article dealing with the
+problem of allocating radio and television frequencies (The Federal Communications
+Commission, 2 J. Law & Econ. [1959]) but comments which I have received seemed to
+suggest that it would be desirable to deal with the question in a more explicit way and
+without reference to the original problem for the solution of which the analysis was developed.
+
+2 THE JOURNAL OF LAW AND ECONOMICS
+areas in which the emission of smoke would have harmful effects on others).
+It is my contention that the suggested courses of action are inappropriate, in
+that they lead to results which are not necessarily, or even usually, desirable.
+II. THE RECIPROCAL NATURE OF THE PROBLEM
+The traditional approach has tended to obscure the nature of the choice
+that has to be made. The question is commonly thought of as one in which A
+inflicts harm on B and what has to be decided is: how should we restrain A?
+But this is wrong. We are dealing with a problem of a reciprocal nature. To
+avoid the harm to B would inflict harm on A. The real question that has to be
+decided is: should A be allowed to harm B or should B be allowed to harm A?
+The problem is to avoid the more serious harm. I instanced in my previous
+article2 the case of a confectioner the noise and vibrations from whose machinery
+disturbed a doctor in his work. To avoid harming the doctor would
+inflict harm on the confectioner. The problem posed by this case was essentially
+whether it was worth while, as a result of restricting the methods of production
+which could be used by the confectioner, to secure more doctoring at the
+cost of a reduced supply of confectionery products. Another example is
+afforded by the problem of straying cattle which destroy crops on neighbouring
+land. If it is inevitable that some cattle will stray, an increase in the supply
+of meat can only be obtained at the expense of a decrease in the supply of
+crops. The nature of the choice is clear: meat or crops. What answer should
+be given is, of course, not clear unless we know the value of what is obtained
+as well as the value of what is sacrificed to obtain it. To give another example,
+Professor George J. Stigler instances the contamination of a stream.3 If we
+assume that the harmful effect of the pollution is that it kills the fish, the
+question to be decided is: is the value of the fish lost greater or less than the
+value of the product which the contamination of the stream makes possible.
+It goes almost without saying that this problem has to be looked at in total
+and at the margin.
+III. THE PRICING SYSTEM WITH LIABILITY FOR DAMAGE
+I propose to start my analysis by examining a case in which most economists
+would presumably agree that the problem would be solved in a completely
+satisfactory manner: when the damaging business has to pay for all
+damage caused and the pricing system works smoothly (strictly this means
+that the operation of a pricing system is without cost).
+A good example of the problem under discussion is afforded by the case of
+straying cattle which destroy crops growing on neighbouring land. Let us suppose
+that a farmer and a cattle-raiser are operating on neighbouring proper-
+2 Coase, The Federal Communications Commission, 2 J. Law & Econ. 26-27 (1959).
+3 G. J. Stigler, The Theory of Price 105 (1952). 
+THE PROBLEM OF SOCIAL COST 3
+ties. Let us further suppose that, without any fencing between the properties,
+an increase in the size of the cattle-raiser's herd increases the total damage
+to the farmer's crops. What happens to the marginal damage as the size of the
+herd increases is another matter. This depends on whether the cattle tend to
+follow one another or to roam side by side, on whether they tend to be more
+or less restless as the size of the herd increases and on other similar factors.
+For my immediate purpose, it is immaterial what assumption is made about
+marginal damage as the size of the herd increases.
+To simplify the argument, I propose to use an arithmetical example. I shall
+assume that the annual cost of fencing the farmer's property is $9 and that
+the price of the crop is $1 per ton. Also, I assume that the relation between
+the number of cattle in the herd and the annual crop loss is as follows:
+Number in Herd Annual Crop Loss Crop Loss per Additional
+(Steers) (Tons) Steer (Tons)
+1 1 1
+2 3 2
+3 6 3
+4 ! 0 4
+Given that the cattle.raiser is liable for the damage caused, the additional
+annual cost imposed on the cattle-raiser if he increased his herd from, say, 2
+to 3 steers is $3 and in deciding on the size of the herd, he will take this into
+account along with his other costs. That is, he will not increase the size of the
+herd unless the value of the additional meat produced (assuming that the
+cattle-raiser slaughters the cattle), is greater than the additional costs that
+this will entail, including the value of the additional crops destroyed. Of
+course, if, by the employment of dogs, herdsmen, aeroplanes, mobile radio and
+other means, the amount of damage can be reduced, these means will be
+adopted when their cost is less than the value of the crop which they prevent
+being lost. Given that the annual cost of fencing is $9, the cattle-raiser who
+wished to have a herd with 4 steers or more would pay for fencing to be
+erected and maintained, assuming that other means of attaining the same end
+would not do so more cheaply. When the fence is erected, the marginal cost
+due to the liability for damage becomes zero, except to the extent that an
+increase in the size of the herd necessitates a stronger and therefore more
+expensive fence because more steers are liable to lean against it at the same
+time. But, of course, it may be cheaper for the cattle-raiser not to fence and to
+pay for the damaged crops, as in my arithmetical example, with 3 or fewer
+steers.
+It might be thought that the fact that the cattle-raiser would pay for all
+crops damaged would lead the farmer to increase his planting if a cattle-raiser
+came to occupy the neighbouring property. But this is not so. If the crop was
+previously sold in conditions of perfect competition, marginal cost was equal 
+4 THE JOURNAL OF LAW AND ECONOMICS
+to price for the amount of planting undertaken and any expansion would have
+reduced the profits of the farmer. In the new situation, the existence of crop
+damage would mean that the farmer would sell less on the open market but
+his receipts for a given production would remain the same, since the cattleraiser
+would pay the market price for any crop damaged. Of course, if cattleraising
+commonly involved the destruction of crops, the coming into existence
+of a cattle-raising industry might raise the price of the crops involved and
+farmers would then extend their planting. But I wish to confine my attention
+to the individual farmer.
+I have said that the occupation of a neighbouring property by a cattleraiser
+would not cause the amount of production, or perhaps more exactly the
+amount of planting, by the farmer to increase. In fact, if the cattle-raising has
+any effect, it will be to decrease the amount of planting. The reason for this
+is that, for any given tract of land, if the value of the crop damaged is so
+great that the receipts from the sale of the undamaged crop are less than the
+total costs of cultivating that tract of land, it will be profitable for the farmer
+and the cattle-raiser to make a bargain whereby that tract of land is left uncultivated.
+This can be made clear by means of an arithmetical example.
+Assume initially that the value of the crop obtained from cultivating a given
+tract of land is $12 and that the cost incurred in cultivating this tract of land
+is $10, the net gain from cultivating the land being $2. I assume for purposes
+of simplicity that the farmer owns the land. Now assume that the cattleraiser
+starts operations on the neighbouring property and that the value of the
+crops damaged is $1. In this case $11 is obtained by the farmer from sale on
+the market and $1 is obtained from the cattle-raiser for damage suffered and
+the net gain remains $2. Now suppose that the cattle-raiser finds it profitable
+to increase the size of his herd, even though the amount of damage rises to $3;
+which means that the value of the additional meat production is greater than
+the additional costs, including the additional $2 payment for damage. But the
+total payment for damage is now $3. The net gain to the farmer from cultivating
+the land is still $2. The cattle-raiser would be better off if the farmer
+would agree not to cultivate his land for any payment less than $3. The
+farmer would be agreeable to not cultivating the land for any payment greater
+than $2. There is clearly room for a mutually satisfactory bargain which
+would lead to the abandonment of cultivation.4 But the same argument
+applies not only to the whole tract cultivated by the farmer but also to any
+'The argument in the text has proceeded on the assumption that the alternative to
+cultivation of the crop is abandonment of cultivation altogether. But this need not be so.
+There may be crops which are less liable to damage by cattle but which would not be as
+profitable as the crop grown in the absence of damage. Thus, if the cultivation of a new
+crop would yield a return to the farmer of $1 instead of $2, and the size of the herd which
+would cause $3 damage with the old crop would cause $1 damage with the new crop, it
+would be profitable to the cattle-raiser to pay any sum less than $2 to induce the farmer 
+THE PROBLEM OF SOCIAL COST 5
+subdivision of it. Suppose, for example, that the cattle have a well-defined
+route, say, to a brook or to a shady area. In these circumstances, the amount
+of damage to the crop along the route may well be great and if so, it could be
+that the farmer and the cattle-raiser would find it profitable to make a bargain
+whereby the farmer would agree not to cultivate this strip of land.
+But this raises a further possibility. Suppose that there is such a welldefined
+route. Suppose further that the value of the crop that would be obtained
+by cultivating this strip of land is $10 but that the cost of cultivation
+is $11. In the absence of the cattle-raiser, the land would not be cultivated.
+However, given the presence of the cattle-raiser, it could well be that if the
+strip was cultivated, the whole crop would be destroyed by the cattle. In
+which case, the cattle-raiser would be forced to pay $10 to the farmer. It is
+true ,tha,t the farmer would lose $1. But the cattle-raiser would lose $10. Clearly
+this is a situation which is not likely to last indefinitely since neither party
+would want this to happen. The aim of the farmer would be to induce the
+cattle-raiser to make a payment in return for an agreement to leave this land
+uncultivated. The farmer would not be able to obtain a payment greater than
+the cost of fencing off this piece of land nor so high as to lead the cattleraiser
+to abandon the use of the neighbouring property. What payment would
+in fact be made would depend on the shrewdness of the farmer and the cattleraiser
+as bargainers. But as the payment would not be so high as to cause the
+cattle-raiser to abandon this location and as it would not vary with the size
+of the herd, such an agreement would not affect the allocation of resources but
+would merely alter the distribution of income and wealth as between the
+cattle-raiser and the farmer.
+I think it is clear that if the cattle-raiser is liable for damage caused and
+the pricing system works smoothly, the reduction in the value of production
+elsewhere will be taken into account in computing the additional cost involved
+in increasing the size of the herd. This cost will be weighed against the value
+of the additional meat production and, given perfect competition in the cattle
+industry, the allocation of resources in cattle-raising will be optimal. What
+needs to be emphasized is that the fall in the value of production elsewhere
+which would be taken into account in the costs of the cattle-raiser may well
+be less than the damage which the cattle would cause to the crops in the ordinary
+course of events. This is because it is possible, as a result of market
+transactions, to discontinue cultivation of the land. This is desirable in all
+to change his crop (since this would reduce damage liability from $3 to $1) and it would
+be profitable for the farmer to do so if the amount received was more than $1 (the reduction
+in his return caused by switching crops). In fact, there would be room for a mutually
+satisfactory bargain in all cases in which a change of crop would reduce the amount of
+damage by more than it reduces the value of the crop (excluding damage)-in all cases,
+that is, in which a change in the crop cultivated would lead to an increase in the value of
+production. 
+6 THE JOURNAL OF LAW AND ECONOMICS
+cases in which the damage that the cattle would cause, and for which the
+cattlfe-raiser would be willing to pay, exceeds the amount which the farmer
+would pay for use of the land. In conditions of, perfect competition, the
+amount which the farmer would pay for the use of the land is equal to the
+difference between the value of the total production when the factors are
+employed on this land and the value of the additional product yielded in their
+next best use (which would be what the farmer would have to pay for the
+factors). If damage exceeds the amount the farmer would pay for the use of
+the land, the value of the additional product of the factors employed elsewhere
+would exceed the value of the total product in this use after damage is taken
+into account. It follows that it would be desirable to abandon cultivation of
+the land and to release the factors employed for production elsewhere. A
+procedure which merely provided for payment for damage to the crop caused
+by the cattle but which did not allow for the possibility of cultivation being
+discontinued would result in too small an employment of factors of production
+in cattle-raising and too large an employment of factors in cultivation of
+the crop. But given the possibility of market transactions, a situation in which
+damage to crops exceeded the rent of the land would not endure. Whether
+the cattle-raiser pays the farmer to leave the land uncultivated or himself rents
+the land by paying the land-owner an amount slightly greater than the
+farmer would pay (if the farmer was himself renting the land), the final result
+would be the same and would maximise the value of production. Even when
+the farmer is induced to plant crops which it would not be profitable to cultivate
+for sale on the market, this will be a purely short-term phenomenon and
+may be expected to lead to an agreement under which the planting will cease.
+The cattle-raiser will remain in that location and the marginal cost of meat
+production will be the same as before, thus having no long-run effect on the
+allocation of resources.
+IV. THE PRICING SYSTEM WITH No LIABILITY FOR DAMAGE
+I now turn to the case in which, although the pricing system is assumed to
+work smoothly (that is, costlessly), the damaging business is not liable for
+any of the damage which it causes. This business does not have to make a
+payment to those damaged by its actions. I propose to show that the allocation
+of resources will be the same in this case as it was when the damaging
+business was liable for damage caused. As I showed in the previous case that
+the allocation of resources was optimal, it will not be necessary to repeat this
+part of the argument.
+I return to the case of the farmer and the cattle-raiser. The farmer would
+suffer increased damage to his crop as the size of the herd increased. Suppose
+that the size of the cattle-raiser's herd is 3 steers (and that this is the size of
+the herd that would be maintained if crop damage was not taken into
+account). Then the farmer would be willing to pay up to $3 if the cattle- 
+THE PROBLEM OF SOCIAL COST 7
+raiser would reduce his herd to 2 steers, up to $5 if the herd were reduced to
+1 steer and would pay up to $6 if cattle-raising was abandoned. The cattleraiser
+would therefore receive $3 from the farmer if he kept 2 steers instead of
+3. This $3 foregone is therefore part of the cost incurred in keeping the third
+steer. Whether the $3 is a payment which the cattle-raiser has to make if he
+adds the third steer to his herd (which it would be if the cattle-raiser was
+liable to the farmer for damage caused to the crop) or whether it is a sum of
+money which he would have received if he did not keep a third steer (which
+it would be if the cattle-raiser was not liable to the farmer for damage caused
+to the crop) does not affect the final result. In both cases $3 is part of the
+cost of adding a third steer, to be included along with the other costs. If the
+increase in the value of production in cattle-raising through increasing the size
+of the herd from 2 to 3 is greater than-the additional costs that have to be
+incurred (including the $3 damage to crops), the size of the herd will be increased.
+Otherwise, it will not. The size of the herd will be the same whether
+the cattle-raiser is liable for damage caused to the crop or not.
+It may be argued that the assumed starting point-a herd of 3 steers-was
+arbitrary. And this is true. But the farmer would not wish to pay to avoid
+crop damage which the cattle-raiser would not be able to cause. For example,
+the maximum annual payment which the farmer could be induced to pay
+could not exceed $9, the annual cost of fencing. And the farmer would only be
+willing to pay this sum if it did not reduce his earnings to a level that would
+cause him to abandon cultivation of this particular tract of land. Furthermore,
+the farmer would only be willing to pay this amount if he believed that, in the
+absence of any payment by him, the size of the herd maintained by the cattle
+raiser would be 4 or more steers. Let us assume that this is the case. Then the
+farmer would be willing to pay up to $3 if the cattle raiser would reduce his
+herd to 3 steers, up to $6 if the herd were reduced to 2 steers, up to $8 if one
+steer only were kept and up to $9 if cattle-raising were abandoned. It will be
+noticed that the change in the starting point has not altered the amount which
+would accrue to the cattle-raiser if he reduced the size of his herd by any
+given amount. It is still true that the cattle-raiser could receive an additional
+$3 from the farmer if he agreed to reduce his herd from 3 steers to 2 and that
+the $3 represents the value of the crop that would be destroyed by adding the
+third steer to the herd. Although a different belief on the part of the farmer
+(whether justified or not) about the size of the herd that the cattle-raiser
+would maintain in the absence of payments from him may affect the total
+payment he can be induced to pay, it is not true that this different belief
+would have any effect on the size of the herd that the cattle-raiser will actually
+keep. This will be the same as it would be if the cattle-raiser had to pay for
+damage caused by his cattle, since a receipt foregone of a given amount is the
+equivalent of a payment of the same amount.
+It might be thought that it would pay the cattle-raiser to increase his herd 
+8 THE JOURNAL OF LAW AND ECONOMICS
+above the size that he would wish to maintain once a bargain had been made,
+in order to induce the farmer to make a larger total payment. And this may
+be true. It is similar in nature to the action of the farmer (when the cattleraiser
+was liable for damage) in cultivating land on which, as a result of an
+agreement with the cattle-raiser, planti~ng would subsequently be abandoned
+(including land which would not be cultivated at all in the absence of cattleraising).
+But such manoeuvres are preliminaries to an agreement and do not
+affect the long-run equilibrium position, which is the same whether or not the
+cattle-raiser is held responsible for the crop damage brought about by his
+cattle.
+It is necessary to know whether the damaging business is liable or not for
+damage caused since without the establishment of this initial delimitation of
+rights there can be no market transactions to transfer and recombine them.
+But the ultimate result (which maximises the value of production) is independent
+of the legal position if the pricing system is assumed to work without
+cost.
+V. THE PROBLEM ILLUSTRATED ANEW
+The harmful effects of the activities of a business can assume a wide variety
+of forms. An early English case concerned a building which, by obstructing
+currents of air, hindered the operation of a windmill.5 A recent case in Florida
+concerned a building which cast a shadow on the cabana, swimming pool and
+sunbathing areas of a neighbouring hotel.6 The problem of straying cattle
+and the damaging of crops which was the subject of detailed examination in
+the two preceding sections, although it may have appeared to be rather a
+special case, is in fact but one example of a problem which arises in many
+different guises. To clarify the nature of my argument and to demonstrate its
+general applicability, I propose to illustrate it anew by reference to four
+actual cases.
+Let us first reconsider the case of Sturges v. Bridgman7 which I used as an
+illustration of the general problem in my article on "The Federal Communications
+Commission." In this case, a confectioner (in Wigmore Street) used
+two mortars and pestles in connection with his business (one had been in
+operation in the same position for more than 60 years and the other for more
+than 26 years). A doctor then came to occupy neighbouring premises (in
+Wimpole Street). The confectioner's machinery caused the doctor no harm
+until, eight years after he had first occupied the premises, he built a consulting
+room at the end of his garden right against the confectioner's kitchen. It was
+then found that the noise and vibration caused by the confectioner's machins
+See Gale on Easements 237-39 (13th ed. M. Bowles 1959).
+6 See Fontainebleu Hotel Corp. v. Forty-Five Twenty-Five, Inc., 114 So. 2d 357 (1959).
+711 Ch. D. 852 (1879). 
+THE PROBLEM OF SOCIAL COST 9
+ery made it difficult for the doctor to use his new consulting room. "In particular
+. . . the noise prevented him from examining his patients by auscultations
+for diseases of the chest. He also found it impossible to engage with effect in
+any occupation which required thought and attention." The doctor therefore
+brought a legal action to force the confectioner to stop using his machinery.
+The courts had little difficulty in granting the doctor the injunction he
+sought. "Individual cases of hardship may occur in the strict carrying out of
+the principle upon which we found our judgment, but the negation of the
+principle would lead even more to individual hardship, and would at the same
+time produce a prejudicial effect upon the development of land for residential
+purposes."
+The court's decision established that the doctor had the right to prevent
+the confectioner from using his machinery. But, of course, it would have been
+possible to modify the arrangements envisaged in the legal ruling by means of
+a bargain between the parties. The doctor would have been willing to waive
+his right and allow the machinery to continue in operation if the confectioner
+would have paid him a sum of money which was greater than the loss of income
+which he would suffer from having to move to a more costly or less convenient
+location or from having to curtail his activities at this location or, as
+was suggested as a possibility, from having to build a separate wall which
+would deaden the noise and vibration. The confectioner would have been willing
+to do this if the amount he would have to pay the doctor was less than the
+fall in income he would suffer if he had to change his mode of operation at
+this location, abandon his operation or move his confectionery business to
+some other location. The solution of the problem depends essentially on
+whether the continued use of the machinery adds more to the confectioner's
+income than it subtracts from the doctor's.9 But now consider the situation if
+the confectioner had won the case. The confectioner would then have had the
+right to continue operating his noise and vibration-generating machinery
+without having to pay anything to the doctor. The boot would have been on
+the other foot: the doctor would have had to pay the confectioner to induce
+him to stop using the machinery. If the doctor's income would have fallen
+more through continuance of the use of this machinery than it added to the
+income of the confectioner, there would clearly be room for a bargain whereby
+the doctor paid the confectioner to stop using the machinery. That is to say,
+the circumstances in which it would not pay the confectioner to continue to
+use the machinery and to compensate the doctor for the losses that this would
+bring (if the doctor had the right to prevent the confectioner's using his
+8 Auscultation is the act of listening by ear or stethoscope in order to judge by sound
+the condition of the body.
+9 Note that what is taken into account is the change in income after allowing for alterations
+in methods of production, location, character of product, etc. 
+10 THE JOURNAL OF LAW AND ECONOMICS
+machinery) would be those in which it would be in the interest of the doctor
+to make a payment to the confectioner which would induce him to discontinue
+the use of the machinery (if the confectioner had the right to operate the
+machinery). The basic conditions are exactly the same in this case as they
+were in the example of the cattle which destroyed crops. With costless market
+transactions, the decision of the courts concerning liability for damage would
+be without effect on the allocation of resources. It was of course the view
+of the judges that they were affecting the working of the economic systemand
+in a desirable direction. Any other decision would have had "a prejudicial
+effect upon the development of land for residential purposes," an
+argument which was elaborated by examining the example of a forge operating
+on a barren moor, which was later developed for residual purposes.
+The judges' view that they were settling how the land was to be
+used would be true only in the case in which the costs of carrying out the
+necessary market transactions exceeded the gain which might be achieved by
+any rearrangement of rights. And it would be desirable to preserve the areas
+(Wimpole Street or the moor) for residential or professional use (by giving
+non-industrial users the right to stop the noise, vibration, smoke, etc., by injunction)
+only if the value of the additional residential facilities obtained was
+greater than the value of cakes or iron lost. But of this the judges seem to
+have been unaware.
+Another example of the same problem is furnished by the case of Cooke v.
+Forbes?0 One process in the weaving of cocoa-nut fibre matting was to immerse
+it in bleaching liquids after which it was hung out to dry. Fumes from
+a manufacturer of sulphate of ammonia had the effect of turning the matting
+from a bright to a dull and blackish colour. The reason for this was that the
+bleaching liquid contained chloride of tin, which, when affected by sulphuretted
+hydrogen, is turned to a darker colour. An injunction was sought
+to stop the manufacturer from emitting the fumes. The lawyers for the defendant
+argued that if the plaintiff "were not to use ... a particular bleaching
+liquid, their fibre would not be affected; that their process is unusual, not
+according to the custom of the trade, and even damaging to their own fabrics."
+The judge commented: "... it appears to me quite plain that a person has a
+right to carry on upon his own property a manufacturing process in which he
+uses chloride of tin, or any sort of metallic dye, and that his neighbour is not
+at liberty to pour in gas which will interfere with his manufacture. If it can
+be traced to the neighbour, then, I apprehend, clearly he will have a right to
+come here and ask for relief." But in view of the fact that the damage was
+accidental and occasional, that careful precautions were taken and that there
+was no exceptional risk, an injunction was refused, leaving the plaintiff -to
+bring an action for damages if he wished. What the subsequent developments
+10L. R. 5 Eq. 166 (1867-1868). 
+THE PROBLEM OF SOCIAL COST 11
+were I do not know. But it is clear that the situation is essentially the same
+as that found in Sturges v. Bridgman, except that the cocoa-nut fibre matting
+manufacturer could not secure an injunction but would have to seek damages
+from the sulphate of ammonia manufacturer. The economic analysis of the
+situation is exactly the same as with the cattle which destroyed crops. To
+avoid the damage, the sulphate of ammonia manufacturer could increase his
+precautions or move to another location. Either course would presumably
+increase his costs. Alternatively he could pay for the damage. This he would
+do if the payments for damage were less than the additional costs that would
+have to be incurred to avoid the damage. The payments for damage would
+then become part of the cost of production of sulphate of ammonia. Of course,
+if, as was suggested in the legal proceedings, the amount of damage could be
+eliminated by changing the bleaching agent (which would presumably increase
+the costs of the matting manufacturer) and if the additional cost was
+less than the damage that would otherwise occur, it should be possible for the
+two manufacturers to make a mutually satisfactory bargain whereby the new
+bleaching agent was used. Had the court decided against the matting manufacturer,
+as a consequence of which he would have had to suffer the damage
+without compensation, the allocation of resources would not have been
+affected. It would pay the matting manufacturer to change his bleaching
+agent if the additional cost involved was less than the reduction in damage.
+And since the matting manufacturer would be willing to pay the sulphate of
+ammonia manufacturer an amount up to his loss of income (the increase in
+costs or the damage suffered) if he would cease his activities, this loss of income
+would remain a cost of production for the manufacturer of sulphate of
+ammonia. This case is indeed analytically exactly the same as the cattle
+example.
+Bryant v. Lefever11 raised the problem of the smoke nuisance in a novel
+form. The plaintiff and the defendants were occupiers of adjoining houses,
+which were of about the same height.
+Before 1876 the plaintiff was able to light a fire in any room of his house without
+the chimneys smoking; the two houses had remained in the same condition some
+thirty or forty years. In 1876 the defendants took down their house, and began to
+rebuild it. They carried up a wall by the side of the plaintiff's chimneys much beyond
+its original height, and stacked timber on the roof of their house, and thereby
+caused the plaintiff's chimneys to smoke whenever he lighted fires.
+The reason, of course, why the chimneys smoked was that the erection of the
+wall and the stacking of the timber prevented the free circulation of air. In a
+trial before a jury, the plaintiff was awarded damages of ?40. The case then
+went to the Court of Appeals where the judgment was reversed. Bramwell,
+L.J., argued:
+n4 C.P.D. 172 (1878-1879). 
+12 THE JOURNAL OF LAW AND ECONOMICS
+. .. it is said, and the jury have found, that the defendants have done that which
+caused a nuisance to the plaintiff's house. We think there is no evidence of this. No
+doubt there is a nuisance, but it is not of the defendant's causing. They have done
+nothing in causing the nuisance. Their house and their timber are harmless enough.
+It is the plaintiff who causes the nuisance by lighting a coal fire in a place the
+chimney of which is placed so near the defendants' wall, that the smoke does not
+escape, but comes into the house. Let the plaintiff cease to light his fire, let him
+move his chimney, let him carry it higher, and there would be no nuisance. Who then,
+causes it? It would be very clear that the plaintiff did, if he had built his house
+or chimney after the defendants had put up the timber on theirs, and it is really
+the same though he did so before the timber was there. But (what is in truth the
+same answer), if the defendants cause the nuisance, they have a right to do so. If
+the plaintiff has not the right to the passage of air, except subject to the defendants'
+right to build or put timber on their house, then his right is subject to their right,
+and though a nuisance follows from the exercise of their right, they are not liable.
+And Cotton, L.J., said:
+Here it is found that the erection of the defendants' wall has sensibly and materially
+interfered with the comfort of human existence in the plaintiff's house, and
+it is said this is a nuisance for which the defendants are liable. Ordinarily this is so,
+but the defendants have done so, not by sending on to the plaintiff's property any
+smoke or noxious vapour, but by interrupting the egress of smoke from the plaintiff's
+house in a way to which ... the plaintiff has no legal right. The plaintiff creates
+the smoke, which interferes with his comfort. Unless he has ... a right to get rid
+of this in a particular way which has been interfered with by the defendants, he
+cannot sue the defendants, because the smoke made by himself, for which he has
+not provided any effectual means of escape, causes him annoyance. It is as if a man
+tried to get rid of liquid filth arising on his own land by a drain into his neighbour's
+land. Until a right had been acquired by user, the neighbour might stop the drain
+without incurring liability by so doing. No doubt great inconvenience would be
+caused to the owner of the property on which the liquid filth arises. But the act of
+his neighbour would be a lawful act, and he would not be liable for the consequences
+attributable to the fact that the man had accumulated filth without providing any
+effectual means of getting rid of it.
+I do not propose to show that any subsequent modification of the situation,
+as a result of bargains between the parties (conditioned by the cost of stacking
+the timber elsewhere, the cost of extending the chimney higher, etc.),
+would have exactly the same result whatever decision the courts had come to
+since this point has already been adequately dealt with in the discussion of the
+cattle example and the two previous cases. What I shall discuss is the argument
+of the judges in the Court of Appeals that the smoke nuisance was not
+caused by the man who erected the wall but by the man who lit the fires. The
+novelty of the situation is that the smoke nuisance was suffered by the man
+who lit the fires and not by some third person. The question is not a trivial 
+THE PROBLEM OF SOCIAL COST 13
+one since it lies at the heart of the problem under discussion. Who caused the
+smoke nuisance? The answer seems fairly clear. The smoke nuisance was
+caused both by the man who built the wall and by the man who lit the fires.
+Given the fires, there would have been no smoke nuisance without the wall;
+given the wall, there would have been no smoke nuisance without the fires.
+Eliminate the wall or the fires and the smoke nuisance would disappear. On
+the marginal principle it is clear that both were responsible and both should
+be forced to include the loss of amenity due to the smoke as a cost in deciding
+whether to continue the activity which gives rise to the smoke. And given the
+possibility of market transactions, this is what would in fact happen. Although
+the wall-builder was not liable legally for the nuisance, as the man
+with the smoking chimneys would presumably be willing to pay a sum equal
+to the monetary worth to him of eliminating the smoke, this sum would therefore
+become for the wall-builder, a cost of continuing to have the high wall
+with the timber stacked on the roof.
+The judges' contention that it was the man who lit the fires who alone
+caused the smoke nuisance is true only if we assume that the wall is the given
+factor. This is what the judges did by deciding that the man who erected the
+higher wall had a legal right to do so. The case would have been even more
+interesting if the smoke from the chimneys had injured the timber. Then it
+would have been the wall-builder who suffered the damage. The case would
+then have closely paralleled Sturges v. Bridgman and there can be little doubt
+that the man who lit the fires would have been liable for the ensuing damage
+to the timber, in spite of the fact that no damage had occurred until the high
+wall was built by the man who owned the timber.
+Judges have to decide on legal liability but this should not confuse economists
+about the nature of the economic problem involved. In the case of the
+cattle and the crops, it is true that there would be no crop damage without the
+cattle. It is equally true that there would be no crop damage without the
+crops. The doctor's work would not have been disturbed if the confectioner had
+not worked his machinery; but the machinery would have disturbed no one if
+the doctor had not set up his consulting room in that particular place. The
+matting was blackened by the fumes from the sulphate of ammonia manufacturer;
+but no damage would have occurred if the matting manufacturer had
+not chosen to hang out his matting in a particular place and to use a particular
+bleaching agent. If we are to discuss the problem in terms of causation,
+both parties cause the damage. If we are to attain an optimum allocation of
+resources, it is therefore desirable that both parties should take the harmful
+effect (the nuisance) into account in deciding on their course of action. It is
+one of the beauties of a smoothly operating pricing system that, as has already
+been explained, the fall in the value of production due to the harmful effect
+would be a cost for both parties. 
+14 THE JOURNAL OF LAW AND ECONOMICS
+Bass v. Gregory12 will serve as an excellent final illustration of the problem.
+The plaintiffs were the owners and tenant of a public house called the Jolly
+Anglers. The defendant was the owner of some cottages and a yard adjoining
+the Jolly Anglers. Under the public house was a cellar excavated in the
+rock. From the cellar, a hole or shaft had been cut into an old well situated
+in the defendant's yard. The well therefore became the ventilating shaft for
+the cellar. The cellar "had been used for a particular purpose in the process
+of brewing, which, without ventilation, could not be carried on." The cause of
+the action was that the defendant removed a grating from the mouth of the
+well, "so as to stop or prevent the free passage of air from [the] cellar upwards
+through the well...." What caused the defendant to take this step
+is not clear from the report of the case. Perhaps "the air ... impregnated by
+the brewing operations" which "passed up the well and out into the open
+air" was offensive to him. At any rate, he preferred to have the well in his
+yard stopped up. The court had first to determine whether the owners of the
+public house could have a legal right to a current of air. If they were to
+have such a right, this case would have to be distinguished from Bryant v.
+Lefever (already considered). This, however, presented no difficulty. In this
+case, the current of air was confined to "a strictly defined channel." In the
+case of Bryant v. Lefever, what was involved was "the general current of
+air common to all mankind." The judge therefore held that the owners of
+the public house could have the right to a current of air whereas the owner
+of the private house in Bryant v. Lefever could not. An economist might be
+tempted to add "but the air moved all the same." However, all that had been
+decided at this stage of the argument was that there could be a legal right,
+not that the owners of the public house possessed it. But evidence showed
+that the shaft from the cellar to the well had existed for over forty years and
+that the use of the well as a ventilating shaft must have been known to the
+owners of the yard since the air, when it emerged, smelt of the brewing
+operations. The judge therefore held that the public house had such a right
+by the "doctrine of lost grant." This doctrine states "that if a legal right is
+proved to have existed and been exercised for a number of years the law
+ought to presume that it had a legal origin."13 So the owner of the cottages
+and yard had to unstop the well and endure the smell.
+12 25 Q.B.D. 481 (1890).
+13 It may be asked why a lost grant could not also be presumed in the case of the confectioner
+who had operated one mortar for more than 60 years. The answer is that until
+the doctor built the consulting room at the end of his garden there was no nuisance. So
+the nuisance had not continued for many years. It is true that the confectioner in his
+affidavit referred to "an invalid lady who occupied the house upon one occasion, about
+thirty years before" who "requested him if possible to discontinue the use of the mortars
+before eight o'clock in the morning" and that there was some evidence that the garden wall
+had been subjected to vibration. But the court had little difficulty in disposing of this line
+of argument: ". . . this vibration, even if it existed at all, was so slight, and the com- 
+THE PROBLEM OF SOCIAL COST 15
+The reasoning employed by the courts in determining legal rights will often
+seem strange to an economist because many of the factors on which the
+decision turns are, to an economist, irrelevant. Because of this, situations
+which are, from an economic point of view, identical will be treated quite
+differently by the courts. The economic problem in all cases of harmful effects
+is how to maximise the value of production. In the case of Bass v. Gregory
+fresh air was drawn in through the well which facilitated the production of
+beer but foul air was expelled through the well which made life in the adjoining
+houses less pleasant. The economic problem was to decide which to
+choose: a lower cost of beer and worsened amenities in adjoining houses or
+a higher cost of beer and improved amenities. In deciding this question, the
+"doctrine of lost grant" is about as relevant as the colour of the judge's eyes.
+But it has to be remembered that the immediate question faced by the courts
+is not what shall be done by whom but who has the legal right to do what.
+It is always possible to modify by transactions on the market the initial legal
+delimitation of rights. And, of course, if such market transactions are costless,
+such a rearrangement of rights will always take place if it would lead to
+an increase in the value of production.
+VI. THE COST OF MARKET TRANSACTIONS TAKEN INTO ACCOUNT
+The argument has proceeded up to this point on the assumption (explicit
+in Sections III and IV and tacit in Section V) that there were no costs involved
+in carrying out market transactions. This is, of course, a very unrealistic
+assumption. In order to carry out a market transaction it is necessary
+to discover who it is that one wishes to deal with, to inform people that one
+wishes to deal and on what terms, to conduct negotiations leading up to a
+bargain, to draw up the contract, to undertake the inspection needed to make
+sure that the terms of the contract are being observed, and so on. These
+operations are often extremely costly, sufficiently costly at any rate to prevent
+many transactions that would be carried out in a world in which the
+pricing system worked without cost.
+In earlier sections, when dealing with the problem of the rearrangement of
+legal rights through the market, it was argued that such a rearrangement
+would be made through the market whenever this would lead to an increase
+in the value of production. But this assumed costless market transactions.
+Once the costs of carrying out market transactions are taken into account
+it is clear that such a rearrangement of rights will only be undertaken when
+the increase in the value of production consequent upon the rearrangement
+plaint, if it can be called a complaint, of the invalid lady . . . was of so trifling a character,
+that . . . the Defendant's acts would not have given rise to any proceeding either at law or
+in equity" (11 Chb). 863), That is, the confectioner had not committed a nuisance until
+the doctor built his consulting room. 
+16 THE JOURNAL OF LAW AND ECONOMICS
+is greater than the costs which would be involved in bringing it about. When
+it is less, the granting of an injunction (or the knowledge that it would be
+granted) or the liability to pay damages may result in an activity being discontinued
+(or may prevent i,ts being started) which would be undertaken if
+market transactions were costless. In these conditions the initial delimitation
+of legal rights does have an effect on the efficiency with which the economic
+system operates. One arrangement of rights may bring about a greater
+value of production than any other. But unless this is the arrangement of
+rights established by the legal system, the costs of reaching the same result
+by altering and oombining rights through the market may be so great that
+this optimal arrangement of rights, and the greater value of production which
+it would bring, may never be achieved. The part played by economic considerations
+in the process of delimiting legal rights will be discussed in the
+next section. In this section, I will take the initial delimitation of rights and
+the costs of carrying out market transactions as given.
+It is clear that an alternative form of economic organisation which could
+achieve the same result at less cost than would be incurred by using the
+market would enable the value of production to be raised. As I explained
+many years ago, the firm represents such an alternative to organising production
+through market transactions.14 Within the firm individual bargains
+between the various cooperating factors of production are eliminated and
+for a market transaction is substituted an administrative decision. The rearrangement
+of production then takes place without the need for bargains
+between the owners of the factors of production. A landowner who has control
+of a large tract of land may devote his land to various uses taking into
+account the effect that the interrelations of the various activities will have
+on the net return of the land, thus rendering unnecessary bargains between
+those undertaking the various activities. Owners of a large building or of
+several adjoining properties in a given area may act in much the same way.
+In effect, using our earlier terminology, the firm would acquire the legal
+rights of all the parties and the rearrangement of activities would not follow
+on a rearrangement of rights by contract, but as a result of an administrative
+decision as to how the rights should be used.
+It does not, of course, follow that the administrative costs of organising
+a transaction through a firm are inevitably less than the costs of the market
+transactions which are superseded. But where contracts are peculiarly difficult
+to draw up and an attempt to describe what the parties have agreed to
+do or not to do (e.g. the amount and kind of a smell or noise that they may
+make or will not make) would necessitate a lengthy and highly involved
+document, and, where, as is probable, a long-term contract would be desirS
+See Coase, The Nature of the Firm, 4 Economica, New Series, 386 (1937). Reprinted in
+Readings in Price Theory, 331 (1952). 
+THE PROBLEM OF SOCIAL COST 17
+able;15 it would be hardly surprising if the emergence of a firm or the extension
+of the activities of an existing firm was not the solution adopted on
+many occasions to deal with the problem of harmful effects. This solution
+would be adopted whenever the administrative costs of the firm were less than
+the costs of the market transactions that it supersedes and the gains which
+would result from the rearrangement of activities greater than the firm's
+costs of organising them. I do not need to examine in great detail the character
+of this solution since I have explained what is involved in my earlier
+article.
+But the firm is not the only possible answer to this problem. The administrative
+costs of organising transactions within the firm may also be high,
+and particularly so when many diverse activities are brought within the
+control of a single organisation. In the standard case of a smoke nuisance,
+which may affect a vast number of people engaged in a wide variety of activities,
+the administrative costs might well be so high as to make any attempt
+to deal with the problem within the confines of a single firm impossible. An
+alternative solution is direct Government regulation. Instead of instituting a
+legal system of rights which can be modified by transactions on the market,
+the government may impose regulations which state what people must or
+must not do and which have to be obeyed. Thus, the government (by statute
+or perhaps more likely through an administrative agency) may, to deal with
+the problem of smoke nuisance, decree that certain methods of production
+should or should not be used (e.g. that smoke preventing devices should be
+installed or that coal or oil should not be burned) or may confine certain
+types of business to certain districts (zoning regulations).
+The government is, in a sense, a super-firm (but of a very special kind)
+since it is able to influence the use of factors of production by administrative
+decision. But the ordinary firm is subject to checks in its operations because
+of the competition of other firms, which might administer the same activities
+at lower cost and also because there is always the alternative of market transactions
+as against organisation within the firm if the administrative costs
+become too great. The government is able, if it wishes, to avoid the market
+altogether, which a firm can never do. The firm has to make market agreements
+with the owners of the factors of production that it uses. Just as the
+government can conscript or seize property, so it can decree that factors of
+production should only be used in such-and-such a way. Such authoritarian
+methods save a lot of trouble (for those doing the organising). Furthermore,
+the government has at its disposal the police and the other law enforcement
+agencies to make sure that its regulations are carried out.
+It is clear that the government has powers which might enable it to get
+some things done at a lower cost than could a private organisation (or at any
+"For reasons explained in my earlier article, see Readings in Price Theory, n. 14 at 337. 
+18 THE JOURNAL OF LAW AND ECONOMICS
+rate one without special governmental powers). But the governmental administrative
+machine is not itself costless. It can, in fact, on occasion be
+extremely costly. Furthermore, there is no reason to suppose that the restrictive
+and zoning regulations, made by a fallible administration subject to
+political pressures and operating without any competitive check, will necessarily
+always be those which increase the efficiency with which the economic
+system operates. Furthermore, such general regulations which must
+apply to a wide variety of cases will be enforced in some cases in which they
+are clearly inappropriate. From these considerations it follows that direct
+governmental regulation will not necessarily give better results than leaving
+the problem to be solved by the market or the firm. But equally there is no
+reason why, on occasion, such governmental administrative regulation should
+not lead to an improvement in economic efficiency. This would seem particularly
+likely when, as is normally the case with the smoke nuisance, a large
+number of people are involved and in which therefore the costs of handling
+the problem through the market or the firm may be high.
+There is, of course, a further alternative, which is to do nothing about
+the problem at all. And given that the costs involved in solving the problem
+by regulations issued by the governmental administrative machine will often
+be heavy (particularly if the costs are interpreted to include all the consequences
+which follow from the Government engaging in this kind of activity),
+it will no doubt be commonly the case that the gain which would come from
+regulating the actions which give rise to the harmful effects will be less than
+the costs involved in Government regulation.
+The discussion of the problem of harmful effects in this section (when the
+costs of market transactions are taken into account) is extremely inadequate.
+But at least it has made clear that the problem is one of choosing the appropriate
+social arrangement for dealing with the harmful effects. All solutions
+have costs and there is no reason to suppose that government regulation is
+called for simply because the problem is not well handled by the market or
+the firm. Satisfactory views on policy can only come from a patient study
+of how, in practice, the market, firms and governments handle the problem
+of harmful effects. Economists need to study the work of the broker in
+bringing parties together, the effectiveness of restrictive covenants, the problems
+of the large-scale real-estate development company, the operation of Government
+zoning and other regulating activities. It is my belief that economists,
+and policy-makers generally, have tended to over-estimate the advantages
+which come from governmental regulation. But this belief, even if justified,
+does not do more than suggest that government regulation should be curtailed.
+It does not tell us where the boundary line should be drawn. This, it
+seems to me, has to come from a detailed investigation of the actual results 
+THE PROBLEM OF SOCIAL COST 19
+of handling the problem in different ways. But it would be unfortunate if
+this investigation were undertaken with the aid of a faulty economic analysis.
+The aim of this article is to indicate what the economic approach to the
+problem should be.
+VII. THE LEGAL DELIMITATION OF RIGHTS AND THE ECONOMIC PROBLEM
+The discussion in Section V not only served to illustrate the argument but
+also afforded a glimpse at the legal approach to the problem of harmful
+effects. The cases considered were all English but a similar selection of
+American cases could easily be made and the character of the reasoning would
+have been the same. Of course, if market transactions were costless, all that
+matters (questions of equity apart) is that the rights of the various parties
+should be well-defined and the results of legal actions easy to forecast. But
+as we have seen, the situation is quite different when market transactions are
+so costly as to make it difficult to change the arrangement of rights established
+by the law. In such cases, the courts directly influence economic
+activity. It would therefore seem desirable that the courts should understand
+the economic consequences of their decisions and should, insofar as this is
+possible without creating too much uncertainty about the legal position itself,
+take these consequences into account when making their decisions. Even
+when it is possible to change the legal delimitation of rights through market
+transactions, it is obviously desirable to reduce the need for such transactions
+and thus reduce the employment of resources in carrying them out.
+A thorough examination of the presuppositions of the courts in trying such
+cases would be of great interest but I have not been able to attempt it.
+Nevertheless it is clear from a cursory study that the courts have often
+recognized the economic implications of their decisions and are aware (as
+many economists are not) of the reciprocal nature of the problem. Furthermore,
+from time to time, they take these economic implications into account,
+along with other factors, in arriving at their decisions. The American writers
+on this subject refer to the question in a more explicit fashion than do the
+British. Thus, to quote Prosser on Torts, a person may
+make use of his own property or ... conduct his own affairs at the expense of some
+harm to his neighbors. He may operate a factory whose noise and smoke cause
+some discomfort to others, so long as he keeps within reasonable bounds. It is only
+when his conduct is unreasonable, in the light of its utility and the harm which
+results [italics added], that it becomes a nuisance ..... As it was said in an ancient
+case in regard to candle-making in a town, "Le utility del chose excusera le noisomeness
+del stink."
+The world must have factories, smelters, oil refineries, noisy machinery and
+blasting, even at the expense of some inconvenience to those in the vicinity and the 
+20 THE JOURNAL OF LAW AND ECONOMICS
+plaintiff may be required to accept some not unreasonable discomfort for the
+general good.18
+The standard British writers do not state as explicitly as this that a comparison
+between the utility and harm produced is an element in deciding
+whether a harmful effect should be considered a nuisance. But similar views,
+if less strongly expressed, are to be found.?7 The doctrine that the harmful
+effect must be substantial before the court will act is, no doubt, in part a
+reflection of the fact that there will almost always be some gain to offset the
+harm. And in the reports of individual cases, it is clear that the judges have
+had in mind what would be lost as well as what would be gained in deciding
+whether to grant an injunction or award damages. Thus, in refusing to prevent
+the destruction of a prospect by a new building, the judge stated:
+I know no general rule of common law, which . . . says, that building so as to
+stop another's prospect is a nuisance. Was that the case, there could be no great
+towns; and I must grant injunctions to all the new buildings in this town.... 18
+In Webb v. Bird19 it was decided that it was not a nuisance to build a
+schoolhouse so near a windmill as to obstruct currents of air and hinder the
+working of the mill. An early case seems to have been decided in an opposite
+direction. Gale commented:
+In old maps of London a row of windmills appears on the heights to the north of
+London. Probably in the time of King James it was thought an alarming circumstance,
+as affecting the supply of food to the city, that anyone should build so near
+them as to take the wind out from their sails.20
+In one of the cases discussed in section V, Sturges v. Bridgman, it seems
+clear that the judges were thinking of the economic consequences of alternative
+decisions. To the argument that if the principle that they seemed to be
+following
+~e See W. L. Prosser, The Law of Torts 398-99, 412 (2d ed. 1955). The quotation about
+the ancient case concerning candle-making is taken from Sir James Fitzjames Stephen, A
+General View of the Criminal Law of England 106 (1890). Sir James Stephen gives no
+reference. He perhaps had in mind Rex. v. Ronkett, included in Seavey, Keeton and
+Thurston, Cases on Torts 604 (1950). A similar view to that expressed by Prosser is to be
+found in F. V. Harper and F. James, The Law of Torts 67-74 (19S6); Restatement, Torts
+??826, 827 and 828.
+17 See Winfield on Torts 541-48 (6th ed. T. E. Lewis 1954); Salmond on the Law of Torts
+181-90 (12th ed. R.F.V. Heuston 1957); H. Street, The Law of Torts 221-29 (1959).
+"Attorney General v. Doughty, 2 Ves. Sen. 453, 28 Eng. Rep. 290 (Ch. 1752). Compare
+in this connection the statement of an American judge, quoted in Prosser, op. cit. supra
+n. 16 at 413 n. 54: "Without smoke, Pittsburgh would have remained a very pretty village,"
+Musmanno, J., in Versailles Borough v. McKeesport Coal & Coke Co., 1935, 83 Pitts. Leg.
+J. 379, 385.
+"10 C.B. (N.S.) 268, 142 Eng. Rep. 445 (1861); 13 C.B. (N.S.) 841, 143 Eng. Rep. 332
+(1863).
+~0 See Gale on Easements 238, n. 6 (13th ed. M. Bowles 1959). 
+THE PROBLEM OF SOCIAL COST 21
+were carried out to its logical consequences, it would result in the most serious practical
+inconveniences, for a man might go-say into the midst of the tanneries of
+Bermondsey, or into any other locality devoted to any particular trade or manufacture
+of a noisy or unsavoury character, and by building a private residence upon
+a vacant piece of land put a stop to such trade or manufacture altogether,
+the judges answered that
+whether anything is a nuisance or not is a question to be determined, not merely by
+an abstract consideration of the thing itself, but in reference to its circumstances;
+What would be a nuisance in Belgrave Square would not necessarily be so in Bermondsey;
+and where a locality is devoted to a particular trade or manufacture carried
+on by the traders or manufacturers in a particular and established manner not constituting
+a public nuisance, Judges and juries would be justified in finding, and may be
+trusted to find, that the trade or manufacture so carried on in that locality is not a
+private or actionable wrong.21
+That the character of the neighborhood is relevant in deciding whether something
+is, or is not, a nuisance, is definitely established.
+He who dislikes the noise of traffic must not set up his abode in the heart of a
+great city. He who loves peace and quiet must not live in a locality devoted to
+the business of making boilers or steamships.22
+What has emerged has been described as "planning and zoning by the judiciary."23
+Of course there are sometimes considerable difficulties in applying
+the criteria.24
+An interesting example of the problem is found in Adams v. UrselF5 in
+which a fried fish shop in a predominantly working-class district was set up
+near houses of "a much better character." England without fish-and-chips is
+a contradiction in terms and the case was clearly one of high importance.
+The judge commented:
+It was urged that an injunction would cause great hardship to the defendant
+and to the poor people who get food at his shop. The answer to that is that it does
+not follow that the defendant cannot carry on his business in another more suitable
+place somewhere in the neighbourhood. It by no means follows that because a
+fried fish shop is a nuisance in one place it is a nuisance in another.
+In fact, the injunction which restrained Mr. Ursell from running his shop
+did not even extend to the whole street. So he was presumably able to move
+to other premises near houses of "a much worse character," the inhabitants
+11 Ch.D. 865 (1879).
+"Salmond on the Law of Torts 182 (12th ed. R.F.V. Heuston 1957).
+23 C. M. Haar, Land-Use Planning, A Casebook on the Use, Misuse, and Re-use of Urban
+Land 95 (1959).
+" See, for example, Rushmer v. Polsue and Alfieri, Ltd. [1906] 1 Ch. 234, which deals with
+the case of a house in a quiet situation in a noisy district.
+28 [1913] 1 Ch. 269. 
+22 THE JOURNAL OF LAW AND ECONOMICS
+of which would no doubt consider the availability of fish-and-chips to outweigh
+the pervading odour and "fog or mist" so graphically described by
+the plaintiff. Had ,there been no other "more suitable place in the neighbourhood,"
+the case would have been more difficult and the decision might have
+been different. What would "the poor people" have had for food? No English
+judge would have said: "Let them eat cake."
+The courts do not always refer very clearly to the economic problem posed
+by the cases brought before them but it seems probable that in the interpretation
+of words and phrases like "reasonable" or "common or ordinary use"
+there is some recognition, perhaps largely unconscious and certainly not very
+explicit, of the economic aspects of the questions at issue. A good example
+of this would seem to be the judgment in the Court of Appeals in Andreae v.
+Selfridge and Company Ltd26 In this case, a hotel (in Wigmore Street) was
+situated on part of an island site. The remainder of the site was acquired by
+Selfridges which demolished the existing buildings in order to erect another
+in their place. The hotel suffered a loss of custom in consequence of the noise
+and dust caused by the demolition. The owner of the hotel brought an action
+against Selfridges for damages. In the lower cour.t, the hotel was awarded
+?4,500 damages. The case was then taken on appeal.
+The judge who had found for the hotel proprietor in the lower court said:
+I cannot regard what the defendants did on the site of the first operation as
+having been commonly done in the ordinary use and occupation of land or houses.
+It is neither usual nor common, in this country, for people to excavate a site to
+a depth of 60 feet and then to erect upon that site a steel framework and fasten
+the steel frames together with rivets .... Nor is it, I think, a common or ordinary
+use of land, in this country, to act as the defendants did when they were dealing
+with the site of their second operation-namely, to demolish all the houses that
+they had to demolish, five or six of them I think, if not more, and to use for the
+purpose of demolishing them pneumatic hammers.
+Sir Wilfred Greene, M.R., speaking for the Court of Appeals, first noted
+that when one is dealing with temporary operations, such as demolition and re-building,
+everybody has to put up with a certain amount of discomfort, because operations
+of that kind cannot be carried on at all without a certain amount of noise and a
+certain amount of dust. Therefore, the rule with regard to interference must be read
+subject to this qualification ....
+He then referred to the previous judgment:
+With great respect to the learned judge, I take the view that he has not approached
+this matter from the correct angle. It seems to me that it is not possible to say ...
+that the type of demolition, excavation and construction in which the defendant
+company was engaged in the course of these operations was of such an abnormal
+and unusual nature as to prevent the qualification to which I have referred coming
+26[1938] 1 Ch. 1. 
+THE PROBLEM OF SOCIAL COST 23
+into operation. It seems to me that, when the rule speaks of the common or ordinary
+use of land, it does not mean that the methods of using land and building on it are in
+some way to be stabilised for ever. As time goes on new inventions or new methods
+enable land to be more profitably used, either by digging down into the earth or
+by mounting up into the skies. Whether, from other points of view, that is a matter
+which is desirable for humanity is neither here nor there; but it is part of the normal
+use of land, to make use upon your land, in the matter of construction, of what particular
+type and what particular depth of foundations and particular height of
+building may be reasonable, in the circumstances, and in view of the developments
+of the day .... Guests at hotels are very easily upset. People coming to this hotel,
+who were accustomed to a quiet outlook at the back, coming back and finding demolition
+and building going on, may very well have taken the view that the particular
+merit of this hotel no longer existed. That would be a misfortune for the plaintiff;
+but assuming that there was nothing wrong in the defendant company's works,
+assuming the defendant company was carrying on the demolition and its building,
+productive of noise though it might be, with all reasonable skill, and taking all
+reasonable precautions not to cause annoyance to its neighbors, then the planitiff
+might lose all her clients in the hotel because they have lost the amenities of an open
+and quiet place behind, but she would have no cause of complaint .... [But those]
+who say that their interference with the comfort of their neighbors is justified
+because their operations are normal and usual and conducted with proper care and
+skill are under a specific duty ... to use that reasonable and proper care and skill.
+It is not a correct attitude to take to say: 'We will go on and do what we like until
+somebody complains!' ... Their duty is to take proper precautions and to see that
+the nuisance is reduced to a minimum. It is no answer for them to say: 'But this
+would mean that we should have to do the work more slowly than we would like to
+do it, or it would involve putting us to some extra expense.' All these questions are
+matters of common sense and degree, and quite clearly it would be unreasonable to
+expect people to conduct their work so slowly or so expensively, for the purpose of
+preventing a transient inconvenience, that the cost and trouble would be prohibitive.
+. . . In this case, the defendant company's attitude seems to have been to go on until
+somebody complained, and, further, that its desire to hurry its work and conduct it
+according to its own ideas and its own convenience was to prevail if there was a
+real conflict between it and the comfort of its neighbors. That ... is not carrying
+out the obligation of using reasonable care and skill.... The effect comes to this ...
+the plaintiff suffered an actionable nuisance; . . . she is entitled, not to a nominal
+sum, but to a substantial sum, based upon those principles .. . but in arriving at the
+sum ... I have discounted any loss of custom . . . which might be due to the
+generaloss of amenities owing to what was going on at the back ....
+The upshot was that the damages awarded were reduced from ?4,500 to
+? 1,000.
+The discussion in this section has, up to this point, been concerned with
+court decisions arising out of the common law relating to nuisance. Delimitation
+of rights in this area also comes about because of statutory enactments.
+Most economists would appear to assume that the aim of governmental 
+24 THE JOURNAL OF LAW AND ECONOMICS
+action in this field is to extend the scope of the law of nuisance by designating
+as nuisances activities which would not be recognized as such by the common
+law. And there can be no doubt that some statutes, for example, the Public
+Health Acts, have had this effect. But not all Government enactments are
+of this kind. The effect of much of the legislation in this area is to protect
+businesses from the claims of those they have harmed by their actions. There
+is a long list of legalized nuisances.
+The position has been summarized in Halsbury's Laws of England as
+follows:
+Where the legislature directs that a thing shall in all events be done or authorises
+certain works at a particular place for a specific purposes or grants powers with
+the intention that they shall be exercised, although leaving some discretion as to
+the mode of exercise, no action will lie at common law for nuisance or damage
+which is the inevitable result of carrying out the statutory powers so conferred.
+This is so whether the act causing the damage is authorised for public purposes or
+private profit. Acts done under powers granted by persons to whom Parliament has
+delegated authority to grant such powers, for example, under provisional orders
+of the Board of Trade, are regarded as having been done under statutory authority.
+In the absence of negligence it seems that a body exercising statutory powers will
+not be liable to an action merely because it might, by acting in a different way, have
+minimised an injury.
+Instances are next given of freedom from liability for acts authorized:
+An action has been held not to be against a body exercising its statutory powers
+without negligence in respect of the flooding of land by water escaping from watercourses,
+from water pipes, from drains, or from a canal; the escape of fumes from
+sewers; the escape of sewage: the subsidence of a road over a sewer; vibration or
+noise caused by a railway; fires caused by authorised acts; the pollution of a stream
+where statutory requirements to use the best known method of purifying before
+discharging the effluent have been satisfied; interference with a telephone or telegraph
+system by an elctric tramway; the insertion of poles for tramways in the subsoil;
+annoyance caused by things reasonably necessary for the excavation of authorised
+works; accidental damage caused by the placing of a grating in a roadway; the
+escape of tar acid; or interference with the access of a frontager by a street shelter
+or safety railings on the edge of a pavement.27
+The legal position in the United States would seem to be essentially the
+same as in England, except that the power of the legislatures to authorize
+what would otherwise be nuisances under the common law, at least without
+giving compensation to the person harmed, is somewhat more limited, as it
+is subject to constitutional restrictions.28 Nonetheless, the power is there
+and cases more or less identical with the English cases can be found. The
+at See 30 Halsbury, Law of England 690-91 (3d ed. 1960), Article on Public Authorities
+and Public Officers.
+28 See Prosser, op. cit. supra n. 16 at 421; Harper and James, op. cit. supra n. 16 at 86-87. 
+THE PROBLEM OF SOCIAL COST 25
+question has arisen in an acute form in connection with airports and the
+operation of aeroplanes. The case of Delta Air Corporation v. Kersey, Kersey
+v. City of Atlanta29 is a good example. Mr. Kersey bought land and built
+a house on it. Some years later the City of Atlanta constructed an airport
+on land immediately adjoining that of Mr. Kersey. It was explained that his
+property was "a quiet, peaceful and proper location for a home before the
+airport was built, but dust, noises and low flying of airplanes caused by the
+operation of the airport have rendered his property unsuitable as a home,"
+a state of affairs which was described in the report of the case with a wealth
+of distressing detail. The judge first referred to an earlier case, Thrasher v.
+City of Atlanta30 in which it was noted that the City of Atlanta had been
+expressly authorized to operate an airport.
+By this franchise aviation was recognised as a lawful business and also as an enterprise
+affected with a public interest... all persons using [the airport] in the manner
+contemplated by law are within the protection and immunity of the franchise granted
+by the municipality. An airport is not a nuisance per se, although it might become
+such from the manner of its construction or operation.
+Since aviation was a lawful business affected with a public interest and the
+construction of the airport was autorized by stattite, the judge next referred
+to Georgia Railroad and Banking Co. v. Maddox31 in which it was said:
+Where a railroad terminal yard is located and its construction authorized, under
+statutory powers, if it be constructed and operated in a proper manner, it cannot be
+adjudged a nuisance. Accordingly, injuries and inconveniences to persons residing
+near such a yard, from noises of locomotives, rumbling of cars, vibrations produced
+thereby, and smoke, cinders, soot and the like, which result from the ordinary and
+necessary, therefore proper, use and operation of such a yard, are not nuisances,
+but are the necessary concomitants of the franchise granted.
+In view of this, the judge decided that the noise and dust complained of by
+Mr. Kersey "may be deemed to be incidental to the proper operation of an
+airport, and as such they cannot be said to constitute a nuisance." But the
+complaint against low flying was different:
+. . . can it be said that flights ... at such a low height [25 to 50 feet above Mr.
+Kersey's'house] as to be imminently dangerous to . . . life and health . . . are a
+necessary concomitant of an airport? We do not think this question can be answered
+in the affirmative. No reason appears why the city could not obtain lands of an area
+[sufficiently large] ... as not to require such low flights .... For the sake of public
+convenience adjoining-property owners must suffer such inconvenience from noise
+and dust as result from the usual and proper operation of an airport, but their private
+right$ are entitled to preference in the eyes of the law where the inconvenience is
+not one demanded by a properly constructed and operated airport.
+9 Supreme Court of Georgia. 193 Ga. 862, 20 S.E. 2d 245 (1942).
+3? 178 Ga. 514, 173 S.E. 817 (1934). a 116 Ga. 64, 42 S.E. 315 (1902). 
+26 THE JOURNAL OF LAW AND ECONOMICS
+Of course this assumed that the City of Atlanta could prevent the low flying and continue to operate the airport. The judge therefore added:
+From all that appears, the conditions causing the low flying may be remedied; but if on the trial it should appear that it is indispensable to the public interest that the airport should continue to be operated in its present condition, it may be said that the
+petitioner should be denied injunctive relief.
+In the course of another aviation case, Smith v. New England Aircraft
+Co.?2 the court surveyed the law in the United States regarding the legalizing
+of nuisances and it is apparent that, in the broad, it is very similar to
+that found in England:
+It is the proper function of the legislative department of government in the exercise
+of the police power to consider the problems and risks that arise from the use
+of new inventions and endeavor to adjust private rights and harmonize conflicting interests by comprehensive statutes for the public welfare .... There are ... analogies where the invasion of the airspace over underlying land by noise, smoke, vibration, dust and disagreeable odors, having been authorized by the legislative department ofgovernment and not being in effect a condemnation of the property although in some measure depreciating its market value, must be borne by the land- owner without compensation or remedy. Legislative sanction makes that lawful which otherwise might be a nuisance. Examples of this are damages to adjacent land arising from smoke, vibration and noise in the operation of a railroad .. .; the noise of ringing factory bells
+...
+; the abatement of nuisance~ ... ; the erection
+of steam engines and furnaces . ..; unpleasant odors connected with sewers, oil refining
+and storage of naphtha ....
+Most economists seem to be unaware of all this. When they are prevented from sleeping at night by the roar of jet planes overhead (publicly authorized
+and perhaps publicly operated), are unable to think (or rest) in the day because of the noise and vibration from passing trains (publicly authorized and perhaps publicly operated), find it difficult to breathe because of the odour from a local sewage farm (publicly authorized and perhaps publicly operated) and are unable to escape because their driveways are blocked by
+a road obstruction (without
+any doubt, publicly devised), their nerves frayed and mental balance disturbed, they proceed to declaim about the disadvantages
+of private enterprise and the need for Government regulation. While most economists seem to be under misapprehension a concerning the character of the situation with which they are dealing, it is also the
+case that the activities which they would like to see stopped or curtailed may well be socially justified. It is all a question of weighing up the gains that
+would accrue from eliminating these harmful effects against the gains that
+accrue from allowing them to continue. Of
+course, it is likely that an exten- sion of Government economic activity will often lead to this protection against
+32 270 Mass. 523, 511, 170 N.E. 385, 390 (1930). 
+THE PROBLEM OF SOCIAL COST 27
+action for nuisance being pushed further than is desirable. For one thing,
+the Government is likely to look with a benevolent eye on enterprises which
+it is itself promoting. For another, it is possible to describe the committing of
+a nuisance by public enterprise in a much more pleasant way than when
+the same thing is done by private enterprise. In the words of Lord Justice
+Sir Alfred Denning:
+. . . the significance of the social revolution of today is that, whereas in the past
+the balance was much too heavily in favor of the rights of property and freedom of
+contract, Parliament has repeatedly intervened so as to give the public good its proper
+place.33
+There can be little doubt that the Welfare State is likely to bring an
+extension of that immunity from liability for damage, which economists have
+been in the habit of condemning (although they have tended to assume that
+this immunity was a sign of too little Government intervention in the economic
+system). For example, in Britain, the powers of local authorities are
+regarded as being either absolute or conditional. In the first category, the
+local authority has no discretion in exercising the power conferred on it.
+"The absolute power may be said to cover all the necessary consequences of
+its direct operation even if such consequences amount to nuisance." On the
+other hand, a conditional power may only be exercised in such a way that
+the consequences do not constitute a nuisance.
+It is the intention of the legislature which determines whether a power is absolute
+or conditional .... [As] there is the possibility that the social policy of the legislature
+may change from time to time, a power which in one era would be construed
+as being conditional, might in another era be interpreted as being absolute in order
+to further the policy of the Welfare State. This point is one which should be borne
+in mind when considering some of the older cases upon this aspect of the law of
+nuisance.84
+It would seem desirable to summarize the burden of this long section. The
+problem which we face in dealing with actions which have harmful effects is
+not simply one of restraining those responsible for them. What has to be decided
+is whether the gain from preventing the harm is greater than the loss
+which would be suffered elsewhere as a result of stopping the action which
+produces the harm. In a world in which there are costs of rearranging the rights
+established by the legal system, the courts, in cases relating to nuisance, are,
+in effect, making a decision on the economic problem and determining how
+resources are to be employed. It was argued that the courts are conscious of
+this and that they often make, although not always in a very explicit fashion,
+a comparison between what would be gained and what lost by preventing
+33 See Sir Alfred Denning, Freedom Under the Law 71 (1949).
+34 M. B. Cairns, The Law of Tort in Local Government 28-32 (1954). 
+28 THE JOURNAL OF LAW AND ECONOMICS
+actions which have harmful effects. But the delimitation of rights is also
+the result of statutory enactments. Here we also find evidence of an appreciation
+of the reciprocal nature of the problem. While statutory enactments
+add to the list of nuisances, action is also taken to legalize what would otherwise
+be nuisances under the common law. The kind of situation which economists
+are prone to consider as requiring corrective Government action is,
+in fact, often the result of Government action. Such action is not necessarily
+unwise. But there is a real danger that extensive Government intervention
+in the economic system may lead to the protection of those responsible for
+harmful effects being carried too far.
+VIII. PIGOU'S TREATMENT IN "THE ECONOMICS OF WELFARE"
+The fountainhead for the modern economic analysis of the problem discussed
+in this article is Pigou's Economics of Welfare and, in particular, that
+section of Part II which deals with divergences between social and private
+net products which come about because
+one person A, in the course of rendering some service, for which payment is made,
+to a second person B, incidentally also renders services or disservices to other persons
+(not producers of like services), of such a sort that payment cannot be exacted from
+the benefited parties or compensation enforced on behalf of the injured parties.35
+Pigou tells us that his aim in Part II of The Economics of Welfare is
+to ascertain how far the free play of self-interest, acting under the existing legal
+system, tends to distribute the country's resources in the way most favorable to the
+production of a large national dividend, and how far it is feasible for State action
+to improve upon 'natural' tendencies.36
+To judge from the first part of this statement, Pigou's purpose is to discover
+whether any improvements could be made in the existing arrangements which
+determine the use of resources. Since Pigou's conclusion is that improvements
+could be made, one might have expected him to continue by saying that he
+proposed to set out the changes required to bring them about. Instead, Pigou
+adds a phrase which contrasts "natural" tendencies with State action, which
+seems in some sense to equate the present arrangements with "natural" tendencies
+and to imply that what is required to bring about these improvements
+is State action (if feasible). That this is more or less Pigou's position is evident
+from Chapter I of Part II.37 Pigou starts by referring to "optimistic
+35 A. C. Pigou, The Economics of Welfare 183 (4th ed. 1932). My references will all
+be to the fourth edition but the argument and examples examined in this article remained
+substantially unchanged from the first edition in 1920 to the fourth in 1932. A large part
+(but not all) of this analysis had appeared previously in Wealth and Welfare (1912).
+36 Id. at xii.
+37 Id. at 127-30, 
+THE PROBLEM OF SOCIAL COST 29
+followers of the classical economists"38 who have argued that the value of
+production would be maximised if the Government refrained from any interference
+in the economic system and the economic arrangements were those
+which came about "naturally." Pigou goes on to say that if self-interest does
+promote economic welfare, it is because human institutions have been devised
+to make it so. (This part of Pigou's argument, which he develops with the
+aid of a quotation from Cannan, seems to me to be essentially correct.)
+Pigou concludes:
+But even in the most advanced States there are failures and imperfections ....
+there are many obstacles that prevent a community's resources from being distributed
+... in the most efficient way. The study of these constitutes our present problem.
+. .. its purposes is essentially practical. It seeks to bring into clearer light some
+of the ways in which it now is, or eventually may become, feasible for governments
+to control the play of economic forces in such wise as to promote the economic
+welfare, and through that, the total welfare, of their citizens as a whole.39
+Pigou's underlying thought would appear to be: Some have argued that no
+State action is needed. But the system has performed as well as it has because
+of State action. Nonetheless, there are still imperfections. What additional
+State action is required?
+If this is a correct summary of Pigou's position, its inadequacy can be
+demonstrated by examining the first example he gives of a divergence between
+private and social products.
+It might happen . . . that costs are thrown upon people not directly concerned,
+through, say, uncompensated damage done to surrounding woods by sparks from
+railway engines. All such effects must be included-some of them will be positive,
+others negative elements-in reckoning up the social net product of the marginal
+increment of any volume of resources turned into any use or place.40
+The example used by Pigou refers to a real situation. In Britain, a railway
+does not normally have to compensate those who suffer damage by fire caused
+by sparks from an engine. Taken in conjunction with what he says in Chapter
+9 of Part II, I take Pigou's policy recommendations to be, first, that
+there should be State action to correct this "natural" situation and, second,
+that the railways should be forced to compensate those whose woods are burnt.
+If this is a correct interpretation of Pigou's position, I would argue that the
+first recommendation is based on a misapprehension of the facts and that
+the second is not necessarily desirable.
+,8 In Wealth and Welfare, Pigou attributes the "optimism" to Adam Smith himself and
+not to his followers. He there refers to the "highly optimistic theory of Adam Smith that
+the national dividend, in given circumstances of demand and supply, tends 'naturally'
+to a maximum" (p. 104).
+39 Pigou, op. cit. supra n. 35 at 129-30.
+6o Id. at 134. 
+30 THE JOURNAL OF LAW AND ECONOMICS
+Let us consider the legal position. Under the heading "Sparks from engines,"
+we find the following in Halsbury's Laws of England:
+If railway undertakers use steam engines on their railway without express
+statutory authority to do so, they are liable, irrespective of any negligence on their
+part, for fires caused by sparks from engines. Railway undertakers are, however,
+generally given statutory authority to use steam engines on their railway; accordingly,
+if an engine is constructed with the precautions which science suggests against
+fire and is used without negligence, they are not responsible at common law for
+any damage which may be done by sparks.... In the construction of an engine the
+undertaker is bound to use all the discoveries which science has put within its reach
+in order to avoid doing harm, provided they are such as it is reasonable to require
+the company to adopt, having proper regard to the likelihood of the damage and to
+the cost and convenience of the remedy; but it is not negligence on the part of an
+undertaker if it refuses to use an apparatus the efficiency of which is open to bona
+fide doubt.
+To this general rule, there is a statutory exception arising from the Railway
+(Fires) Act, 1905, as amended in 1923. This concerns agricultural land or
+agricultural crops.
+In such a case the fact that the engine was used under statutory powers does not
+affect the liability of the company in an action for the damage.... These provisions,
+however, only apply where the claim for damage ... does not exceed SL 200, [ ? 100
+in the 1905 Act] and where written notice of the occurrence of the fire and the intention
+to claim has been sent to the company within seven days of the occurrence of the
+damage and particulars of the damage in writing showing the amount of the claim
+in money not exceeding ? 200 have been sent to the company within twenty-one days.
+Agricultural land does not include moorland or buildings and agricultural
+crops do not include those led away or stacked.41 I have not made a close
+study of the parliamentary history of this statutory exception, but to judge
+from debates in the House of Commons in 1922 and 1923, this exception was
+probably designed to help the smallholder.42
+Let us return to Pigou's example of uncompensated damage to surrounding
+woods caused by sparks from railway engines. This is presumably intended
+to show how it is possible "for State action to improve on 'natural' tendencies."
+If we treat Pigou's example as referring to the position before 1905,
+or as being an arbitrary example (in that he might just as well have written
+"surrounding buildings" instead of "surrounding woods"), then it is clear
+that the reason why compensation was not paid must have been that the
+railway had statutory authority to run steam engines (which relieved it of
+liability for fires caused by sparks). That this was the legal position was
+* See 31 Halsbury, Laws of England 474-75 (3d ed. 1960), Article on Railways and
+Canals, from which this summary of the legal position, and all quotations, are taken.
+4 See 152 H.C. Deb. 2622-63 (1922); 161 H.C. Deb. 2935-55 (1923). 
+THE PROBLEM OF SOCIAL COST 31
+established in 1860, in a case, oddly enough, which concerned the burning of
+surrounding woods by a railway,48 and the law on this point has not been
+changed (apart from the one exception) by a century of railway legislation,
+including nationalisation. If we treat Pigou's example of "uncompensated
+damage done to surrounding woods by sparks from railway engines" literally,
+and assume that it refers to the period after 1905, then it is clear that the
+reason why compensation was not paid must have been that the damage was
+more than ?100 (in the first edition of The Economics of Welfare) or more
+than ?200 (in later editions) or that the owner of the wood failed to notify
+the railway in writing within seven days of the fire or did not send particulars
+of the damage, in writing, within twenty-one days. In the real world,
+Pigou's example could only exist as a result of a deliberate choice of the
+legislature. It is not, of course, easy to imagine the construction of a railway
+in a state of nature. The nearest one can get to this is presumably a railway
+which uses steam engines "without express statutory authority." However,
+in this case the railway would be obliged to compensate those whose woods
+it burnt down. That is to say, compensation would be paid in the absence of
+Government action. The only circumstances in which compensation would
+not be paid would be those in which there had been Government action. It
+is strange that Pigou, who clearly thought it desirable that compensation
+should be paid, should have chosen this particular example to demonstrate
+how it is possible "for State action to improve on 'natural' tendencies."
+Pigou seems to have had a faulty view of the facts of the situation. But
+it also seems likely that he was mistaken in his economic analysis. It is not
+necessarily desirable that the railway should be required to compensate those
+who suffer damage by fires caused by railway engines. I need not show here
+that, if the railway could make a bargain with everyone having property
+adjoining the railway line and there were no costs involved in making such
+bargains, it would not matter whether the railway was liable for damage
+caused by fires or not. This question has been treated at length in earlier
+sections. The problem is whether it would be desirable to make the railway
+liable in conditions in which it is too expensive for such bargains to be made.
+Pigou clearly thought it was desirable to force the railway to pay compensation
+and it is easy to see the kind of argument that would have led him to
+this conclusion. Suppose a railway is considering whether to run an additional
+train or to increase the speed of an existing train or to install spark-preventing
+devices on its engines. If the railway were not liable for fire damage, then,
+when making these decisions, it would not take into account as a cost the
+increase in damage resulting from the additional train or the faster train or
+the failure to install spark-preventing devices. This is the source of the di-
+43 Vaughan v. Taff Vale Railway Co., 3 H. and N. 743 (Ex. 1858) and 5 H. and N. 679
+(Ex. 1860). 
+32 THE JOURNAL OF LAW AND ECONOMICS
+vergence between private and social net products. It results in the railway
+performing acts which will lower the value of total production--and which
+it would not do if it were liable for the damage. This can be shown by means
+of an arithmetical example.
+Consider a railway, which is not liable for damage by fires caused by
+sparks from its engines, which runs two trains per day on a certain line.
+Suppose that running one train per day would enable the railway to perform
+services worth $150 per annum and running two trains a day would enable
+the railway to perform services worth $250 per annum. Suppose further that
+the cost of running one train is $50 per annum and two trains $100 per annum.
+Assuming perfect competition, the cost equals the fall in the value of production
+elsewhere due to the employment of additional factors of production
+by the railway. Clearly the railway would find it profitable to run two trains
+per day. But suppose that running one train per day would destroy by fire
+crops worth (on an average over the year) $60 and two trains a day would
+result in the destruction of crops worth $120. In these circumstances running
+one train per day would raise the value of total production but the running
+of a second train would reduce the value of total production. The second
+train would enable additional railway services worth $100 per annum to be
+performed. But the fall in the value of production elsewhere would be $110
+per annum; $50 as a result of the employment of additional factors of production
+and $60 as a result of the destruction of crops. Since it would be
+better if the second train were not run and since it would not run if the railway
+were liable for damage caused to crops, the conclusion that the railway
+should be made liable for the damage seems irresistable. Undoubtedly it is
+this kind of reasoning which underlies the Pigovian position.
+The conclusion that it would be better if the second train did not run is
+correct. The conclusion that it is desirable that the railway should be made
+liable for the damage it causes is wrong. Let us change our assumption
+concerning the rule of liability. Suppose that the railway is liable for damage
+from fires caused by sparks from the engine. A farmer on lands adjoining
+the railway is then in the position that, if his crop is destroyed by fires caused
+by the railway, he will receive the market price from the railway; but if his
+crop is not damaged, he will receive the market price by sale. It therefore
+becomes a matter of indifference to him whether his crop is damaged by fire
+or not. The position is very different when the railway is not liable. Any
+crop destruction through railway-caused fires would then reduce the receipts
+of the farmer. He would therefore take out of cultivation any land for which
+the damage is likely to be greater than the net return of the land (for reasons
+explained at length in Section III). A change from a regime in which the
+railway is not liable for damage to one in which it is liable is likely therefore
+to lead to an increase in the amount of cultivation on lands adjoining the 
+THE PROBLEM OF SOCIAL COST 33
+railway. It will also, of course, lead to an increase in the amount of crop
+destruction due to railway-caused fires.
+Let us return to our arithmetical example. Assume that, with the changed
+rule of liability, there is a doubling in the amount of crop destruction due to
+railway-caused fires. With one train per day, crops worth $120 would be
+destroyed each year and two trains per day would lead to the destruction of
+crops worth $240. We saw previously that it would not be profitable to run
+the second train if the railway had to pay $60 per annum as compensation
+for damage. With damage at $120 per annum the loss from running the
+second train would be $60 greater. But now let us consider the first train.
+The value of the transport services furnished by the first train is $150. The
+cost of running the train is $50. The amount that the railway would have to
+pay out as compensation for damage is $120. It follows that it would not
+be profitable to run any trains. With the figures in our example we reach
+the following result: if the railway is not liable for fire-damage, two trains per
+day would be run; if the railway is liable for fire-damage, it would cease
+operations altogether. Does this mean that it is better that there should be
+no railway? This question can be resolved by considering what would happen
+to the value of total production if it were decided to exempt the railway
+from liability for fire-damage, thus bringing it into operation (with two
+trains per day).
+The operation of the railway would enable transport services worth $250
+to be performed. It would also mean the employment of factors of production
+which would reduce the value of production elsewhere by $100. Furthermore
+it would mean the destruction of crops worth $120. The coming of the railway
+will also have led to the abandonment of cultivation of some land. Since
+we know that, had this land been cultivated, the value of the crops destroyed
+by fire would have been $120, and since it is unlikely that the total crop on
+this land would have been destroyed, it seems reasonable to suppose that the
+value of the crop yield on this land would have been higher than this.
+Assume it would have been $160. But the abandonment of cultivation would
+have released factors of production for employment elsewhere. All we know
+is that the amount by which the value of production elsewhere will increase
+will be less than $160. Suppose that it is $150. Then the gain from operating
+the railway would be $250 (the value of the transport services) minus $100
+(the cost of the factors of production) minus $120 (the value of crops destroyed
+by fire) minus $160 (the fall in the value of crop production due to
+the abandonment of cultivation) plus $150 (the value of production elsewhere
+of the released factors of production). Overall, operating the railway
+will increase the value of total production by $20. With these figures it is
+clear that it is better that the railway should not be liable for the damage
+it causes, thus enabling it to operate profitably. Of course, by altering the 
+34 THE JOURNAL OF LAW AND ECONOMICS
+figures, it could be shown that there are other cases in which it would be
+desirable that the railway should be liable for the damage it causes. It is
+enough for my purpose to show that, from an economic point of view, a
+situation in which there is "uncompensated damage done to surrounding
+woods by sparks from railway engines" is not necessarily undesirable.
+Whether it is desirable or not depends on the particular circumstances.
+How is it that the Pigovian analysis seems to give the wrong answer? The
+reason is that Pigou does not seem to have noticed that his analysis is dealing
+with an entirely different question. The analysis as such is correct. But
+it is quite illegitimate for Pigou to draw the particular conclusion he does.
+The question at issue is not whether it is desirable to run an additional train
+or a faster train or to install smoke-preventing devices; the question at
+issue is whether it is desirable to have a system in which the railway has to
+compensate those who suffer damage from the fires which it causes or one
+in which the railway does not have to compensate them. When an economist
+is comparing alternative social arrangements, the proper procedure is to
+compare the total social product yielded by these different arrangements.
+The comparison of private and social products is neither here nor there. A
+simple example will demonstrate this. Imagine a town in which there are
+traffic lights. A motorist approaches an intersection and stops because the
+light is red. There are no cars approaching the intersection on the other
+street. If the motorist ignored the red signal, no accident would occur and
+the total product would increase because the motorist would arrive earlier
+at his destination. Why does he not do this? The reason is that if he ignored
+the light he would be fined. The private product from crossing the street is
+less than the social product. Should we conclude from this that the total
+product would be greater if there were no fines for failing to obey traffic
+signals? The Pigovian analysis shows us that it is possible to conceive of
+better worlds than the one in which we live. But the problem is to devise
+practical arrangements which will correct defects in one part of the system
+without causing more serious harm in other parts.
+I have examined in considerable detail one example of a divergence between
+private and social products and I do not propose to make any further
+examination of Pigou's analytical system. But the main discussion of the
+problem considered in this article is to be found in that part of Chapter 9
+in Part II which deals with Pigou's second class of divergence and it is of
+interest to see how Pigou develops his argument. Pigou's own description
+of this second class of divergence was quoted at the beginning of this section.
+Pigou distinguishes between the case in which a person renders services for
+which he receives no payment and the case in which a person renders disservices
+and compensation is not given to the injured parties. Our main
+attention has, of course, centred on this second case. It is therefore rather 
+THE PROBLEM OF SOCIAL COST 35
+astonishing to find, as was pointed out to me by Professor Francesco Forte,
+that the problem of the smoking chimneysthe "stock instance"44 or "classroom
+example"45 of the second case-is used by Pigou as an example of the
+first case (services rendered without payment) and is never mentioned, at
+any rate explicitly, in connection with the second case.46 Pigou points out
+that factory owners who devote resources to preventing their chimneys from
+smoking render services for which they receive no payment. The implication,
+in the light of Pigou's discussion later in the chapter, is that a factory owner
+with a smokey chimney should be given a bounty to induce him to install
+smoke-preventing devices. Most modern economists would suggest that the
+owner of the factory with the smokey chimney should be taxed. It seems a
+pity that economists (apart from Professor Forte) do not seem to have
+noticed this feature of Pigou's treatment since a realisation that the problem
+could be tackled in either of these two ways would probably have led to an
+explicit recognition of its reciprocal nature.
+In discussing the second case (disservices without compensation to those
+damaged), Pigou says that they are rendered "when the owner of a site in
+a residential quarter of a city builds a factory there and so destroys a great
+part of the amenities of neighbouring sites; or, in a less degree, when he
+uses his site in such a way as to spoil the lighting of the house opposite;
+or when he invests resources in erecting buildings in a crowded centre, which
+by contracting the air-space and the playing room of the neighbourhood,
+tend to injure the health and efficiency of the families living there."47 Pigou
+is, of course, quite right to describe such actions as "uncharged disservices."
+But he is wrong when he describes these actions as "anti-social."48 They may
+or may not be. It is necessary to weigh the harm against the good that will
+result. Nothing could be more "anti-social" than to oppose any action which
+causes any harm to anyone.
+The example with which Pigou opens his discussion of "uncharged disservices"
+is not, as I have indicated, the case of the smokey chimney but the
+case of the overrunning rabbits: "... incidental uncharged disservices are
+rendered to third parties when the game-preserving activities of one occupier
+involve the overrunning of a neighbouring occupier's land by rabbits ... ."
+This example is of extraordinary interest, not so much because the economic
+44Sir Dennis Robertson, I Lectures on Economic Principles 162 (1957).
+45 E. J. Mishan, The Meaning of Efficiency in Economics, 189 The Bankers' Magazine
+482 (June 1960).
+46 Pigou, op. cit. supra n. 35 at 184.
+47 Id. at 185-86.
+4s Id. at 186 n.1. For similar unqualified statements see Pigou's lecture "Some Aspects of
+the Housing Problem" in B. S. Rowntree and A. C. Pigou, Lectures on Housing, in 18 Manchester
+Univ. Lectures (1914). 
+36 THE JOURNAL OF LAW AND ECONOMICS
+analysis of the case is essentially any different from that of the other examples,
+but because of the peculiarities of the legal position and the light it
+throws on the part which economics can play in what is apparently the
+purely legal question of the delimitation of rights.
+The problem of legal liability for the actions of rabbits is part of the
+general subject of liability for animals.49 I will, although with reluctance,
+confine my discussion to rabbits. The early cases relating to rabbits concerned
+the relations between the lord of the manor and commoners, since,
+from the thirteenth century on, it became usual for the lord of the manor
+to stock the commons with conies (rabbits), both for the sake of the meat
+and the fur. But in 1597, in Boulston's case, an action was brought by one
+landowner against a neighbouring landowner, alleging that the defendant
+had made coney-burrows and that the conies had increased and had destroyed
+the plaintiff's corn. The action failed for the reason that
+... so soon as the coneys come on his neighbor's land he may kill them, for they
+are ferae naturae, and he who makes the coney-boroughs has no property in them,
+and he shall not be punished for the damage which the coneys do in which he has
+no property, and which the other may lawfully kill.50
+As Boulston's case has been treated as binding-Bray, J., in 1919, said
+that he was not aware that Boulston's case has ever been overruled or questioned51-Pigou's
+rabbit example undoubtedly represented the legal position
+at the time The Economics of Welfare was written.52 And in this case, it is
+not far from the truth to say that the state of affairs which Pigou describes
+came about because of an absence of Government action (at any rate in the
+form of statutory enactments) and was the result of "natural" tendencies.
+Nonetheless, Boulston's case is something of a legal curiousity and Professor
+Williams makes no secret of his distaste for this decision:
+49 See G. L. Williams, Liability for Animals-An Account of the Development and Present
+Law of Tortious Liability for Animals, Distress Damage Feasant and the Duty to Fence,
+in Great Britain, Northern Ireland and the Common Law Dominions (1939). Part Four,
+"The Action of Nuisance, in Relation to Liability for Animals," 236-62, is especially relevant
+to our discussion. The problem of liability for rabbits is discussed in this part, 238-47.
+I do not know how far the common law in the United State regarding liability for animals
+has diverged from that in Britain. In some Western States of the United States, the English
+common law regarding the duty to fence has not been followed, in part because "the considerable
+amount of open, uncleared land made it a matter of public policy to allow
+cattle to run at large" (Williams, op. cit. supra 227). This affords a good example of how
+a different set of circumstances may make it economically desirable to change the legal rule
+regarding the delimitation of rights.
+50 5 Coke (Vol. 3) 104 b. 77 Eng. Rep., 216, 217.
+sSee Steam v. Prentice Bros. Ltd., (1919) 1 K.B., 395, 397.
+52 have not looked into recent cases. The legal position has also been modified by
+statutory enactments. 
+THE PROBLEM OF SOCIAL COST 37
+The conception of liability in nuisance as being based upon ownership is the
+result, apparently, of a confusion with the action of cattle-trespass, and runs counter
+both to principle and to the medieval authorities on the escape of water, smoke
+and filth .... The prerequisite of any satisfactory treatment of the subject is the
+final abandonment of the pernicious doctrine in Boulston's case .... Once Boulston's
+case disappears, the way will be clear for a rational restatement of the whole subject,
+on lines that will harmonize with the principles prevailing in the rest of the law
+of nuisance.53
+The judges in Boulston's case were, of course, aware that their view of the
+matter depended on distinguishing this case from one involving nuisance:
+This cause is not like to the cases put, on the other side, of erecting a lime-kiln,
+dye-house, or the like; for there the annoyance is by the act of the parties who make
+them; but it is not so here, for the conies of themselves went into the plaintiff's land,
+and he might take them when they came upon his land, and make profit of them.64
+Professor Williams comments:
+Once more the atavistic idea is emerging that the animals are guilty and not the
+landowner. It is not, of course, a satisfactory principle to introduce into a modern
+law of nuisance. If A. erects a house or plants a tree so that the rain runs or drips from
+it on to B.'s land, this is A.'s act for which he is liable; but if A. introduces rabbits
+into his land so that they escape from it into B.'s, this is the act of the rabbits for
+which A. is not liable-such is the specious distinction resulting from Boulston's
+case.55
+It has to be admitted that the decision in Boulston's case seems a little
+odd. A man may be liable for damage caused by smoke or unpleasant smells,
+without it being necessary to determine whether he owns the smoke or the
+smell. And the rule in Boulston's case has not always been followed in cases
+dealing with other animals. For example, in Bland v. Yatesfi6 it was decided
+that an injunction could be granted to prevent someone from keeping an
+unusual and excessive collection of manure in which flies bred and which
+infested a neighbour's house. The question of who owned the flies was not
+raised. An economist would not wish to object because legal reasoning sometimes
+appears a little odd. But there is a sound economic reason for supporting
+Professor Williams' view that the problem of liability for animals
+(and particularly rabbits) should be brought within the ordinary law of
+nuisance. The reason is not that the man who harbours rabbits is solely
+responsible for the damage; the man whose crops are eaten is equally responsible.
+And given that the costs of market transactions make a rearrange-
+53 Williams, op. cit. supra n. 49 at 242, 258.
+Boulston v. Hardy, Cro. Eliz., 547, 548, 77 Eng. Rep. 216.
+56 Williams, op. cit. supra n. 49 at 243.
+r~ 58 Sol.J. 612 (1913-1914). 
+38 THE JOURNAL OF LAW AND ECONOMICS
+meat of rights impossible, unless we know the particular circumstances, we
+cannot say whether it is desirable or not to make the man who harbours
+rabbits responsible for the damage committed by the rabbits on neighbouring
+properties. The objection to the rule in Boulston's case is that, under it,
+the harbourer of rabbits can never be liable. It fixes the rule of liability at
+one pole: and this is as undesirable, from an economic point of view, as
+fixing the rule at the other pole and making the harbourer of rabbits always
+liable. But, as we saw in Section VII, the law of nuisance, as it is in fact
+handled by the courts, is flexible and allows for a comparison of the utility
+of an act with the harm it produces. As Professor Williams says: "The whole
+law of nuisance is an attempt to reconcile and compromise between conflicting
+interests...."57 To bring the problem of rabbits within the ordinary
+law of nuisance would not mean inevitably making the harbourer of rabbits
+liable for damage committed by the rabbits. This is not to say that the sole
+task of the courts in such cases is to make a comparison between the harm
+and the utility of an act. Nor is it to be expected that the courts will always
+decide correctly after making such a comparison. But unless the courts act
+very foolishly, the ordinary law of nuisance would seem likely to give economically
+more satisfactory results than adopting a rigid rule. Pigou's case
+of the overrunning rabbits affords an excellent example of how problems of
+law and economics are interrelated, even though the correct policy to follow
+would seem to be different from that envisioned by Pigou.
+Pigou allows one exception to his conclusion that there is a divergence
+between private and social products in the rabbit example. He adds: "...
+unless . . . the two occupiers stand in the relation of landlord and tenant,
+so that compensation is given in an adjustment of the rent."58 This qualification
+is rather surprising since Pigou's first class of divergence is largely
+concerned with the difficulties of drawing up satisfactory contracts between
+landlords and tenants. In fact, all the recent cases on the problem of rabbits
+cited by Professor Williams involved disputes between landlords and tenants
+concerning sporting rights?59 Pigou seems to make a distinction between the
+case in which no contract is possible (the second class) and that in which
+the contract is unsatisfactory (the first class). Thus he says that the second
+class of divergences between private and social net product
+cannot, like divergences due to tenancy laws, be mitigated by a modification of the
+contractual relation between any two contracting parties, because the divergence
+arises out of a service or disservice rendered to persons other than the contracting
+parties.6?
+7 Williams, op. cit. supra n. 49 at 259.
+58 Pigou, op. cit. supra n. 35 at 185.
+59 Williams, op. cit. supra n. 49 at 244-47.
+60 Pigou, op. cit. supra n. 35 at 192. 
+THE PROBLEM OF SOCIAL COST 39
+But the reason why some activities are not the subject of contracts is exactly
+the same as the reason why some contracts are commonly unsatisfactoryit
+would cost too much to put the matter right. Indeed, the two cases are
+really the same since the contracts are unsatisfactory because they do not
+cover certain activities. The exact bearing of the discussion of the first class
+of divergence on Pigou's main argument is difficult to discover. He shows
+that in some circumstances contractual relations between landlord and tenant
+may result in a divergence between private and social products.61 But he
+also goes on to show that Government-enforced compensation schemes and
+rent-controls will also produce divergences.62 Furthermore, he shows that,
+when the Government is in a similar position to a private landlord, e.g. when
+granting a franchise to a public utility, exactly the same difficulties arise
+as when private individuals are involved.63 The discussion is interesting but
+I have been unable to discover what general conclusions about economic
+policy, if any, Pigou expects us to draw from it.
+Indeed, Pigou's treatment of the problems considered in this article is
+extremely elusive and the discussion of his views raises almost insuperable
+difficulties of interpretation. Consequently it is impossible to be sure that
+one has understood what Pigou really meant. Nevertheless, it is difficult to
+resist the conclusion, extroardinary though this may be in an economist of
+Pigou's stature, that the main source of this obscurity is that Pigou had not
+thought his position through.
+IX. THE PIGOVIAN TRADITION
+It is strange that a doctrine as faulty as that developed by Pigou should
+have been so influential, although part of its success has probably been due
+to the lack of clarity in the exposition. Not being clear, it was never clearly
+wrong. Curiously enough, this obscurity in the source has not prevented the
+emergence of a fairly well-defined oral tradition. What economists think
+they learn from Pigou, and what they tell their students, which T term the
+Pigovian tradition, is reasonably clear. I propose to show the inadequacy of
+this Pigovian tradition by demonstrating that both the analysis and the
+policy conclusions which it supports are incorrect.
+I do not propose to justify my view as to the prevailing opinion by copious
+references to the literature. I do this partly because the treatment in the
+literature is usually so fragmentary, often involving little more than a reference
+to Pigou plus some explanatory comment, that detailed examination
+would be inappropriate. But the main reason for this lack of reference is
+that the doctrine, although based on Pigou, must have been largely the
+product of an oral tradition. Certainly economists with whom I have discussed
+these problems have shown a unanimity of opinion which is quite
+61 Id. 174-75. 62 Id. 177-83. 6Id. 175-77. 
+40 THE JOURNAL OF LAW AND ECONOMICS
+remarkable considering the meagre treatment accorded this subject in the
+literature. No doubt there are some economists who do not share the usual
+view but they must represent a small minority of the profession.
+The approach to the problems under discussion is through an examination
+of the value of physical production. The private product is the value of the
+additional product resulting from a particular activity of a business. The
+social product equals the private product minus the fall in the value of production
+elsewhere for which no compensation is paid by the business. Thus,
+if 10 units of a factor (and no other factors) are used by a business to make
+a certain product with a value of $105; and the owner of this factor is not
+compensated for their use, which he is unable to prevent; and these 10 units
+of the factor would yield products in their best alternative use worth $100;
+then, the social product is $105 minus $100 or $5. If the business now pays
+for one unit of the factor and its price equals the value of its marginal
+product, then the social product rises to $15. If two units are paid for, the
+social product rises to $25 and so on until it reaches $105 when all units of
+the factor are paid for. It is not difficult to see why economists have so
+readily accepted this rather odd procedure. The analysis focusses on the
+individual business decision and since the use of certain resources is not
+allowed for in costs, receipts are reduced by the same amount. But, of course,
+this means that the value of the social product has no social significance
+whatsoever. It seems to me preferable to use the opportunity cost concept
+and to approach these problems by comparing the value of the product
+yielded by factors in alternative uses or by alternative arrangements. The
+main advantage of a pricing system is that it leads to the employment of
+factors in places where the value of the product yielded is greatest and does
+so at less cost than alternative systems (I leave aside that a pricing system
+also eases the problem of the redistribution of income). But if through
+some God-given natural harmony factors flowed to the places where the
+value of the product yielded was greatest without any use of the pricing
+system and consequently there was no compensation, I would find it a
+source of surprise rather than a cause for dismay.
+The definition of the social product is queer but this does not mean that
+the conclusions for policy drawn from the analysis are necessarily wrong.
+However, there are bound to be dangers in an approach which diverts attention
+from the basic issues and there can be little doubt that it has been
+responsible for some of the errors in current doctrine. The belief that it is
+desirable that the business which causes harmful effects should be forced
+to compensate those who suffer damage (which was exhaustively discussed
+in section VIII in connection with Pigou's railway sparks example) is undoubtedly
+the result of not comparing the total product obtainable with
+alternative social arrangements. 
+THE PROBLEM OF SOCIAL COST 41
+The same fault is to be found in proposals for solving the problem of
+harmful effects by the use of taxes or bounties. Pigou lays considerable stress
+on this solution although he is, as usual, lacking in detail and qualified in
+his support.64 Modern economists tend to think exclusively in terms of
+taxes and in a very precise way. The tax should be equal to the damage
+done and should therefore vary with the amount of the harmful effect. As
+it is not proposed that the proceeds of the tax should be paid to those suffering
+the damage, this solution is not the same as that which would force a
+business to pay compensation to those damaged by its actions, although
+economists generally do not seem to have noticed this and tend to treat the
+two solutions as being identical.
+Assume that a factory which emits smoke is set up in a district previously
+free from smoke pollution, causing damage valued at $100 per annum.
+Assume that the taxation solution is adopted and that the factory owner
+is taxed $100 per annum as long as the factory emits the smoke. Assume
+further that a smoke-preventing device costing $90 per annum to run is
+available. In these circumstances, the smoke-preventing device would be
+installed. Damage of $100 would have been avoided at an expenditure of
+$90 and the factory-owner would be better off by $10 per annum. Yet the
+position achieved may not be optimal. Suppose that those who suffer the
+damage could avoid it by moving to other locations or by taking various
+precautions which would cost them, or be equivalent to a loss in income of,
+$40 per annum. Then there would be a gain in the value of production of
+$50 if the factory continued to emit its smoke and those now in the district
+moved elesewhere or made other adjustments to avoid the damage. If the
+factory owner is to be made to pay a tax equal to the damage caused, it
+would clearly be desirable to institute a double tax system and to make
+residents of the district pay an amount equal to the additional cost incurred
+by the factory owner (or the consumers of his products) in order to avoid
+the damage. In these conditions, people would not stay in the district or
+would take other measures to prevent the damage from occurring, when the
+costs of doing so were less than the costs that would be incurred by the producer
+to reduce the damage (.the producer's object, of course, being not so
+much to reduce the damage as to reduce the tax payments). A tax system
+which was confined to a tax on the producer for damage caused would tend to
+lead to unduly high costs being incurred for the prevention of damage. Of
+course this could be avoided if it were possible to base the tax, not on the
+damage caused, but on the fall in the value of production (in its widest
+sense) resulting from the emission of smoke. But to do so would require a
+detailed knowledge of individual preferences and I am unable to imagine
+how the data needed for such a taxation system could be assembled. Indeed,
+" Id. 192-4, 381 and Public Finance 94-100 (3d ed. 1947). 
+42 THE JOURNAL OF LAW AND ECONOMICS
+the proposal to solve the smoke-pollution and similar problems by the use
+of taxes bristles with difficulties: the problem of calculation, the difference
+between average and marginal damage, the interrelations between the damage
+suffered on different properties, etc. But i.t is unnecessary to examine these
+problems here. It is enough for my purpose to show that, even if the tax
+is exactly adjusted to equal the damage that would be done to neighboring
+properties as a result of the emission of each additional puff of smoke, the
+tax would not necessarily bring about optimal conditions. An increase in the
+number of people living or of business operating in the vicinity of the
+smoke-emitting factory will increase the amount of harm produced by a
+given emission of smoke. The tax that would be imposed would therefore
+increase with an increase in the number of those in the vicinity. This will
+tend to lead to a decrease in the value of production of the factors employed
+by the factory, either because a reduction in production due to the tax will
+result in factors being used elsewhere in ways which are less valuable, or
+because factors will be diverted to produce means for reducing the amount
+of smoke emitted. But people deciding to establish themselves in the vicinity
+of the factory will not take into account this fall in the value of production
+which results from their presence. This failure to take into account costs
+imposed on others is comparable to the action of a factory-owner in not
+taking into account the harm resulting from his emission of smoke. Without
+the tax, there may be too much smoke and too few people in the vicinity
+of the factory; but with the tax there may be too little smoke and too many
+people in the vicinity of the factory. There is no reason to suppose that one
+of these results is necessarily preferable.
+I need not devote much space to discussing the similar error involved in
+the suggestion that smoke producing factories should, by means of zoning
+regulations, be removed from the districts in which the smoke causes harmful
+effects. When the change in the location of the factory results in a reduction
+in production, this obviously needs to be taken into account and
+weighed against the harm which would result from the factory remaining
+in that location. The aim of such regulation should not be to eliminate
+smoke pollution but rather to secure the optimum amount of smoke pollution,
+this being the amount which will maximise the value of production.
+X. A CHANGE OF APPROACH
+It is my belief that the failure of economists to reach correct conclusions
+about the treatment of harmful effects cannot be ascribed simply to a few
+slips in analysis. It stems from basic defects in the curren,t approach to
+problems of welfare economics. What is needed is a change of approach.
+Analysis in terms of divergencies between private and social products
+concentrates attention on particular deficiencies in the system and tends to 
+THE PROBLEM OF SOCIAL COST 43
+nourish the belief that any measure which will remove the deficiency is
+necessarily desirable. It diverts attention from those other changes in the
+system which are inevitably associated with the corrective measure, changes
+which may well produce more harm than the original deficiency. In the
+preceding sections of this article, we have seen many examples of this. But
+it is not necessary to approach the problem in this way. Economists who
+study problems of the firm habitually use an opportunity cost approach
+and compare the receipts obtained from a given combination of factors with
+alternative business arrangements. It would seem desirable to use a similar
+approach when dealing with questions of economic policy and to compare
+the total product yielded by alternative social arrangements. In this article,
+the analysis has been confined, as is usual in this part of economics, to comparisons
+of the value of production, as measured by the market. But it is,
+of course, desirable that the choice between different social arrangements
+for the solution of economic problems should be carried out in broader terms
+than this and that the total effect of these arrangements in all spheres of
+life should be taken into account. As Frank H. Knight has so often emphasized,
+problems of welfare economics must ultimately dissolve into a study
+of aesthetics and morals.
+A second feature of the usual treatment of the problems discussed in this
+article is that the analysis proceeds in terms of a comparison between a
+state of laissez faire and some kind of ideal world. This approach inevitably
+leads to a looseness of thought since the nature of the alternatives being
+compared is never clear. In a state of laissez faire, is there a monetary, a
+legal or a political system and if so, what are they? In an ideal world, would
+there be a monetary, a legal or a political system and if so, what would they
+be? The answers to all these questions are shrouded in mystery and every
+man is free to draw whatever conclusions he likes. Actually very little analysis
+is required to show that an ideal world is better than a state of laissez
+faire, unless the definitions of a state of laissez faire and an ideal world
+happen to be the same. But the whole discussion is largely irrelevant for
+questions of economic policy since whatever we may have in mind as our
+ideal world, it is clear that we have not yet discovered how to get to it from
+where we are. A better approach would seem to be to start our analysis with
+a situation approximating that which actually exists, to examine the effects
+of a proposed policy change and to attempt to decide whether the new situation
+would be, in total, better or worse than the original one. In this way,
+conclusions for policy would have some relevance to the actual situation.
+A final reason for the failure to develop a theory adequate to handle the
+problem of harmful effects stems from a faulty concept of a factor of production.
+This is usually thought of as a physical entity which the businessman
+acquires and uses (an acre of land, a ton of fertiliser) instead of as a 
+44 THE JOURNAL OF LAW AND ECONOMICS
+right to perform certain (physical) actions. We may speak of a person owning
+land and using it as a factor of production but what the land-owner in fact
+possesses is the right to carry out a circumscribed list of actions. The rights
+of a land-owner are not unlimited. It is not even always possible for him to
+remove the land to another place, for instance, by quarrying it. And although
+it may be possible for him to exclude some people from using "his" land, this
+may not be true of others. For example, some people may have the right to
+cross the land. Furthermore, it may or may not be possible to erect certain
+types of buildings or to grow certain crops or to use particular drainage
+systems on the land. This does not come about simply because of Government
+regulation. It would be equally true under the common law. In fact
+it would be true under any system of law. A system in which the rights of
+individuals were unlimited would be one in which there were no rights to
+acquire.
+If factors of production are thought of as rights, it becomes easier to
+understand that the right to do something which has a harmful effect (such
+as the creation of smoke, noise, smells, etc.) is also a factor of producti )m.
+Just as we may use a piece of land in such a way as to prevent someone
+else from crossing it, or parking his car, or building his house upon it, so
+we may use it in such a way as to deny him a view or quiet or unpolluted
+air. The cost of exercising a right (of using a factor of production) is always
+the loss which is suffered elsewhere in consequence of the exercise of that
+right-the inability to cross land, to park a car, to build a house, to enjoy
+a view, to have peace and quiet or to breathe clean air.
+It would clearly be desirable if the only actions performed were those in
+which what was gained was worth more than what was lost. But in choosing
+between social arrangements within the context of which individual decisions
+are made, we have to bear in mind that a change in the existing system
+which will lead to an improvement in some decisions may well lead to a
+worsening of others. Furthermore we have to take into account the costs
+involved in operating the various social arrangements (whether it be the
+working of a market or of a government department), as well as the costs
+involved in moving to a new system. In devising and choosing between social
+arrangements we should have regard for the total effect. This, above all, is
+the change in approach which I am advocating. 

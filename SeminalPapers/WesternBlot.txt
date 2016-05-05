@@ -1,0 +1,426 @@
+ABSTRACT A method has been devised for the electrophoretic
+transfer of proteins from polyacrylamide gels to nitrocellulose
+sheets. The method results in quantitative transfer
+of ribosomal proteins from gels containing urea. For sodium
+dodecyl sulfate gels, the original band pattern was obtained
+with no loss of resolution, but the transfer was not quantitative.
+The method allows detection of proteins by autoradiography
+and is simpler than conventional procedures. The immobilized
+proteins were detectable by immunological procedures. All
+additional binding capacity on the nitrocellulose was blocked
+with excess protein; then a specific antibody was bound and,
+finally, a second antibody directed against the first antibody.
+The second antibody was either radioactively labeled or conjugated
+to fluorescein or to peroxidase. The specific protein was
+then detected by either autoradiography, under UV light, or by
+the peroxidase reaction product, respectively. In the latter case,
+as little as 100 pg of protein was clearly detectable. It is anticipated
+that the procedure will be applicable to analysis of a wide
+variety of proteins with specific reactions or ligands.
+Polyacrylamide gel electrophoresis has become a standard tool
+in every laboratory in which proteins are analyzed and purified.
+Most frequently, the amount and location of the protein are of
+interest and staining is then sufficient. However, it may also be
+important to correlate an activity of a protein with a particular
+band on the gel. Enzymatic and binding activities can sometimes
+be detected in situ by letting substrates or ligands diffuse
+into the gel (1, 2). In immunoelectrophoresis, the antigen is
+allowed to diffuse (3) or electrophoretically move (4) against
+antibody. A precipitate is then formed where the antigen and
+antibody interact. Modifications have been described in which
+the antigen is precipitated by directly soaking the separation
+matrix in antiserum (5, 6). The range of gel electrophoretic
+separation systems is limited by the pore size of the gels and
+diffusion of the antibody. The systems are also dependent on
+concentration and type of antigen or antibody to give a physically
+immobile aggregate.
+Analysis of cloned DNA has been revolutionized (7) by the
+ability to fractionate the DNA electrophoretically in polyacrylamide/agarose
+gels first and then to obtain a faithful replica
+of the original gel pattern by blotting the DNA onto a sheet of
+nitrocellulose on which it is immobilized. The immobilized
+DNA can then be analyzed by in situ hybridization. The power
+of immobilized two-dimensional arrays has been extended to
+the analysis of proteins by use of antibody-coated plastic sheets
+to pick up the corresponding antigen from colonies on agar
+plates (8). Sharon et al. (9) have used antigen-coated nitrocellulose
+sheets to pick up antibodies secreted by hybridoma clones
+growing in agar.
+In this report we describe a procedure for the transfer of
+proteins from a polyacrylamide gel to a sheet of nitrocellulose
+in such a way that a faithful replica of the original gel pattern
+is obtained. A wide variety of analytical procedures can be
+applied to the immobilized protein. Thus, the extreme versatility
+of nitrocellulose binding assays can be combined with
+high-resolution polyacrylamide gel electrophoresis. The procedure
+brings to the analysis of proteins the power that the
+Southern (7) technique has brought to the analysis of DNA.
+MATERIALS AND METHODS
+Immunogens and Immunization Procedures. Escherichia
+coli ribosomal proteins L7 and L12 were extracted (10) from
+50S subunits and purified as described (11) by ion-exchange
+chromatography on carboxymethyl- and DEAE-cellulose.
+Antibodies were raised in a goat by injecting 250 jig of protein
+emulsified with complete Freund's adjuvant intracutaneously
+distributed over several sites. Bacillus pertussis vaccine (1.5 ml
+of Bordet-Gengou vaccine, Schweizerisches Serum- und
+Impfinstitut, Bern, Switzerland) was given subcutaneously with
+every antigen injection. Booster injections of the same formulation
+were given on days 38, 79, and 110. The animal was bled
+on day 117.
+Subunits from chicken liver ribosomes (12) were combined
+in equimolar amounts, and 200-iAg aliquots were emulsified
+with 125 Al of complete Freund's adjuvant injected at one intraperitoneal
+and four subcutaneous sites into BALB/c mice.
+Booster injections of 400 ,ig of ribosomes in saline were given
+intraperitoneally on days 33, 57, 58, and 59. The animals were
+bled on day 71.
+Electrophoretic Blotting Procedures. Proteins were first
+subjected to electrophoresis in the presence of urea either in two
+dimensions (12) or in one-dimensional slab gels corresponding
+to the second dimension of the same two-dimensional system.
+The proteins were then transferred to nitrocellulose sheets as
+follows. The physical assembly used is shown diagrammatically
+in Fig. 1. A sheet of nitrocellulose (0.45 ,im pore size in roll
+form, Millipore) was briefly wetted with water and laid on a
+scouring pad (Scotch-Brite) which was supported by a stiff
+plastic grid (disposable micropipette tray, Medical Laboratory
+Automation, Inc., New York). The gel to be blotted was put on
+the nitrocellulose sheet and care was taken to remove all air
+bubbles. A second pad and plastic grid were added and rubber
+bands were strung around all layers. The gel was thus firmly
+and evenly pressed against the nitrocellulose sheet. The assembly
+was put into an electrophoretic destaining chamber with
+the nitrocellulose sheet facing the cathode. The chamber contained
+0.7% acetic acid. A voltage gradient of 6 V/cm was applied
+for 1 hr.
+For polyacrylamide electrophoresis in the presence of sodium
+dodecyl sulfate (13) instead of urea, the procedure was as det
+To whom reprint requests should be addressed.
+4350
+The publication costs of this article were defrayed in part by page
+charge payment. This article must therefore be hereby marked "advertisement"
+in accordance with 18 U. S. C. §1734 solely to indicate
+this fact.
+Proc. Natl. Acad. Sci. USA 76 (1979) 4351
+1
+~~~~+
+2
+0 3 -"A0
+0 r
+1~~~
+0
+1 0
+0 1
+0
+0 *I* I
+A I 0
+F/
+6
+FIG. 1. Assembly for electrophoretic blotting procedure. 1,
+Electrodes of destainer; 2, elastic bands; 3, disposable pipette-tip tray;
+4, nitrocellulose sheets; 5, polyacrylamide gel; 6, Scotch-Brite pads.
+Assembly parts are shown separated for visualization only.
+scribed above except that the polarity of the electrodes was
+reversed and the electrode buffer was 25 mM Tris-192 mM
+glycine/20% (vol/vol) methanol at pH 8.3.
+Staining for Protein. The blot may be stained with amido
+black (0.1% in 45% methanol/10% acetic acid) and destained
+with 90% methanol/2% acetic acid (see ref. 14).
+Immunological Detection of Proteins on Nitrocellulose.
+The electrophoretic blots (usually not stained with amido black)
+were soaked in 3% bovine serum albumin in saline (0.9%
+NaCl/10 mM Tris-HCl, pH 7.4) for 1 hr at 40'C to saturate
+additional protein binding sites. They were rinsed in saline and
+incubated with antiserum appropriately diluted into 3% bovine
+serum albumin in saline also containing carrier serum with
+concentration and species as indicated in the legends. The sheets
+were washed in saline (about five changes during 30 min, total)
+and incubated with the second (indicator) antibody directed
+against the immunoglobulins of the first antiserum. As indicator
+antibodies we used '25I-labeled sheep anti-mouse IgG. This had
+been purified with affinity chromatography on Sepharoseimmobilized
+myeloma proteins and labeled by a modified
+version of the chloramine T method in 0.5 ml with 0.5 mg of
+IgG and 1 mCi of Na'25I (1 Ci = 3.7 X 1010 becquerels) for 60
+sec at room temperature. The specific activity was approximately
+1.5 yCi/Ag of IgG. 125I-Labeled IgG was diluted to 106
+cpm/ml in saline containing 3% bovine serum albumin and 10%
+goat serum, and 3 ml of this solution was used for a nitrocellulose
+sheet of 100 cm2. Incubation was in the presence of 0.01% NaN3
+for 6 hr at room temperature. The electrophoretic blots were
+washed in saline (five changes during 30 min, total) and thoroughly
+dried with a hair dryer. The blots were exposed to Kodak
+X-Omat R film for 6 days.
+Fluorescein- and horseradish peroxidase-conjugated rabbit
+anti-goat IgG (Nordic Laboratories, Tilburg, Netherlands) were
+reconstituted before use according to the manufacturer's instructions.
+Fluorescein-conjugated antibodies were used at 1:50
+dilution in saline containing 3% bovine serum albumin and 10%
+rabbit serum. After incubation for 30 min at room temperature,
+the blots were washed as above and inspected or photographed
+with a Polaroid camera under long-wave UV light through a
+yellow filter.
+Horseradish peroxidase-conjugated IgG preparations were
+used at 1:2000 dilution in saline containing 3% bovine serum
+albumin and 10% rabbit serum. The blots were incubated for
+2 hr at room temperature and washed as described above. For
+the color reaction (15), the blots were soaked in a solution of 25
+,.g of o-dianisidine per ml/0.01% H202/10 mM Tris-HCI, pH
+7.4. This was prepared freshly from stock solutions of 1% odianisidine
+(Fluka) in methanol and 0.30% H202. The reaction
+was terminated after 20-30 min by washing with water. The
+blots were dried between filter paper. Drying considerably
+reduced the background staining. The blots were stored protected
+from light.
+RESULTS
+Electrophoretic Transfer of Ribosomal Proteins from
+Polyacrylamide Gels to Nitrocellulose Sheets. Most proteins
+or complexes containing protein adsorb readily to nitrocellulose
+filters (16), whereas salts, many small molecules, and RNA are
+usually not retained. These binding properties are widely used
+for binding assays with nitrocellulose filters. We found that
+proteins were retained on these filters equally well when carried
+towards the filter in an electric field. If the electric field was
+perpendicular to a slab gel containing separated proteins (see
+Fig. 1), we obtained a replica of the protein pattern on the nitrocellulose
+sheet. This is demonstrated with ribosomal proteins
+from E. coli; a conventionally stained gel (Fig. 2A) and a stained
+electrophoretic blot of an identical gel (Fig. 2B) are shown. All
+ribosomal proteins from chicken liver and E. coli ribosomes
+detectable on two-dimensional gels could be seen on the electrophoretic
+blots produced from them. An example of a blot
+from a two-dimensional gel is given in Fig. 3. When the original
+polyacrylamide gel was stained after blotting, no protein could
+be detected. Thus, the blotting procedure removed all protein
+from the gel.
+To establish whether the proteins removed from the gels were
+quantitatively deposited on the nitrocellulose sheet, we separated
+3H-labeled proteins from chicken liver 60S ribosomal
+subunit by two-dimensional electrophoresis and compared the
+radioactivity that could be recovered from the blot with that
+recovered directly from the gel (Table 1). Single proteins or
+groups of poorly separated proteins were cut out and radioactivity
+was measured after combustion of the samples. The results
+were within the variability inherent to two-dimensional analyses.
+Variations could be accounted for by variable transfer of
+proteins into the second dimension gel and the acuity with
+which spots can be cut out.
+At loads exceeding the capacity of nitrocellulose, losses of
+protein occurred. Titration with radioactive ribosomal proteins
+under blotting conditions showed that at concentrations below
+0.15 ,Lg/mm2 all protein was adsorbed. Overloading became
+apparent when a second sheet of nitrocellulose directly underneath
+the first one took up protein or when protein became
+visible on the cathodal surface of amido black-stained blots.
+The conservation of resolution together with the high recovery
+of ribosomal proteins simplifies the procedure for autoradiography.
+The common procedure involving drying of
+polyacrylamide gels under heat and reduced pressure (19),
+which is tedious and time consuming, may be eliminated. Because
+the proteins become concentrated on a very thin layer,
+autoradiography from 14C- and m5S-labeled proteins should be
+highly efficient even without 2,5-diphenyloxazole impregnation
+Biochemistry: Towbin et al.
+4352 Biochemistry: Towbin et al.
+A
+Proc. Nati. Acad. Sci. USA 76 (1979)
+B
+I~~~~~~~
+Fic.. Electrophoretic blotting of ribosomal proteins from one-dimensional gels. Total ribosomal proteins from E. coli were separated on
+an 18% polyacrylamide slab gel containing 8 M urea. (A) A section of the gel was stained with Coomassie blue; (B) another section was electrop)horetically
+blotted and the blot was stained as described in Materials and Methods. Electrophoresis was from left to right.
+(19). We have successfully obtained such autoradiograms from
+gels of MS-labeled proteins (not shown). Further, preliminary
+experiments with tritiated proteins have shown that dried blots
+may be processed for fluorography by brief soaking in 10%
+diphenyloxazole in ether (20).
+The above experiments were done with ribosomal proteins
+separated on polyacrylamide gels containing urea. We have
+electrophoretically blotted proteins from sodium dodecyl sulfate
+by the modified procedure also described in Materials and
+Methods. Again, there was no loss of resolution. However,
+differences of staining intensities between proteins on the gel
+A
+fts
+A.
+FIG. 3. Electrophoretic blotting of ribosomal proteins from
+two-dimensional gels. Proteins (35 ,ug) extracted from the 60S ribosomal
+subunit of chicken liver (12) were separated by two-dimensional
+gel electrophoresis. (A) Gel stained with Coomassie blue; (B) blot of
+an identical gel. Electrophoresis: 1st dimension, from left to right
+(towards cathode); 2nd dimension, top to bottom.
+and the blot were apparent. In spite of the apparently incomplete
+recovery, blots from polyacrylamide gels containing sodium
+dodecyl sulfate may be used for detection of antigen in
+the same way as described below for ribosomal proteins (unpublished
+experiments).
+Detection of Antigen by Antibody Binding on Blots In
+Situ. We found that proteins transferred to nitrocellulose sheets
+remained there without being exchanged over several days.
+Because a blot could be saturated with bovine serum albumin
+to block the residual binding capacity of the sheet, it can be
+treated as a solid-phase immunoassay. In the following immunological
+applications, we used indirect techniques
+throughout. Thus, antibody bound by the immobilized antigen
+was detected by a second, labeled antibody directed against the
+first antibody, and in each case excess unbound antibody was
+washed out.
+Table 1. Efficiency of transfer of ribosomal proteins to
+nitrocellulose sheets
+Protein or
+group of
+proteins
+analyzed
+Recovery on
+blot, %
+3 123
+4,4A 104
+5 111
+6 107
+7,8 86
+9 80
+10 112
+11 79
+12, 16 93
+13 95
+15, 15A, 18 125
+17 115
+19 139
+21,23 118
+26 114
+27 143
+28, 29 69
+31 117
+33 131
+Ribosomal large-subunit proteins from chicken liver were tritiated
+by reductive methylation (17) and separated by two-dimensional
+electrophoresis (12) in the presence of 35 ,ig of carrier protein. Two
+identical gels were run. One was stained; the other was electrophoretically
+blotted on a nitrocellulose sheet. Spots were identified according
+to our nomenclature for chicken ribosomes (12), which differs
+only in minor respects from that established for rat ribosomes (18).
+Corresponding spots or groups of spots were cut from the gel and the
+blot. Their radioactivity was determined after conversion to tritiated
+water in a sample oxidizer (Oxymat).
+BProc.Natl. Acad. Sci. USA 76 (1979) 4353
+A
+FIG. 4. Detection of E. coli ribosomal proteins L7 and L12 by (A) horseradish peroxidase- and (B) fluorescein-conjugated antibodies. Total
+ribosomal proteins from E. coli were separated and blotted as in Fig. 2. The anti-L7/L12 serum had a titer of 340 pmol of 70S ribosomes per
+ml of serum as determined by turbidity formation (20). Incubation was for 2 hr at room temperature in goat antiserum diluted 1:10 in saline
+containing 3% bovine serum albumin and 10%o rabbit carrier serum and then with conjugated anti-goat IgG. In each case the lower strip is a control
+with preimmune antiserum. Electrophoresis was from left to right.
+In Fig. 4 the detection of E. coli ribosomal proteins L7 and
+L12 with a goat serum specific for proteins L7 and L12 is
+shown. L7 is identical to L12, except for its N-acetylated
+NH2-terminal amino acid (21). L7 and L12 fully crossreact
+immunologically (22) and are separated on acidic polyacrylamide
+gels (21). Both peroxidase- (Fig. 4A) and fluoresceinconjugated
+(Fig. 4B) antibodies were able to reveal immunoglobulin
+that was specifically retained by proteins L7 and L12.
+In each case, the lower gel is a control with preimmune serum.
+Peroxidase-conjugated antibodies were far more sensitive than
+fluorescein-conjugated ones. They could therefore be used at
+much higher dilution. This also permitted the detection of very
+small amounts of antigen. With a rabbit serum (23) we could
+detect 100 pg of L7 and L12 with serum and incubation conditions
+similar to those of the experiment described in Fig. 4 (not
+shown).
+Because we can use the procedure to detect a specific antibody
+reacting with a specific protein after electrophoresis in
+polacrylamide, we should also be able to determine which
+proteins have elicited antibodies in a complex mixture of immunogens.
+In the experiment of Fig. 5, individual sera of five
+mice immunized with chicken liver ribosomes were tested. We
+used 125I-labeled sheep anti-mouse immunoglobulins to detect
+the presence of mouse immunoglobulins. In all mice, antibodies
+were preferentially produced against slowly moving proteins,
+presumably of high molecular weight. The procedure can thus
+characterize the antigen population against which specific
+antibodies have been raised in a mixture of immunogens.
+DISCUSSION
+The electrophoretic blotting technique described here produces
+replicas of proteins separated on polyacrylamide gels with high
+fidelity. We obtained quantitative transfer with proteins from
+gels containing urea. This was established here with ribosomal
+proteins. More generally, nitrocellulose membranes have been
+used to retain proteins from dilute solutions for their subsequent
+quantitative determination (16). Still, there remains the possibility
+that certain classes of protein do not bind to nitrocellulose.
+In this case absorbent sheets other than nitrocellulose or different
+blotting conditions may be helpful.
+We have demonstrated that proteins immobilized on nitrocellulose
+sheets can be used to detect their respective antibodies.
+FIG. 5. Detection of immunoglobulin from individual mice directed against ribosomal proteins from chicken liver. Total protein from chicken
+liver ribosomes (12) was electrophoretically separated and blotted as in Fig. 2. Sera were obtained from five individual mice immunized against
+combined 40S and 60S subunits. The antisera were diluted 1:50 in saline containing 3% bovine serum albumin and 10% goat carrier serum. The
+l)lots were incubated in 250 ,l of the diluted antiserum for 6 hr at room temperature. The blots were combined and treated with 125I-labeled
+sheep anti-mouse IgG and autoradiographed. Electrophoresis was from left to right.
+Biochemistry: Tow.in et al.
+4354 Biochemistry: Towbin et al.
+With radioactively labeled or peroxidase-conjugated antibodies
+the method is sensitive enough to detect small amounts of
+electrophoretically separated antigen, and this simple procedure
+can also be used to show the presence of small amounts of
+antibody in a serum of low titer. Because the antigen is immobilized
+on a sheet, the antibody is not required to form a precipitate
+with the antigen. The blotting technique therefore has
+the potential for immunoelectrophoretic analysis of proteins
+by using binding of Fab fragments or binding of antibodies
+against a single determinant, such as monoclonal antibodies
+produced by hybridomas (24). This could not be done by current
+immunoelectrophoretic techniques. If hybridoma clones
+are obtained from a mouse immunized with impure immunogen,
+it will be possible to use the technique to screen for clones
+making antibody directed against a desired antigen. Provided
+the desired antigen has a characteristic mobility in polyacrylamide
+gel electrophoresis, the appropriate clone can be selected
+without ever having pure antigen.
+The procedure described here also has potential as a tool for
+screening pathological sera containing auto-antibodies-e.g.,
+those against ribosomes (25-27). The precise identification of
+the immunogenic components may be a useful diagnostic tool
+for various pathological conditions.
+A further advantage of immobilization of proteins on nitrocellulose
+is the ease of processing for autoradiography. Conventional
+staining, destaining, and drying of polyacrylamide
+gels takes many hours, and the exact drying conditions are extremely
+critical, especially for 18% gels as used in the second
+dimension for ribosomal proteins (12). When the proteins are
+transferred to a nitrocellulose support, as described here, the
+electrophoretic blotting takes 1 hr, staining and destaining less
+than 10 min, and drying an additional 5 min. This is thus both
+faster and simpler than conventional procedures, and it eliminates
+the tedious and hazardous procedure of soaking the gels
+in diphenyloxazole (19).
+The technique has been developed to detect specific antisera
+against ribosomal proteins. However, it is applicable to any
+analytical procedure depending on formation of a proteinligand
+complex. With the blotting technique, the usual procedure
+of forming a complex in solution and retaining it on a
+membrane would have to be reversed: the protein, already
+adsorbed to the membrane, would have to retain the ligand
+from a solution into which the membrane is immersed. Interactions
+that can possibly be analyzed in this way include hormone-receptor,
+cyclic AMP-receptor, and protein-nucleic acid
+interactions. The ligand may also be a protein. Enzymes separated
+on polyacrylamide gels could also be conveniently localized
+on blots by in situ assays. A critical requirement for
+these applications is that the protein is not damaged by the
+adsorption process and that binding sites remain accessible to
+ligands and substrates. In this respect, considerations similar
+to those in affinity chromatography and insoluble enzyme
+techniques pertain.
+The method could also be adapted to the procedure of
+Cleveland et al. (28) for the analysis of proteins eluted from
+bands in polyacrylamide gels by one-dimensional fingerprints:
+one could label by iodination in situ' on the nitrocellulose and
+then carry out the proteolytic digestion.
+In preliminary experiments we have attempted to identify
+ribosomal RNA binding proteins by binding RNA to ribosomal
+proteins immobilized on nitrocellulose by the procedure of this
+paper, followed by staining for RNA (unpublished data), and
+have found a tendency for nonspecific binding. However, J.
+Steinberg, H. Weintraub, and U. K. Laemmli (personal communication)
+have independently developed a similar procedure
+for identifying DNA binding proteins.

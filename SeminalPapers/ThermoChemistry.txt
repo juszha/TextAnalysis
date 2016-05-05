@@ -1,0 +1,374 @@
+Despite the remarkable thermochemical accuracy of Kohn-Sham density-functional theories
+with gradient corrections for exchange-correlation [see, for example, A. D. Becke, J.
+Chem. Phys. 96, 2155 (1992)], we believe that further improvements are unlikely unless exactexchange
+information is considered~ Arguments. to support this view are presenteo, and a
+semiempirical exchange-correlation functional containing local-spin-density, gradient, and
+exact-exchange terms is tested on 56 atomization energies, 42 ionization potentials, 8
+proton affinities, and 10 total atomic energies of first- and second-row systems. This functional
+performs significantly better than previous functionals with gradient corrections only,
+and fits experimental atomization energies with an impressively small average absolute·
+deviation of 2.4 kcal/mol.
+I. INTRODUCTION
+This is the third in a series of papers on the assessment
+of density-functional theory (DFT) on the atoms and molecules
+of the Gaussian-l (G 1) database of Pople and coworkers.
+1.2 In the first paper,3 hereafter referred to as paper
+I, we demonstrated that the well-known overbinding tendency
+of the local-spin-density exchange-correlation approximation
+(LSDA) is nicely compensated by the
+exchange-only density-gradient correction of Becke.4 Our
+second papers (paper II) indicated that the exchange-only
+gradient correction by it:;;elf gives extremely poor ionization
+potentials, and must be accompanied by a gradient
+correction for dynamical correlation if a generally reliable
+thermochemical procedure is desired. For this purpose, we
+adopted the gradient-corrected correlation functional of
+Perdew and Wang.6
+Motivated by a reexamination of the adiabatic connection
+formula for exchange-correlation energy,7 we have
+also recently investigated8 a novel "half-and-half" mixing
+of exact-exchange energy and the LSDA for exchangecorrelation
+potential energy which performs as well on the
+G I thermochemical tests as the gradient-corrected DFT of
+paper II. We found, in addition, that a simple twoparameter
+semiempirical generalization8 accurately fits the
+G 1 data, for atomization only, with an average absolute
+deviation from experiment of 2.6 kcal/mol, thus offering a
+tantalizing hint of the future potential of this approach.
+Unfortunately, our half-and-half theory of Ref. 8 is
+defective in several respects. Though energy differences of
+thermochemical interest are well obtained, total energies
+are rather poor. The uniform electron-gas limit is not obtained,
+a disturbing failure from a formal densityfunctional
+perspective. Also, our semiempirical generalization
+gives good atomization energies only, while ionization
+potentials and proton affinities are extremely poor. In the
+present work, we address these problems by incorporating
+the gradient corrections for exchange and correlation examined
+in papers I and II into our exact-exchange-IocalDFT
+approach. With the added flexibility of gradient correction
+terms, an impressive overall fit to G 1 thermochemical
+data, total atomic energies, and even the uniform
+electron gas is achieved.
+A review of the Kohn-Sham DFT formalism, on
+which this work is based, was presented in paper I and will
+not be repeated here. Excellent expositions of densityfunctional
+theory in general are also available elsewhere.9
+Instead, we begin the following section with a discussion of
+the adiabatic connection formula7 and its physical content.
+The most important implication of this discussion is the
+undeniable role of exact exchange. Despite the wellintentioned
+efforts of density-functional researchers to circumvent
+the calculation of exact-exchange energies, we
+shall see that a small exact-exchange component is a natural
+and necessary constituent of any exchange-correlation
+approximation aiming for accurate molecular energetics.
+II. THE ADIABATIC CONNECTION
+The exchange-correlation energy Exc of Kohn-Sham
+density-functional theory is given by a rigorous ab initio
+formula known as the "adiabatic connection" formula.7 Of
+the many possible forms that this important result may
+take, the following is most convenient for our purposes:
+Exc= fol U~c dA, (1)
+where A is an interelectronic coupling-strength parameter
+that "switches on" the lIrl2 Coulomb repulsion between
+electrons, and U~c is the potential energy of exchangecorrelation
+at intermediate coupling strength A. This formula
+"connects" the noninteracting Kohn-Sham reference
+system (defined by A = 0) to the fully interacting real system
+(A = 1) through a continuum of partially interacting
+systems (O<A<l), all of which share a common density p
+(the density of the real, fully interacting system). Though
+the integrand of Eg. (1) refers explicitly to potential energy
+only, the kinetic part of the exchange-correlation energy is
+generated, in effect, by the A integration. A simple derivation
+of this adiabatic connection formula using first-order
+perturbation theory may be found in the Appendix of Ref.
+10.
+5648 J. Chern. Phys. 98 (7). 1 April 1993 0021-9606/93/075648-05$06.00 @ 1993 American Institute of Physics Reuse of AIP Publishing content is subject to the terms: https://publishing.aip.org/authors/rights-and-permissions. Downloaded to IP: 130.132.173.204 On: Wed,
+04 May 2016 05:26:28
+Axel D. Becke: Density-functional thermochemistry. III 5649
+We believe that careful consideration of the A dependence
+of the integrand in Eq. (1) is important in understanding
+the successes and failures of current densityfunctional
+theories. In particular, the A=O lower limit,
+corresponding to the noninteracting Kohn-Sham reference
+system, is of major relevance. Here, the exchangecorrelation
+potential energy rfxc is the pure exchange en-'
+ergy of the Slater determinant of the Kohn-Sham orbitals,
+with no dynamical correlation whatsoever. This KohnSham
+exchange energy will be designated Ex from now on,
+and is essentially, though not exactly, equal in value to the
+conventional Hartree-Fock exchange energy. We refer the
+reader to Ref. 8 and references therein for further discussion
+of this point.
+The conventional exchange-correlation LSDA substitutes
+for each U~c in Eq. (1) a model value from local
+uniform-electron-gas theory. Unfortunately, the local
+electron-gas model is physically inappropriate near the
+..1,=0 exchange-only limit in molecular bonds. The problem
+may be understood by considering, for the sake of argument,
+H2• In this simplest conceivable case, the exact (restricted)
+exchange hole is the negative of the ug orbital
+density and is reference-point independent. This static
+hole, uniformly distributed over both centers, implies a
+complete absence of left-right correlation in the H2 bond.
+The electron-gas model hole, on the other hand, is
+reference-point centered, relatively localized, and thus
+"follows" its reference electron around. The effect is a
+crude simulation of left-right correlation which, though
+desirable in the interacting system, clearly misrepresents
+the noninteracting ..1,=0 limit. Consequently, we believe
+that the principal source of the overbinding error of the
+LSDA is the ..1,=0 end of the coupling-strength integration.
+Furthermore, Gunnarsson and Jonesll have argued
+convincingly that density-functional energy differences suffer
+conspicuous errors if orbital nodes are created or lost in
+the process (e.g., antibonding orbitals). The intricacies of
+exact-exchange-energy differences corresponding to
+changes in orbital nodality are particularly poorly described
+by local electron-gas models. Again, the problem is
+most acute at A=O.
+These arguments apply to density-functional exchange-correlation
+approximations with gradient corrections
+as well. We therefore suspect that gradient-corrected
+DFT, no matter how sophisticated and no matter how well
+atomic total energies are reproduced, will always display at
+least slight overbinding tendencies. Indeed, perusal of the
+atomization energy data in paper II reveals a distinct
+overbinding tendency for the non hydride systems, though
+hydrides are well treated.
+Our "half-and-half" theory of Ref. 8 approximates Eq.
+(1) as the average of the exact-exchange energy at ..1,=0
+and the LSDA for exchange-correlation potential energy at
+A= 1. Thus, we employ the electron-gas model at full interaction
+strength only, and discard its problematic ..1,=0
+limit altogether. This approximation performs quite well
+on the thermochemical tests of the Gl database (average
+absolute deviation of 6.5 kcal/mbl and maximum deviation
+of -22.5 kcal/mol for atomization energies) and, indeed,
+rivals the gradient-corrected DFT of paper II (average
+absolute deviation of 5.7 kcal/mol and maximum deviation
+of + 18.4). In the following section, we extend the work of
+Ref. 8 by relaxing the linear A dependence underlying the
+half-and-half model, and by including gradient corrections.
+III. THE PRESENT MODEL
+To reiterate the arguments of the preceding section:
+theA=O limit of the coupling-strength integration of Eq.
+( 1) is nothing more and nothing less than exact exchange.
+Surely, therefore, exact exchange energy must playa role
+in highly accurate density-functional theories. Accordingly,
+we propose the following exchange-correlation approximation:
+
+Exc= EiWA +ao (E:}act - E~SDA) + a x11E~88
++a ll.EPW91
+C C ' (2)
+where ao, ax, and ac are semiempirical coefficients to be
+determined by an appropriate fit to experimental data,
+cpct is the exact exchange energy, I1E~88 is Becke's 1988
+gradient correction (to the LSDA) for exchange,4 and
+I1E~W91 is the 1991 gradient correction for correlation of
+Perdew and Wang.6 These are the same gradient corrections
+considered in papers I and II. For the correlation
+component of the leading term E~~A, we use the e1ectrongas
+parametrization of Ref. 12.
+Equation (2) is motivated by reasonable physical arguments.
+The second term replaces some electron-gas exchange
+with exact exchange to capture the proper small-A
+limit of Eq. (1). The coefficient ao thus reflects the relative
+importance of a system's independent-particle character,
+or, equivalently, the rate of onset of correlation as A increases
+from zero. We assume as a first approximation in
+this work, that its value is constant. The third and fourth
+terms allow optimum admixtures of exchange and
+correlation-type gradient corrections. Clearly, the coefficient
+a x has value less than unity, since the presence of the
+Clact term reduces the need for the gradient correction
+I1E~88. For good measure, we allow flexibility in the coefficient
+ac as well. Notice, also, that Eq. (2) is the simplest
+possible mixture of exact exchange, the LSDA for
+exchange-correlation, and gradient corrections of exchange
+and correlation type, that exactly recovers the uniform
+electron-gas limit.
+This functional has been applied to the atoms and molecules
+of the G 1 database, following exactly the same basisset-free,
+post-LSDA computational procedure as in papers
+I and II and in Ref. 8. We refer the interested reader to
+these previous publications for descriptions of the methodology.
+The semiempirical coefficients of Eq. (2) have been
+determined by a linear least-squares fit to the 56 atomizaJ.
+Chern. Phys., Vol. 98, No.7, 1 April 1993 Reuse of AIP Publishing content is subject to the terms: https://publishing.aip.org/authors/rights-and-permissions. Downloaded to IP: 130.132.173.204 On: Wed,
+04 May 2016 05:26:28
+5650 Axel D. Becke: Density-functional thermochemistry. III
+tion energies, 42 ionization potentials, 8 proton affinities, TABLE II. Ionization potentials (eV).
+and the 10 first-row total atomic energies of Ref. 13. The
+Expt.a Eq. (2) !!:J.b
+resulting optimum values are
+ac=0.81, (3) H 13.60 13.71 +0.11 ao = 0.20, ax=0.72, He ·24.59 24.71 +0.12
+Li 5.39 5.56 +0.17
+Be 9.32 9.02 -0.30
+B 8.30 8.71 +0.41
+TABLE I. Atomization energies Do (kcal/mol). C 11.26 11.58 +0.32
+N 14.54 14.78 +0.24
+Expt.a Eq. (2) Jj,b : 0 13.61 13.95 +0.34
+F .17.42 17.58 +0.16
+H2 103.5 101.6 -1.9 Ne 21.56 21.60 +0.04
+LiH 56.0 52.9 -3.1 Na 5.14 5.27 +0.13
+BeH 46.9 54.5 +7.6. Mg 7.65 7.57 -0.08
+CH 79.9 79.9 0.0 Al 5.98 6.12 +0.14
+CH2eB[) 179.6 184.1 +4.5 Si 8.15 8.25 +0.10
+CH2eA[) 170.6 168.2 -2.4 P 10.49 10.57 +0.08
+CH3 289.2 292.6 +3.4 S 10.36 10.48 +0.12
+CH4 392.5 393.5 +1.0 CI 12.97 13.04 +0.07
+NH 79.0 81.3 +2.3 Ar 15.76 15.80 +0.04
+NH2 170.0 173.1 +3.1 CH4 12.62 12.47 -0.15
+NH3 276.7 276.8 +0.1 NH3 10.18 10.12 -0.06
+OH 101.3 101.9 +0.6 OH 13.01 13.09 +0.08
+HzO 219.3 217.0 -2.3 HzO 12.62 12.54 -0.08
+HF 135.2 133.3 -1.9 HF 16.04 15.99 -0.05
+Li2 24.0 17.9 -6.1 SiH4 11.00 10.85 -0.15
+LiF 137.6 131.7 -5.9 PH 10.15 10.31 +0.16
+C2H2 388.9 389.0 +0.1 PH2 9.82 10.03 +0.21
+CzH4 531.9 534.3 +2.4 PH3 9.87 9.81 -0.06
+C2H6 666.3 668.7 +2.4 SH 10.37 10.43 +0.06
+CN 176.6 176.7 +0.1 SH2eB[) 10.47 10.42 -0.05
+HCN 301.8 302.4 +0.6 SH2CZA[) 12.78 12.64 -0.14
+CO 256.2 253.4 -2.8 HCl 12.75 12.74 -0.01
+HCO 270.3 273.7 +3.4 C2H2 11.40 11.23 -0.17
+H2CO 357.2 357.9 +0.7 C2H4 10.51 10.36 -0.15
+CH30H 480.8 480.8 0.0. CO 14.01 14.05 +0.04
+N2 225.1 223.0 -2.1 NzCZl:g) 15.58 15.77 +0.19
+N2H4 405.4 407.2 +1.8 NzCZrru) 16.70 16.65 -0.05
+NO 150.1 151.5 +1.4 O2 12.07 12.46 +0.39
+Oz 118.0 123.1 . +5.1 P2 10.53 10.41 -0.12
+Hz02 252.3 . 249.8 -2.5 S2 9.36 9.58 +0.22
+F2 36.9 35.6 -1.3 C12 11.50 11.35 -0.15
+COz 381.9 385.1 +3.2 CIF 12.66 12.55 -0.11
+SiH2eA[) 144.4 142.8 -1.6 CS 11.33 11.34 +om SiH2eB[) 123.4 126.4 +3.0
+SiH3 214.0 213.3 -0.7 aFrom Refs. 13 and 14.
+SiH4 302.8 300.0 -2.8 bDeviation from experiinent for theory of Eq. (2).
+PH2 144.7 146.8 +2.1
+PH3 227.4 225.6 -1.8
+HzS 173.2 172.7 -0.5
+HCI 102.2 102.0 -0.2
+Na2 16.6 13.2 -3.4
+Si2 74.0 76.3 +2.3
+P2 116.1 112.2 -3.9
+S2 100.7 105.8 +5.1
+Clz 57.2 58.6 +1.4 TABLE III. Proton affinities (kcal/mol). NaCI 97.5 92.6 -4.9
+SiO 190.5 184.2 '-6.3 Expt.a Eq. (2) /lb
+CS 169.5 166.9 -2.6
+SO 123.5 126.5 +3.0 H2 100.8 100.9 +0.1
+CIO 63.3 66.6 +3.3 C2H2 152.3 157.0 +4.7
+C1F 60.3 60.7 +0.4 NH3 202.5 204.4 +1.9
+Si2H6 500.1 496.7 -3.4 HzO 165.1 165.7 +0.6
+CH3Cl 371.0 373.2 +2.2 SiH4 154.0 153.9 -0.1
+CH3SH 445.1 446.2 +1.1 PH3 187.1 186.1 -1.0
+HOCI 156.3 156.2 -0.1 HzS 168.8 168.9 +0.1
+S02 254.0 251.4 -2.6 HCI 133.6 134.6 +1.0
+aFrom Refs. 13 and 14. 'From Refs. 13 and 14.
+bDeviation from experinient for theory of Ell. (2). bDeviation from experiment for theory of Eq. (2).
+J. Chern. Phys., Vol. 98, No.7, 1 April 1993
+ Reuse of AIP Publishing content is subject to the terms: https://publishing.aip.org/authors/rights-and-permissions. Downloaded to IP: 130.132.173.204 On: Wed,
+04 May 2016 05:26:28
+Axel D. Becke: Density-functional thermochemistry. III 5651
+TABLE IV. Total atomic energies (hartrees).
+Exact" Eq. (2) I::..b
+H -0.500 . -0.504 -0.004
+He -2.904 -2.908 -0.004
+Li -7.478 -7.484 -0.006
+Be -14.667 -14.657 +0.010
+B -24.654 -24.644 +0.010·
+C -37.845 -37.837 +0.008
+N -54.590 -54.582 +0.008
+0 -75.067 -75.066 +0.001
+F -99.731 -99.735 -0.004
+Ne -128.937 -128.935 +0.002
+"From Ref. 13.
+bDeviation from exact energy for theory of Eq. (2).
+and the overall root-mean-square deviation from experiment
+for the complete set of 116 data points is 3.35 kcal/
+mol.
+We omit electron affinities from consideration here because
+the LSDA exchange-correlation potential does not
+bind negative ions, a well-known failure of the local-spindensity
+approximation. Anions must therefore be stabilized
+by Watson-sphere-like potentials in the present post-LSDA
+framework, and, given the somewhat arbitrary nature of
+such stabilizing potentials, we choose not to include electron
+affinities in this work.
+In Tables I-IV, we list all atomization energies, ionization
+potentials, proton affinities, and total atomic energies,
+respectively, of the present tests. Tables V and VI
+summarize average absolute and maximum deviations. For
+energies of atomization, the results of our optimized Eq.
+(2) have an average absolute deviation from experiment of
+only 2.4 kcal/mol, and a maximum deviation of 7.6. This is
+less than half the error of the gradient-corrected DFT of
+paper II (5.7 kcal/mol average), and only twice the error
+of the Gaussian-2 theory of Pople and co-workers14 (1.2
+kcal/mol average13). We concede, however, that the
+present results are generated by a three-parameter leastsquares
+fit, and therefore represent the best possible performance
+of this class of exchange-correlation functionals.
+For ionization potentials, our average absolute deviation
+is 0.14 eV, compared with 0.15 in paper II and 0.05 for
+Gaussian-2. 13 Our proton affinities have an average deviation
+of only 1.2 kcal/mol, compared with 1.5 in paper II
+and 1.0 for Gaussian-2. 13 Maximum deviations are listed in
+TABLE V. Average absolute deviations.
+G2a
+Atomization 1.2
+energies (kcal/moi)
+Ionization 0.05
+potentials (e V)
+Proton 1.0
+affinities (kcal/mol)
+Total
+energies (mhartree)
+aG2: Gaussian-2 theory (Refs. 13 and 14).
+bGC: Gradient-corrected DFT of Ref. 5.
+Eq. (2)
+2.4 5.7
+0.14 0.15
+1.2 1.5
+6.0 11.0
+TABLE VI. Maximum absolute deviations.
+G2a Eq. (2) GCb
+Atomization 5.1 7.6 18.4
+energies (kcal/mol)
+Ionization 0.19 0.41 0.44
+potentials (e V)
+Proton 2.0 4.7 4.2
+affinities (kcal/moi)
+Total 10.0 29.0
+energies (mhartree)
+aG2: Gaussian-2 theory (Refs. 13 and 14).
+bGC: Gradient-corrected DFT of Ref. 5.
+Table VI. Even the total energies of the first-row atoms H
+through Ne are well reproduced, with an average error of
+6 mhartree and a maximum error of 10. Recalling, also,
+that Eq. (2) contains the exact uniform-electron-gas limit,
+it is fair to say that our functional fits an impressive variety
+of experimental and theoretical data.
+IV. CONCLUSIONS AND OUTLOOK
+We have revealed in this work the important and potentially
+powerful role of exact exchange in densityfunctional
+thermochemistry. The semiempirical combination
+of exact exchange, the LSDA, and gradient correction
+terms in Eq. (2) performs significantly better than the
+gradient-corrected exchange-correlation functional of paper
+II (Ref. 5), and approaches an average precision of
+order 2 kcal/mol (or 0.1 eV, 10 kJ/mol). This is the accuracy
+considered by Pople and co-workers! as a desirable
+target for quantum thermochemical methods, and which is
+comfortably met by the composite ab initio Gaussian-2
+procedure. 14 The same target accuracy now appears realistic
+for density-functional theory.
+In future studies, we hope to eliminate the semiempirical
+aspects of the present model through detailed analysis
+of A dependence in the adiabatic connection formula, or
+perhaps through insights from perturbation theory. Given
+the encouraging level of precision achieved here, we feel
+that the extra computational effort (for some!) of exactexchange
+evaluation is well rewarded. 

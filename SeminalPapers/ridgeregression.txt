@@ -1,0 +1,590 @@
+In multiple regression it is shown that parameter estimates based on minimum residual sum of
+squares have a high probability of being unsatisfactory, if not incorrect, if the prediction vectors
+are not orthogonal. Proposed is an estimation procedure based on adding small positive quantities
+to the diagonal of X'X. Introduced is the ridge trace, a method for showing in two dimensions the
+effects of nonorthogonality. It is then shown how to augment X'X to obtain biased estimates with
+smaller mean square error.
+0. INTRODUCTION
+Consider the standard model for multiple linear regression,
+Y = X/3 + E, where it is assumed that X is (n x p)
+and of rank p,/3 is (p x 1) and unknown, E[e] = 0, and
+E[se'] = u2In. If an observation on the factors is denoted
+by x, = {xI,,x22,... ,zpv}, the general form X/3
+is { iP_1 3iOi(x^)} where the Oi are functions free of unknown
+parameters.
+The usual estimation procedure for the unknown 3 is
+Gauss-Markov-linear functions of Y = {y,} that are unbiased
+and have minimum variance. This estimation procedure
+is a good one if X'X, when in the form of a correlation
+matrix, is nearly a unit matrix. However, if X'X is not
+nearly a unit matrix, the least squares estimates are sensitive
+to a number of "errors." The results of these errors are
+critical when the specification is that X/3 is a true model.
+Then the least squares estimates often do not make sense
+when put into the context of the physics, chemistry, and
+engineering of the process which is generating the data. In
+such cases, one is forced to treat the estimated predicting
+function as a black box or to drop factors to destroy the correlation
+bonds among the Xi used to form X'X. Both these
+alternatives are unsatisfactory if the original intent was to
+use the estimated predictor for control and optimization. If
+one treats the result as a black box, he must caution the
+user of the model not to take partial derivatives (a useless
+caution in practice), and in the other case, he is left with a
+set of dangling controllables or observables.
+Estimation based on the matrix [X'X + kIp], k > 0 rather
+than on X'X has been found to be a procedure that can
+be used to help circumvent many of the difficulties associated
+with the usual least squares estimates. In particular,
+the procedure can be used to portray the sensitivity of the
+estimates to the particular set of data being used, and it
+can be used to obtain a point estimate with a smaller mean
+square error.
+1. PROPERTIES OF BEST LINEAR
+UNBIASED ESTIMATION
+Using unbiased linear estimation with minimum variance
+or maximum likelihood estimation when the random vector,
+e, is normal gives
+3 -(X'X) 1X'Y (1.1)
+as an estimate of /3 and this gives the minimum sum of
+squares of the residuals:
+03) =- (Y- X/)'(Y - X/). (1.2)
+The properties of P are well known (Scott 1966). Here the
+concern is primarily with cases for which X'X is not nearly
+a unit matrix (unless specified otherwise, the model is formulated
+to give an X'X in correlation form). To demonstrate
+the effects of this condition on the estimation of ,3,
+consider two properties of 13-its variance-covariance matrix
+and its distance from its expected value.
+(i) VAR(3) = c2(X'X)-1 (1.3)
+(ii) L1 = Distance from 3 to 3.
+L =- (O - )'(P - 3) (1.4)
+E[L2] = r2Trace(X'X)-1
+or equivalently
+E[/'P] = /3' + a2Trace(X'X)-l
+When the error e is normally distributed, then
+VAR[L2] = 2cr4Trace(X'X)-2.
+(1.5)
+(1.5a)
+(1.6)
+These related properties show the uncertainty in / when
+X'X moves from a unit matrix to an ill-conditioned one. If
+the eigenvalues of X'X are denoted by
+Amax = 1 > 2 > *' > \p = Amin > 0, (1.7)
+then the average value of the squared distance from / to /3
+is given by
+p
+E[LI2] = a2 (1/Ai)
+i=l
+(1.8)
+? 1970 American Statistical Association
+and the American Society for Quality
+TECHNOMETRICS, FEBRUARY 2000, VOL. 42, NO. 1
+80 
+By definition /* = Z/. From its definition and the assumptions
+on X'X, Z is clearly symmetric positive definite. Then
+(1.9) the following relation holds (Sheff6 1960):
+and the variance when the error is normal is given by
+VAR[L2] = 2-4 (1/Ai)2.
+Lower bounds for the average and variance are a2/Amin and
+2o4/A i,, respectively. Hence, if the shape of the factor
+space is such that reasonable data collection results in an
+X'X with one or more small eigenvalues, the distance from
+/3 to ,3 will tend to be large. Estimated coefficients, f3i, that
+are large in absolute value have been observed by all who
+have tackled live nonorthogonal data problems.
+The least squares estimate (1.1) suffers from the deficiency
+of mathematical optimization techniques that give
+point estimates; the estimation procedure does not have
+built into it a method for portraying the sensitivity of the
+solution (1.1) to the optimization criterion (1.2). The procedures
+to be discussed in the sections to follow portray the
+sensitivity of the solutions and utilize nonsensitivity as an
+aid to analysis.
+2. RIDGE REGRESSION
+A. E. Hoerl first suggested in 1962 (Hoerl 1962; Hoerl
+and Kennard 1968) that to control the inflation and general
+instability associated with the least squares estimates, one
+can use
+3* = [X'X + kj]-X'Y; k > (2.1)
+= WX'Y. (2.2)
+The family of estimates given by k > 0 has many mathematical
+similarities with the portrayal of quadratic response
+functions (Hoerl 1964). For this reason, estimation and analysis
+built around (2.1) has been labeled "ridge regression."
+The relationship of a ridge estimate to an ordinary estimate
+is given by the alternative form
+3* [Ip + k(X'X)-1]-1 (2.3)
+Z3. (2.4)
+This relationship will be explored further in subsequent sections.
+Some properties of 3*, W, and Z that will be used
+are:
+(i) Let (i(W) and (i(Z) be the eigenvalues of W and Z,
+respectively. Then
+(i(W) = 1/(A, + k) (2.5)
+i(Z) = Ai/(A, + k) (2.6)
+where Ai are the eigenvalues of X'X. These results follow
+directly from the definitions of W and Z in (2.2) and (2.4)
+and the solution of the characteristic equations IW--I[ = 0
+and IZ - II = 0.
+(ii) Z = I- k(X'X + kI)-1 = I- kW (2.7)
+The relationship is readily verified by writing Z in the alternative
+form Z = (X'X + kI)- X'X = WX'X and multiplying
+both sides of (2.7) on the left by W-1.
+(iii) /* for k y 0 is shorter than /3, i.e.,
+(2.9)
+But ~max(Z) = A1/(A1 + k) where A1 is the largest eigenvalue
+of X'X and (2.8) is established. From (2.6) and (2.7)
+it is seen that Z(0) = I and that Z approaches 0 as k -+ oo.
+For an estimate /* the residual sum of squares is
+b*(k) = (Y - X3*)'(Y - X/*) (2.10)
+which can be written in the form
+0*(k) = Y'Y - (d*)'X'Y - k(3*)'(3*). (2.11)
+The expression shows that * (k) is the total sum of squares
+less the "regression" sum of squares for /3* with a modification
+depending upon the squared length of 3*.
+3. THE RIDGE TRACE
+a. Definition of the Ridge Trace
+When X'X deviates considerably from a unit matrix, that
+is, when it has small eigenvalues, (1.5) and (1.6) show that
+the probability can be small that 3 will be close to /3. In
+any except the smallest problems, it is difficult to untangle
+the relationships among the factors if one is confined to an
+inspection of the simple correlations that are the elements
+of X'X. That such untangling is a problem is reflected in
+the "automatic" procedures that have been put forward to
+reduce the dimensionality of the factor space or to select
+some "best" subset of the predictors. These automatic procedures
+include regression using the factors obtained from
+a coordinate transformation using the principal components
+of X'X, stepwise regression, computation of all 2P regressions,
+and some subset of all regressions using fractional
+factorials or a branch and bound technique (Beale, Kendall,
+and Mann 1967; Efroyson 1960; Garside 1965; Gorman and
+Toman 1966; Hocking and Leslie 1967; Jeffers 1967; Scott
+1966). However, with the occasional exception of principal
+components, these methods don't really give an insight into
+the structure of the factor space and the sensitivity of the
+results to the particular set of data at hand. But by computing
+/*(k) and O*(k) for a set of values of k, such insight
+can be obtained. A detailed study of two nonorthogonal
+problems and the conclusions that can be drawn from their
+ridge traces is given in James and Stein (1961).
+b. Characterization of the Ridge Trace
+Let B be any estimate of the vector /. Then the residual
+sums of squares can be written as
+=(Y - XB)'(Y- XB)
+=(Y - X3)'(Y - X3) + (B -/)'X'X(B - 3)
+= >min + ?(B) (3.1)
+.on-to rs o .a I a
+Contours oft constant 0 are the surfaces of hyperellipsoids
+(2.8) centered at /, the ordinary least squares estimate of /3. The
+TECHNOMETRICS, FEBRUARY 2000, VOL. 42, NO. 1
+RIDGE REGRESSION 81
+(d*)'(3*) _< ax(Z)i'2. 
+ARTHUR E. HOERL AND ROBERT W. KENNARD
+value of 0 is the minimum value, ?mi, plus the value of the
+quadratic form in (B - /). There is a continuum of values
+of Bo that will satisfy the relationship q = Omin + -o where
+00 > 0 is a fixed increment. However, the relationships in
+Section 2 show that on the average the distance from p
+to 3 will tend to be large if there is a small eigenvalue of
+X'X. In particular, the worse the conditioning of X'X, the
+more 3 can be expected to be too long. On the other hand,
+the worse the conditioning, the further one can move from
+,3 without an appreciable increase in the residual sums of
+squares. In view of (1.5a) it seems reasonable that if one
+moves away from the minimum sum of squares point, the
+movement should be in a direction which will shorten the
+length of the regression vector.
+The ridge trace can be shown to be following a path
+through the sums of squares surface so that for a fixed
+X a single value of B is chosen and that is the one with
+minimum length. This can be stated precisely as follows:
+Minimize B'B
+subject to (B - /)'X'X(B - 0) = 0. (3.2)
+As a Lagrangian problem this is
+Minimize F = B'B + (1/k)[(B - 3)'X'X(B - p)' - 0o]
+(3.3)
+where (1/k) is the multiplier. Then
+OF
+= 2B + (1/k)[2(X'X)B - 2(X'X)3] = 0 (3.4)
+This reduces to
+B = /* = [X'X + kI]-X'Y (3.5)
+where k is chosen to satisfy the restraint (3.2). This is the
+ridge estimator. Of course, in practice it is easier to choose
+a k > 0 and then compute o0. In terms of 3* the residual
+sum of squares becomes
+0*(k) = (Y- X/*)'(Y - XP*)
+=- min + k2 3*/(XIX)-1l*. (3.6)
+A completely equivalent statement of the path is this: If the
+squared length of the regression vector B is fixed at R2,
+then /3* is the value of B that gives a minimum sum of
+squares. That is, /3* is the value of B that minimizes the
+function
+F1 = (Y - XB)'(Y - XB) + (1/k)(B'B - R2). (3.7)
+c. Likelihood Characterization of the Ridge Trace
+Using the assumption that the error vector is Normal
+(0, a2In) the likelihood function is
+(27ru2)-n/2 exp{-(1/2cr2)(Y - X/)'(Y - X/3)}. (3.8)
+The kernel of this function is the quadratic form in the
+exponential which can be written in the form
+(Y - X3)'(Y - X3) = (Y - X/)'(Y - X3)
++ (/ - f/)'X'X(3 - /3). (3.9)
+TECHNOMETRICS, FEBRUARY 2000, VOL. 42, NO. 1
+With (3.1) in 3b, this shows that an increase in the residual
+sum of squares is equivalent to a decrease in the value of
+the likelihood function. So the contours of equal likelihood
+also lie on the surface of hyperellipsoids centered at 3.
+The ridge trace can thereby be interpreted as a path
+through the likelihood space, and the question arises as why
+this particular path can be of special interest. The reasoning
+is the same as for the sum of squares. Although long
+vectors give the same likelihood values as shorter vectors,
+they will not always have equal physical meaning. Implied
+is a restraint on the possible values of /3 that is not made
+explicit in the formulation of the general linear model given
+in the Introduction. This implication is discussed further in
+the sections that follow.
+4. MEAN SQUARE ERROR PROPERTIES
+OF RIDGE REGRESSION
+a. Variance and Bias of a Ridge Estimator
+To look at 3* from the point of view of mean square
+error it is necessary to obtain an expression for E[L2(k)].
+Straightforward application of the expectation operator and
+(2.3) gives the following:
+E[L 2(k)]
+=E[(* - -)'(* - )]
+= E[(/ - 3)'Z'Z(/ -/3)] + (Z/3 - 3)'(Z/3 -/3) (4.2)
+= -2 Trace(X'X)-lZ'Z + /(Z - I)'(Z - I)P/ (4.3)
+= 02[Trace(X'X + kI)-1 - k Trace(X'X + kI)-2]
++ k2/3'(X'X + kI)-23
+p
+= f2 Z Ai/(Ai + k)2 + k2F3(X'X + kI)-2/
+1
+= 1 (k) + 2(k)
+(4.4)
+(4.5)
+(4.6)
+The meanings of the two elements of the decomposition,
+7yi(k) and 72(k), are readily established. The second element,
+72(k), is the squared distance from Z/( to 3. It will
+be zero when k = 0, since Z is then equal to I. Thus, 72 (k)
+can be considered the square of a bias introduced when /*
+is used rather than /. The first term, 71 (k), can be shown to
+be the sum of the variances (total variance) of the parameter
+estimates. In terms of the random variable Y,
+/* = Z/3 = Z(X'X) 1X'Y. (4.7)
+Then
+VAR[3*] = Z(X'X)-1X'VAR[Y]X(X'X)-1Z'
+= r2Z(X'X)-lZ. (4.8)
+The sum of the variances of all the /* is the sum of the
+diagonal elements of (4.8).
+82 
+RIDGE REGRESSION
+Figure 1 shows in qualitative form the relationship between
+the variances, the squared bias, and the parameter
+k. The total variance decreases as k increases, while the
+squared bias increases with k. As is indicated by the dotted
+line, which is the sum of 71 (k) and Y2 (k) and thus is
+E[L2(k)], the possibility exists that there are values of k
+(admissible values) for which the mean square error is less
+for 3* than it is for the usual solution 3. This possibility
+is supported by the mathematical properties of 71(k) and
+72(k). [See Section 4b.] The function 71 (k) is a monotonic
+decreasing function of k, while 7Y2(k) is monotonic increasing.
+However, the most significant feature is the value of
+the derivative of each function in the neighborhood of the
+origin. These derivatives are:
+Lim(dTy/dk) - -2a2E(1/A2) (4.9)
+k-O+
+Lim (d72/dk) - 0. (4.10) k-O+
+Thus, -yi(k) has a negative derivative which approaches
+-2pr2 as k -4 0+ for an orthogonal X'X and approaches
+-oo as X'X becomes ill-conditioned and Ap -- 0. On the
+other hand, as k -X 0+, (4.10) shows that 72(k) is flat and
+zero at the origin. These properties lead to the conclusion
+that it is possible to move to k > 0, take a little bias,
+and substantially reduce the variance, thereby improving
+the mean square error of estimation and prediction. An existence
+theorem to validate this conclusion is given in Section
+4b.
+b. Theorems on the Mean Square Function
+Theorem 4.1. The total variance y71(k) is a continuous,
+monotonically decreasing function of k.
+Corollary 4.1.1. The first derivative with respect to k of
+the total variance 7 (k), approaches -oc as k -4 0+ and
+Ap -X0.
+Both the theorem and the corollary are readily proved by
+use of lyi(k) and its derivative expressed in terms of Ai.
+Theorem 4.2. The squared bias 72(k) is a continuous,
+monotonically increasing function of k.
+Proof From (4.5) Y2(k) = k2/'(X'X + kI)-2/3.
+Corollary 4.1.1. The first derivative of the total variance,
+y1 (k), approaches -oo as k -+ 0+ and the matrix
+X'X becomes singular.
+Both the theorem and the corollary are readily proved by
+use of 7 (k) and its derivative expressed in terms of Ai.
+Theorem 4.2. The squared bias 72(k) is a continuous,
+monotonically increasing function of k.
+Proof: From (4.5) Y22(k) = k2,'(X'X + kI)-2/3. If A
+is the matrix of eigenvalues of X'X and P the orthogonal
+transformation such that X'X = P'AP, then
+p
+2 (k) = k2 Ca2/(Xi + k)2
+1
+where a P/3.
+(4.11)
+(4.12)
+Since Ai > 0 for all i and k > 0, each element (Ai + k) is
+positive and there are no singularities in the sum. Clearly,
+72(0) = 0. Then 72(k) is a continuous function for k > 0.
+For k > 0 (4.11) can be written as
+p
+"Y2(k)- E oZ2/[1 + (Ai/k) ]2.
+Since Ai > 0 for all i, the functions Ai/k are clearly monotone
+decreasing for increasing k and each term of 'y2(k)
+is monotone increasing. So 72(k) is monotone increasing.
+q.e.d.
+Corollary 4.2.1. The squared bias 72(k) approaches /3't
+as an upper limit.
+Proof: From (4.13) limk-ooy72(k)
+/3'P'P/3 = '/3 q.e.d.
+1Zai -
+= a-a
+Corollary 4.2.2. The derivative 72 (k) approaches zero
+as k -X 0+.
+Proof From (4.11) it is readily established that
+I-
+i
+t
+n
+p
+d'y2(k)/dk = 2k Aia2/(Ai + k)3. (4.14)
+.00 .1 .20 .30 .40 .50 .60 .7 .80 .90 1.00
+k
+Figure 1.
+Each term in the sum 2kAia2/(Ai + k)3 is a continuous
+function. And the limit of each term as k -* 0+ is zero.
+q.e.d.
+Theorem 4.3. (Existence Theorem) There always exists
+a k > 0 such that E[L2(k)] < E[L2(0)] = C2 P (1/Ai).
+TECHNOMETRICS, FEBRUARY 2000, VOL. 42, NO. 1
+f1
+83
+(4.13) 
+ARTHUR E. HOERL AND ROBERT W. KENNARD
+Proof. From (4.5), (4.11), and (4.14)
+dE[Li(k)]/dk - dy(k)/dk + d2(k)/dk
+p p
+-2a2 Ai/(A, + k)3 + 2k A Ai?a2/(Ai + k)3. (4.15)
+First note that 3y1(0) - u2E(1/Ai) and 72(0) = 0. In
+Theorems 4.1 and 4.2 it was established that -y1(k) and
+Y2 (k) are monotonically decreasing and increasing, respectively.
+Their first derivatives are always non-positive and
+non-negative, respectively. Thus, to prove the theorem, it is
+only necessary to show that there always exists a k > 0 such
+that dE[L2(k)]/dk < 0. The condition for this is shown by
+(4.15) to be:
+k < O /amax q.e.d. (4.16)
+c. Some Comments On The Mean Square Error Function
+The properties of E[L2(k)] -= ' (k) + Ty2(k) show that it
+will go through a minimum. And since 72(k) approaches
+3'/3 as a limit as k -+ oo, this minimum will move toward
+k = 0 as the magnitude of /3' increases. Since 3'/3 is the
+squared length of the unknown regression vector, it would
+appear to be impossible to choose a value of k 0 and
+thus achieve a smaller mean square error without being able
+to assign an upper bound to /3'3. On the other hand, it is
+clear that /3' does not become infinite in practice, and one
+should be able to find a value or values for k that will put /3*
+closer to /3 than is /. In other words, unboundedness, in the
+strict mathematical sense, and practical unboundedness are
+two different things. In Section 7 some recommendations
+for choosing a k > 0 are given, and the implicit assumptions
+of boundedness are explored further.
+5. A GENERAL FORM OF RIDGE REGRESSION
+It is always possible to reduce the general linear regression
+problem as defined in the Introduction to a canonical
+form in which the X'X matrix is diagonal. In particular
+there exists an orthogonal transformation P such that
+X'X = P'AP where A = (6ijAi) is the matrix of eigenvalues
+of X'X. Let
+X= X*P (5.1)
+and
+Y = X*t + e (5.2)
+where
+ac = PO, (X*)/(X*) = A, and a'a = '3. (5.3)
+Then the general ridge estimation procedure is defined from
+c* = [(X*)'(X*) + K] -(X*)'Y (5.4)
+where
+K = (ijki), ki > 0.
+All the basic results given in Section 4 can be shown to hold
+for this more general formulation. Most important is that
+there is an equivalent to the existence theorem, Theorem
+TECHNOMETRICS, FEBRUARY 2000, VOL. 42, NO. 1
+4.3. In the general form; one seeks a ki for each canonical
+variate defined by X*. By defining (L)2 = (&* - )'(* -
+a) it can be shown that the optimal values for the ki will be
+ki = a2/a2. There is no graphical equivalent to the RIDGE
+TRACE but an iterative procedure initiated at ki = a 2/a2
+can be used. (See Section 7)
+6. RELATION TO OTHER WORK IN REGRESSION
+Ridge regression has points of contact with other approaches
+to regression analysis and to work with the same
+objective. Three should be mentioned.
+* In a series of papers, Stein (1960, 1962) and James and
+Stein (1961) investigated the improvement in mean
+square error by a transformation on /3 of the form
+C3, 0 < C < 1, which is a shortening of the vector
+3. They show that such a C > 0 can always be found
+and indicate how it might be computed.
+* A Bayesian approach to regression can be found
+in Jeffreys (1961) and Raiffa and Schlaifer (1961).
+Viewed in this context, each ridge estimate can be
+considered as the posterior mean based on giving
+the regression coefficients, /, a prior normal distribution
+with mean zero and variance-covariance matrix
+E = (6ij62/k). For those that do not like the philosophical
+implications of assuming P to be a random
+variable, all this is equivalent to constrained estimation
+by a nonuniform weighting on the values of 3.
+* Constrained estimation in a context related to regression
+can be found in Balakrishnan (1963). For the
+model in the present paper, let /3 be constrained to
+be in a closed, bounded convex set C, and, in particular,
+let C be a hypersphere of radius R. Let the estimation
+criterion be minimum residual sum of squares
+? = (Y-XB)'(Y-XB) where B is the value giving
+the minimum. Under the constraint, if /3'3 < R2, than
+B is chosen to be /3; otherwise B is chosen to be 3*
+where k is chosen so that (/3*)'(*) R2.
+7. SELECTING A BETTER ESTIMATE OF /
+In Section 2 and in the example of Section 3, it has been
+demonstrated that the ordinary least squares estimate of the
+regression vector 3 suffers from a number of deficiencies
+when X'X does not have a uniform eigenvalue spectrum. A
+class of biased estimators /*, obtained by augmenting the
+diagonal of X'X with small positive quantities, has been
+introduced both to portray the sensitivity of the solution to
+X'X and to form the basis for obtaining an estimate of /3
+with a smaller mean square error. In examining the properties
+of /3*, it can be shown that its use is equivalent to
+making certain boundedness assumptions regarding either
+the individual coordinates of /3 or its squared length, /3'3.
+As Barnard (1963) has recently pointed out, an alternative
+to unbiasedness in the logic of the least squares estimator
+/3 is the prior assurance of bounded mean square error with
+no boundedness assumption on /3. If it is possible to make
+specific mathematical assumptions about /3, then it is possible
+to constrain the estimation procedure to reflect these
+assumptions.
+84 
+RIDGE REGRESSION
+The inherent boundedness assumptions in using 3* make
+it clear that it will not be possible to construct a clear-cut,
+automatic estimation procedure to produce a point estimate
+(a single value of k or a specific value for each ki) as can be
+constructed to produce 3. However, this is no drawback to
+its use because with any given set of data it is not difficult
+to select a 3* that is better than /. In fact, put in context,
+any set of data which is a candidate for analysis using linear
+regression has implicit in it restrictions on the possible
+values of the estimates that can be consistent with known
+properties of the data generator. Yet it is difficult to be explicit
+about these restrictions; it is especially difficult to be
+mathematically explicit. In a recent paper (Clutton-Brock
+1965) it has been shown that for the problem of estimating
+the mean /u of a distribution, a set of data has in it implicit
+restrictions on the values of a that can be logical contenders
+as generators. Of course, in linear regression the problem is
+much more difficult; the number of possibilities is so large.
+First, there is the number of parameters involved. To have
+ten to twenty regression coefficients is not uncommon. And
+their signs have to be considered. Then there is X'X and the
+(2) different factor correlations and the ways in which they
+can be related. Yet in the final analysis these many different
+influences can be integrated to make an assessment as
+to whether the estimated values are consistent with the data
+and the properties of the data generator. Guiding one along
+the way, of course, is the objective of the study. In Hoerl
+and Kennard (1970) it is shown for two problems how such
+an assessment can be made.
+Based on experience, the best method for achieving a
+better estimate /3* is to use ki = k for all i and use the
+Ridge Trace to select a single value of k and a unique 3*.
+These kinds of things can be used to guide one to a choice.
+* At a certain value of k the system will stabilize and
+have the general characteristics of an orthogonal system.
+
+* Coefficients will not have unreasonable absolute values
+with respect to the factors for which they represent
+rates of change.
+* Coefficients with apparently incorrect signs at k = 0
+will have changed to have the proper sign. * The residual sum of squares will not have been inflated
+to an unreasonable value. It will not be large relative to
+the minimum residual sum of squares or large relative
+to what would be a reasonable variance for the process
+generating the data.
+Another approach is to use estimates of the optimum values
+of ki developed in Section 5. A typical approach here would
+be as follows:
+* Reduce the system to canonical by the transformations
+X = X*P and ca = P/.
+* Determine estimates of the optimum ki's using kio =
+&2/&2. Use the kio to obtain /*.
+* The ki0 will tend to be too small because of the tendency
+to overestimate a'a. Since use of the kio will
+shorten the length of the estimated regression vector,
+kio can be re-estimated using the 6&. This reestimation
+can be continued until there is a stability
+achieved in (a*)'(a*) and kio -= 2/(&o)2.
+8. CONCLUSIONS
+It has been shown that when X'X is such that it has
+a nonuniform eigenvalue spectrum, the estimates of 3 in
+Y = X3 + e, based on the criterion of minimum residual
+sum of squares, can have a high probability of being
+far removed from 3. This unsatisfactory condition manifests
+itself in estimates that are too large in absolute value
+and some may even have the wrong sign. By adding a
+small positive quantity to each diagonal element the system
+[X'X + K]/* = X'Y acts more like an orthogonal system.
+When K = kI and all solutions in the interval 0 < k < 1
+are obtained, it is possible to obtain a two-dimensional characterization
+of the system and a portrayal of the kinds of
+difficulties caused by the intercorrelations among the predictors.
+A study of the properties of the estimator /3* shows
+that it can be used to improve the mean square error of estimation,
+and the magnitude of this improvement increases
+with an increase in spread of the eigenvalue spectrum. An
+estimate based on /3* is biased and the use of a biased estimator
+implies some prior bound on the regression vector
+/3. However, the data in any particular problem has information
+in it that can show the class of generators 3 that are
+reasonable. The purpose of the ridge trace is to portray this
+information explicitly and, hence, guide the user to a better
+estimate /*.
+NOMENCLATURE
+3= (X'X)- X'Y
+3* = f*(k) = [X'X + kI]-1X'Y; k > 0
+W = W(k) = [X'X + kI]-1
+Z = Z(k)= [I + k(X'X)-1]- = I - kW
+Ai = Eigenvalue of X'X; A1 > A2 > . > Ap > 0
+A = (SijAi) = the matrix of eigenvalues
+P = An orthogonal matrix such that P'AP = X'X
+L (k) = E[(3)* - )'( *-)] = (k) + 72(k)
+71 (k) = Variance of the estimate p*
+72(k) = Squared bias of the estimate 3*
+K = (&iki); ki > 0 A diagonal matrix of nnnX*
+
+A*
+W*
+Z*
+\- xj t / I -
+- vt _- .....L .......1,.t1 t./1 111~./11
+negative constants.
+= PP
+= XP'
+= [(X*)'(X*) + K] -(X*)'Y
+= [(X*)'(x*) + K]-1
+= {I + [(X*)'(X*)]-1K]} = I- KW
